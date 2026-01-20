@@ -1,3 +1,9 @@
-Resume Analyzer 
-Movie Recommendation System 
-Vacation Planning Assitant
+1. Resume Analyzer: 
+Using an LLM model, this becomes a personal resume advisor, 
+giving suggestions to enhance and tailor your resume corresponding to each job description provided. 
+- Prompt engineering to guide the model in understanding and analyzing resume content. 
+- Implement classification techniques to categorize resumes based on job relevance, skills, and experience. 
+- Incorporate NLP methods to extract essential information such as education, work experience, and skills.
+
+2. Movie Recommendation System 
+3. Vacation Planning Assitant
