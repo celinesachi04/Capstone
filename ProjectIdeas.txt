@@ -5,5 +5,15 @@ giving suggestions to enhance and tailor your resume corresponding to each job d
 - Implement classification techniques to categorize resumes based on job relevance, skills, and experience. 
 - Incorporate NLP methods to extract essential information such as education, work experience, and skills.
 
-2. Movie Recommendation System 
-3. Vacation Planning Assitant
+2. Movie Recommendation System:
+Given certain characteristics about movies, can the LLM accurately predict how the movie will be rated according to various systems such as Rotten Tomatoes, IMDb, etc.?
+We can use real world data about movies to either give to the LLM or to generate data using the LLM, then have the LLM predict a rating for each system, and use the real world data to analyze the accuracy. The characteristics we provide can be related to movie attributes such as length, format, and genre or about the staff of the movie such as producers, directors, and actors.
+
+3. Vacation Planning Assistant:
+How well can an LLM plan a vacation based on location, preferences, and timelines? We can provide the LLM with descriptions about what kind of vacation we would like it to generate and rate it's recommendations based on accuracy of information provided, feasibility of plans, and how well the recommendation fits with the desired outcome.
+
+4. Statistical Analysis Accuracy:
+For various scenarios, how accurately can the LLM perform statistical analyses? We can look at if the LLM is only good at beginner statistics topics such as confidence intervals or p-values, or if the LLM can use more complex methods such as regression. We could also assess how the LLM performs with different types of distributions, compare it's abilities with Bayesian vs. frequentist statistics, or look at how the accuracy varies among various LLM's. For real world data, we can use exercises from statistics textbooks or find questions online on forums, videos, and websites.
+
+5. Voting Behavior:
+Are LLM's able to predict voting trends based on voter characteristics? We can provide the LLM with information about voters including demographics, previous voting behavior, and any known political affiliations. Then we can assess how well the LLM can predict the outcomes of various elections. Depending on the type of data available, we can evaluate the LLM's performance between local and federal US elections or elections in various cities/counties/states/countries. We can also look at how the prediction accuracy varies based on how recent the election was or how unexpected the outcome was.
