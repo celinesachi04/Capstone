@@ -1,9 +1,11 @@
-1. Resume Analyzer: 
+1. Build Resume Analyzer using LLMs: 
 Using an LLM model, this becomes a personal resume advisor, 
 giving suggestions to enhance and tailor your resume corresponding to each job description provided. 
-- Prompt engineering to guide the model in understanding and analyzing resume content. 
-- Implement classification techniques to categorize resumes based on job relevance, skills, and experience. 
-- Incorporate NLP methods to extract essential information such as education, work experience, and skills.
+We begin by prompt engineering to guide the model in understanding and analyzing resume content. Then,
+we implement classification techniques to categorize resumes based on job relevance, skills, and experience. 
+Lastly, we incorporate NLP methods to extract essential information such as education, work experience, and skills.
+Finally, interface so the user can input their resume file, job description they are applying, and the LLM should provide 
+insightful feedback and a tailored resume. 
 
 2. Movie Recommendation System:
 Given certain characteristics about movies, can the LLM accurately predict how the movie will be rated according to
