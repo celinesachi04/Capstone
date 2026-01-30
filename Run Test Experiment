@@ -72,7 +72,7 @@ This response showed strong self-awareness and made it clear that individual-lev
 
 Prompt 6: Conflicting Past Voting Behavior
 
-This prompt focused on a voter with mixed past behavior, which makes them a classic swing voter. 
+This prompt focused on a voter with mixed past behavior (the voter voted for Republican), which makes them a classic swing voter. 
 The goal was to see how the model handles conflicting signals and whether it adjusts its confidence appropriately.
 
 Summary of the response:
