@@ -4,7 +4,7 @@ from google import genai
 os.environ["GOOGLE_CLOUD_PROJECT"] = "STAT-496"
 os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
 
-client = genai.Client(api_key="AIzaSyDpNLYnXkYn8k7FA0CGjicDp7HUZzijWg4")
+client = genai.Client(api_key="ADD API KEY")
 
 
 # Prompt 1
