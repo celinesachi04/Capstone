@@ -2,7 +2,7 @@ import os
 from google import genai
 
 os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "True"
-os.environ["GOOGLE_CLOUD_PROJECT"] = "stat-496-project" # Double check this is correct!
+os.environ["GOOGLE_CLOUD_PROJECT"] = "stat-496-project"
 os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
 
 response = client.models.generate_content(
