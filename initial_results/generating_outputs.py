@@ -1,16 +1,184 @@
-import pandas as pd
+import os
+from google import genai
 
-voter_data = pd.read_csv("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\voter_data.csv")
+os.environ["GOOGLE_CLOUD_PROJECT"] = "STAT-496"
+os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
 
-sample = voter_data.loc[[0, 1, 2, 3, 4, 5]]
-# print(sample)
+client = genai.Client(api_key="AIzaSyDpNLYnXkYn8k7FA0CGjicDp7HUZzijWg4")
 
-for index, row in sample.iterrows():
-    row_data = row.to_string()
-    prompt = "voter information: " + row_data + "\nadd rest of prompt here \n"
-    # print(prompt)
 
-    file_name = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\prompts\\prompt" + str(index) + ".txt"
-    # print(file_name)
-    with open(file_name, "w") as file:
-        file.write(prompt)
+# Prompt 1
+for index in range(1, 51):
+
+    # Create prompt and response file paths
+    prompt_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\prompts\\prompt1_" + str(index) + ".txt"
+    response_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response1_" + str(index) + ".txt"
+
+    # Read in prompt file
+    with open(prompt_file_path) as file:
+        prompt = file.read()
+
+    # Produce response from prompt
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt
+        )
+
+    # Save response to txt file
+    with open(response_file_path, "w") as file:
+        file.write(response.text)
+
+
+
+# Prompt 2
+for index in range(1, 51):
+
+    # Create prompt and response file paths
+    prompt_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\prompts\\prompt2_" + str(index) + ".txt"
+    response_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response2_" + str(index) + ".txt"
+
+    # Read in prompt file
+    with open(prompt_file_path) as file:
+        prompt = file.read()
+
+    # Produce response from prompt
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt
+        )
+
+    # Save response to txt file
+    with open(response_file_path, "w") as file:
+        file.write(response.text)
+
+
+# Prompt 3
+for index in range(1, 51):
+
+    # Create prompt and response file paths
+    prompt_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\prompts\\prompt3_" + str(index) + ".txt"
+    response_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response3_" + str(index) + ".txt"
+
+    # Read in prompt file
+    with open(prompt_file_path) as file:
+        prompt = file.read()
+
+    # Produce response from prompt
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt
+        )
+
+    # Save response to txt file
+    with open(response_file_path, "w") as file:
+        file.write(response.text)
+
+
+# Prompt 4
+for index in range(1, 51):
+
+    # Create prompt and response file paths
+    prompt_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\prompts\\prompt4_" + str(index) + ".txt"
+    response_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response4_" + str(index) + ".txt"
+
+    # Read in prompt file
+    with open(prompt_file_path) as file:
+        prompt = file.read()
+
+    # Produce response from prompt
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt
+        )
+
+    # Save response to txt file
+    with open(response_file_path, "w") as file:
+        file.write(response.text)
+
+
+# Prompt 5
+for index in range(1, 51):
+
+    # Create prompt and response file paths
+    prompt_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\prompts\\prompt5_" + str(index) + ".txt"
+    response_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response5_" + str(index) + ".txt"
+
+    # Read in prompt file
+    with open(prompt_file_path) as file:
+        prompt = file.read()
+
+    # Produce response from prompt
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt
+        )
+
+    # Save response to txt file
+    with open(response_file_path, "w") as file:
+        file.write(response.text)
+
+
+# Prompt 6
+for index in range(1, 51):
+
+    # Create prompt and response file paths
+    prompt_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\prompts\\prompt6_" + str(index) + ".txt"
+    response_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response6_" + str(index) + ".txt"
+
+    # Read in prompt file
+    with open(prompt_file_path) as file:
+        prompt = file.read()
+
+    # Produce response from prompt
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt
+        )
+
+    # Save response to txt file
+    with open(response_file_path, "w") as file:
+        file.write(response.text)
+
+
+# Prompt 7
+for index in range(1, 51):
+
+    # Create prompt and response file paths
+    prompt_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\prompts\\prompt7_" + str(index) + ".txt"
+    response_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response7_" + str(index) + ".txt"
+
+    # Read in prompt file
+    with open(prompt_file_path) as file:
+        prompt = file.read()
+
+    # Produce response from prompt
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt
+        )
+
+    # Save response to txt file
+    with open(response_file_path, "w") as file:
+        file.write(response.text)
+
+
+# Prompt 8
+for index in range(1, 51):
+
+    # Create prompt and response file paths
+    prompt_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\prompts\\prompt8_" + str(index) + ".txt"
+    response_file_path = "C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response8_" + str(index) + ".txt"
+
+    # Read in prompt file
+    with open(prompt_file_path) as file:
+        prompt = file.read()
+
+    # Produce response from prompt
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt
+        )
+
+    # Save response to txt file
+    with open(response_file_path, "w") as file:
+        file.write(response.text)
