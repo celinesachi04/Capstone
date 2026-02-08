@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: female; location: Skagit, Washington; return method: mail Is the behavior easy to predict? Yes or no, do not explain

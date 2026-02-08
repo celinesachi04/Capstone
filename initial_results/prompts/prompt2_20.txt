@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: unspecified; location: Benton, Washington; return method: mail Is this voter likely to vote democrat in the next U.S. presidential election? Yes or no, do not explain.

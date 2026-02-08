@@ -1,0 +1,104 @@
+
+# Data cleaning
+voter_data <- read.csv("voter_data.csv")
+
+for (i in 1:nrow(voter_data)) {
+  # prompt 1
+  response1 <- readLines(paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response1_", i, ".txt"))
+  voter_data[i, "party_prediction"] <- response1
+  
+  # prompt 2
+  response2 <- readLines(paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response2_", i, ".txt"))
+  if (length(response2) > 1) {
+    response2 <- NA
+  }
+  else if (response2 %in% c("yes", "Yes", "Y", "y", "Yes.", "yes.")) {
+    response2 <- TRUE
+  }
+  else if (response2 %in% c("no", "No", "N", "n", "No.", "no.")) {
+    response2 <- FALSE
+  }
+  else {
+    response2 <- NA
+  }
+  voter_data[i, "vote_democrat"] <- response2
+
+  # prompt 3
+  response3 <- readLines(paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response3_", i, ".txt"))
+  if (length(response3) > 1) {
+    response3 <- NA
+  }
+  else if (response3 %in% c("yes", "Yes", "Y", "y", "Yes.", "yes.")) {
+    response3 <- TRUE
+  }
+  else if (response3 %in% c("no", "No", "N", "n", "No.", "no.")) {
+    response3 <- FALSE
+  }
+  else {
+    response3 <- NA
+  }
+  voter_data[i, "vote_republican"] <- response3
+
+  # prompt 4
+  response4 <- readLines(paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response4_", i, ".txt"))
+  if (length(response4) > 1) {
+    response4 <- NA
+  }
+  else if (response4 %in% c("yes", "Yes", "Y", "y", "Yes.", "yes.")) {
+    response4 <- TRUE
+  }
+  else if (response4 %in% c("no", "No", "N", "n", "No.", "no.")) {
+    response4 <- FALSE
+  }
+  else {
+    response4 <- NA
+  }
+
+  voter_data[i, "vote_third_party"] <- response4
+  
+  # prompt 5
+  response5 <- readLines(paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response5_", i, ".txt"))
+  if (length(response5) > 1) {
+    response5 <- NA
+  }
+  else if (response5 %in% c("yes", "Yes", "Y", "y", "Yes.", "yes.")) {
+    response5 <- TRUE
+  }
+  else if (response5 %in% c("no", "No", "N", "n", "No.", "no.")) {
+    response5 <- FALSE
+  }
+  else {
+    response5 <- NA
+  }
+  voter_data[i, "easy_predict"] <- response5
+  
+  
+  # prompt 6
+  response6 <- readLines(paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response6_", i, ".txt"))
+  voter_data[i, "predict_income"] <- response6
+  
+  # prompt 7
+  response7 <- readLines(paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response7_", i, ".txt"))
+  if (length(response7) > 1) {
+    response7 <- NA
+  }
+  voter_data[i, "gov_size"] <- response7
+  
+  # prompt 8
+  response8 <- readLines(paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\initial_results\\responses\\response8_", i, ".txt"))
+  if (length(response8) > 1) {
+    response8 <- NA
+  }
+  else if (grepl("not possible", response8)) {
+    response8 <- NA
+  }
+  else if (response8 == "Business corporations make too much profit") {
+    response8 <- "Business corporations make too much profit."
+  }
+  voter_data[i, "corporation_profit"] <- response8
+}
+  
+voter_data[c(29, 36), "corporation_profit"] <- NA
+
+# save csv file
+write.csv(voter_data, file="initial_results.csv", row.names=FALSE)

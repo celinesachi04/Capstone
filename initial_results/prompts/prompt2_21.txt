@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: male; location: Yakima, Washington; return method: other Is this voter likely to vote democrat in the next U.S. presidential election? Yes or no, do not explain.

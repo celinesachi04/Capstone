@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: female; location: Kittitas, Washington; return method: dropbox Is this voter likely to vote republican in the next U.S. presidential election? Yes or no, do not explain.

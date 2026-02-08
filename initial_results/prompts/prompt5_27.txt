@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: female; location: Kittitas, Washington; return method: dropbox Is the behavior easy to predict? Yes or no, do not explain

@@ -18,6 +18,7 @@ return_method <- c("dropbox", "mail", "other")
 # Create voter information data frame
 N <- 50
 voters <- data.frame("age"=rep(NA, 50), "gender"=NA, "wa_county"=NA, "return_method"=NA)
+write.csv(voters, file="voter_data.csv", row.names=FALSE)
   
 for (i in 1:50) {
   age_sample <- sample(x=1:6, size=1)

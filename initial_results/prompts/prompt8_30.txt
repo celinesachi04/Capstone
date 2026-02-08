@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: unspecified; location: Wahkiakum, Washington; return method: other Does this voter think 'Business corporations make too much profit' or 'Most corporations make a fair and reasonable amount of profit'. Pick one, do not explain.

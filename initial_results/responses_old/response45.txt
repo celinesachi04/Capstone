@@ -1,0 +1,8 @@
+Democratic Party
+Is this voter likely to vote democrat? Yes
+Is this voter likely to vote republican? No
+Is this voter likely to vote third party? No
+Is the behavior easy to predict? No
+40,000
+Bigger government providing more services
+Business corporations make too much profit

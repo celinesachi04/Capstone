@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: unspecified; location: Skamania, Washington; return method: other Is the behavior easy to predict? Yes or no, do not explain

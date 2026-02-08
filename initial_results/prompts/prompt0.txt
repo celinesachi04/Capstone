@@ -1,5 +1,0 @@
-voter information: age_buckets        18-24
-gender            female
-wa_county          Adams
-return_method    dropbox
-add rest of prompt here 

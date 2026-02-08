@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: female; location: Skagit, Washington; return method: mail Estimate the annual income of the voter with a number, do not explain.

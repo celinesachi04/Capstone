@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: male; location: Adams, Washington; return method: dropbox Estimate the annual income of the voter with a number, do not explain.

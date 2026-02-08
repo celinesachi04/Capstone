@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: male; location: Snohomish, Washington; return method: other Is this voter likely to vote republican in the next U.S. presidential election? Yes or no, do not explain.

@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: unspecified; location: Okanogan, Washington; return method: mail Would this voter rather have small government providing fewer services or bigger government providing more services? Pick one, do not explain.

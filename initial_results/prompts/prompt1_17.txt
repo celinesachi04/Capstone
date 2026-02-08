@@ -1,0 +1,1 @@
+Given the following voter data - age: ; gender: male; location: Pierce, Washington; return method: dropbox - what party is this voter most likely to vote for in the next U.S. presidential election, only give the party.

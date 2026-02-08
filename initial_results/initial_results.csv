@@ -1,0 +1,51 @@
+"age","gender","wa_county","return_method","party_prediction","vote_democrat","vote_republican","vote_third_party","easy_predict","predict_income","gov_size","corporation_profit"
+"35-44","male","Walla Walla","mail","Democratic Party",FALSE,TRUE,NA,FALSE,"54490","Small government providing fewer services.",NA
+"18-24","unspecified","Cowlitz","mail","Republican",FALSE,NA,FALSE,FALSE,"52000","Small government providing fewer services","Most corporations make a fair and reasonable amount of profit."
+"45-54","female","Clallam","other","Republican party",FALSE,TRUE,NA,FALSE,"67543","Small government providing fewer services.","Business corporations make too much profit."
+"25-34","male","King","dropbox","Democratic",NA,FALSE,NA,FALSE,"72000","Bigger government providing more services",NA
+"35-44","female","Wahkiakum","mail","Democratic",NA,FALSE,FALSE,FALSE,"68000","Bigger government providing more services.",NA
+"35-44","female","Wahkiakum","mail","Democratic",FALSE,TRUE,FALSE,FALSE,"58000","Small government providing fewer services.",NA
+"65+","unspecified","Lewis","mail","Republican",NA,NA,FALSE,FALSE,"78,000","Small government providing fewer services.",NA
+"45-54","unspecified","Adams","other","Republican Party",TRUE,FALSE,FALSE,FALSE,"48500","Small government providing fewer services",NA
+"55-64","female","Klickitat","mail","Democratic",FALSE,TRUE,NA,FALSE,"72600","Small government providing fewer services.","Business corporations make too much profit."
+"18-24","female","San Juan","other","Democratic Party",NA,TRUE,FALSE,FALSE,"52000","Small government providing fewer services",NA
+"55-64","female","Cowlitz","dropbox","Republican",TRUE,FALSE,FALSE,TRUE,"85,000","Bigger government providing more services","Business corporations make too much profit."
+"55-64","male","Skagit","dropbox","Republican",FALSE,TRUE,FALSE,FALSE,"62,500","Small government providing fewer services.",NA
+"55-64","unspecified","Island","mail","Democratic Party",NA,TRUE,FALSE,FALSE,"77534","Small government providing fewer services.",NA
+"35-44","male","Island","dropbox","Republican",FALSE,NA,FALSE,FALSE,"62000","Small government providing fewer services.","Business corporations make too much profit."
+"45-54","male","Klickitat","other","Republican",FALSE,NA,NA,FALSE,"45,000","Small government providing fewer services.","Business corporations make too much profit."
+"55-64","female","Pacific","mail","Democratic Party",TRUE,FALSE,FALSE,FALSE,"85,000","Bigger government providing more services",NA
+"45-54","male","Ferry","dropbox","Republican",TRUE,FALSE,FALSE,FALSE,"68000","Bigger government providing more services","Business corporations make too much profit."
+"18-24","male","Douglas","dropbox","Republican",FALSE,NA,FALSE,FALSE,"77534","Small government providing fewer services.",NA
+"18-24","unspecified","Skagit","mail","Republican",TRUE,FALSE,FALSE,FALSE,"77,322","Bigger government providing more services",NA
+"45-54","male","King","mail","Republican",FALSE,TRUE,FALSE,FALSE,"82,367","small government providing fewer services",NA
+"18-24","unspecified","Chelan","mail","Democratic Party",FALSE,TRUE,FALSE,FALSE,"52000","Small government providing fewer services","Business corporations make too much profit."
+"45-54","male","Klickitat","other","Republican Party",FALSE,TRUE,NA,FALSE,"62000","Small government providing fewer services.",NA
+"18-24","male","Skagit","dropbox","Democratic",TRUE,FALSE,FALSE,FALSE,"52000","Bigger government providing more services","Business corporations make too much profit."
+"45-54","female","Stevens","dropbox","Democratic",NA,TRUE,FALSE,FALSE,"62000",NA,NA
+"65+","female","Benton","mail","Republican Party",TRUE,FALSE,FALSE,FALSE,"116,340","Bigger government providing more services.","Business corporations make too much profit."
+"25-34","male","Thurston","mail","Republican Party",FALSE,TRUE,FALSE,FALSE,"58,000","Small government providing fewer services","Most corporations make a fair and reasonable amount of profit."
+"65+","male","Jefferson","other","Democratic Party",FALSE,FALSE,FALSE,FALSE,"54000","Small government providing fewer services.","Business corporations make too much profit."
+"65+","male","Thurston","dropbox","Republican",FALSE,TRUE,NA,FALSE,"58000","Small government providing fewer services",NA
+"35-44","female","Pacific","other","Democratic Party",TRUE,FALSE,FALSE,FALSE,"52,000","Bigger government providing more services",NA
+"18-24","unspecified","Lincoln","mail","Republican Party",FALSE,TRUE,FALSE,FALSE,"61,630","Small government providing fewer services.","Business corporations make too much profit."
+"18-24","unspecified","Asotin","mail","Republican Party",FALSE,TRUE,FALSE,FALSE,"58,000","Small government providing fewer services.",NA
+"35-44","unspecified","Clallam","mail","Republican Party",FALSE,TRUE,FALSE,FALSE,"63,500","Small government providing fewer services.","Most corporations make a fair and reasonable amount of profit."
+"18-24","female","Ferry","dropbox","Republican",TRUE,FALSE,FALSE,FALSE,"52,000","Bigger government providing more services",NA
+"55-64","unspecified","Franklin","other","Republican Party",FALSE,TRUE,FALSE,FALSE,"52000","Small government providing fewer services.","Business corporations make too much profit."
+"35-44","female","Spokane","dropbox","Democratic Party",TRUE,FALSE,FALSE,FALSE,"52,000","Bigger government providing more services",NA
+"45-54","male","Kitsap","mail","Republican Party",FALSE,FALSE,FALSE,FALSE,"61000","Small government providing fewer services.",NA
+"65+","male","Whitman","dropbox","Democratic Party",NA,TRUE,FALSE,FALSE,"52000","Small government providing fewer services",NA
+"55-64","male","Stevens","mail","Republican Party",FALSE,TRUE,FALSE,FALSE,"58,000","Small government providing fewer services",NA
+"18-24","male","Thurston","dropbox","Democratic",FALSE,TRUE,FALSE,FALSE,"52,000","Small government providing fewer services",NA
+"55-64","male","King","mail","Democratic Party",NA,TRUE,FALSE,FALSE,"58,000","Small government providing fewer services","Business corporations make too much profit."
+"65+","male","Clallam","other","Democratic Party",FALSE,NA,FALSE,FALSE,"58,500","Small government providing fewer services.",NA
+"55-64","unspecified","Whatcom","mail","Democratic Party",TRUE,FALSE,FALSE,TRUE,"66000","Bigger government providing more services","Business corporations make too much profit."
+"18-24","unspecified","Pierce","dropbox","Republican Party",FALSE,TRUE,NA,FALSE,"65,658","Small government providing fewer services.","Most corporations make a fair and reasonable amount of profit."
+"45-54","female","Whatcom","other","Republican",TRUE,FALSE,NA,FALSE,"82,000","Bigger government providing more services","Business corporations make too much profit."
+"25-34","male","Columbia","dropbox","Democratic Party",FALSE,TRUE,FALSE,FALSE,"48,000","Small government providing fewer services.",NA
+"45-54","unspecified","Grant","dropbox","Republican",NA,NA,FALSE,FALSE,"52000","Bigger government providing more services",NA
+"25-34","unspecified","Skamania","dropbox","Republican",FALSE,FALSE,NA,FALSE,"72000","Small government providing fewer services.","Business corporations make too much profit."
+"18-24","male","Okanogan","other","Republican",FALSE,TRUE,FALSE,FALSE,"78,500","Small government providing fewer services",NA
+"35-44","unspecified","Klickitat","other","Democratic",FALSE,NA,FALSE,FALSE,"62,500","Small government providing fewer services",NA
+"65+","female","Ferry","other","Democratic",TRUE,FALSE,FALSE,FALSE,"76500","Bigger government providing more services.",NA

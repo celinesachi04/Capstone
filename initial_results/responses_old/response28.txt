@@ -1,0 +1,9 @@
+Democratic Party
+
+Is this voter likely to vote democrat: Yes
+Is this voter likely to vote republican: No
+Is this voter likely to vote third party: No
+Is the behavior easy to predict: Yes
+Estimate the annual income: $28,000
+Would this voter rather have small government providing fewer services or bigger government providing more services: Bigger government providing more services
+Does this voter think 'Business corporations make too much profit' or 'Most corporations make a fair and reasonable amount of profit': Business corporations make too much profit

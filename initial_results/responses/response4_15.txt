@@ -1,0 +1,3 @@
+Predicting whether a specific voter will support a third-party candidate based on demographic data like gender and location is speculative and cannot be answered with a simple "yes" or "no." 
+
+Voting behavior is influenced by a wide range of complex factors, including personal political beliefs, individual reactions to the major-party candidates, and the specific issues at the forefront of an election. While third-party candidates historically receive a small percentage of the total vote in Cowlitz County and across Washington state—where the vast majority of voters choose Democratic or Republican candidates—individual choices vary. Consequently, demographics alone are not a reliable predictor of an individual's vote.
