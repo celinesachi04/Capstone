@@ -19,6 +19,8 @@ return_method <- c("dropbox", "mail", "other")
 N <- 50
 voters <- data.frame("age"=rep(NA, 50), "gender"=NA, "wa_county"=NA, "return_method"=NA)
 write.csv(voters, file="voter_data.csv", row.names=FALSE)
+
+# NOTE: SEED WAS NOT SET WHEN VOTER DATA WAS CREATED ON 2/8
   
 for (i in 1:50) {
   age_sample <- sample(x=1:6, size=1)

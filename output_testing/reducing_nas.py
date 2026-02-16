@@ -135,9 +135,25 @@ print(response11.text) # Response varied in formatting (e.g. returning "Yes." ra
 print(response12.text) # Removing commas between word options did not change output compared to responses 5 or 6
 print(response13.text) # Removing comma before word options did not change output compared to responses 5 or 6, but less clear to read
 
+"""
+response1: Always responded with yes or no, never said it couldn't predict
+response2: Always responded with yes or no, never said it couldn't predict
+response3: Always returned one of three options, but third option was wordy
+response4: Always returned one of three options, but third option was wordy
+response5: Always returned yes, no, or unknown
+response6: Always returned yes, no, or unknown but prompt had more words than prompt for response5
+response7: Same results as response5, even with new parameters (might run faster)
+response8: Responses had too many words
+response9: Responses had too many words
+response10:  Adding apostrophes did not change output content compared to responses 5 or 6
+                but did create uniform formatting (e.g. always "unknown" instead of "Unknown")
+response11: Response varied in formatting (e.g. returning "Yes." rather than "yes")
+response12: Removing commas between word options did not change output compared to responses 5 or 6
+response13: Removing comma before word options did not change output compared to responses 5 or 6, but less clear to read
 
-# The prompt for response12 is the best combination in terms of proper output,
-# interpretability, least tokens in the prompt, and fastest run times.
+The prompt for response12 is the best combination in terms of proper output,
+interpretability, least tokens in the prompt, and fastest run times.
+"""
 
 
 for i in range(10):
@@ -162,10 +178,7 @@ for i in range(10):
         )
     print(responseB.text)
     
-# responseA sometimes produced wordy output
-# responseB produced the correctly formatted output (some variation with capitalization), with faster run times
 
-# Verifying updated prompts work for prompt8 from initial results:
 for i in range(10):
     responseC = client.models.generate_content(
         model="gemini-3-flash-preview",
@@ -250,14 +263,19 @@ for i in range(10):
         )
     print(responseI.text)
 
+"""
+Using prompt7 from initial_results:
+    responseA sometimes produced wordy output
+    responseB produced the correctly formatted output (some variation with capitalization), with faster run times
 
-# Prompts for responseC returns too many words
-# responseD and responseE produces similar results to prompt for responseB, but always chooses unknown
-# responseF still always choosing unknown
-# responseG returning A or B as desired
-# responseH occasionaly returning wordy responses (only difference to responseG is prompt says "A or B" rather than "A B")
-# responseI returning varied output as desired
+Verifying updated prompts work for prompt8 from initial_results:
+    Prompts for responseC returns too many words
+    responseD and responseE produces similar results to prompt for responseB, but always chooses unknown
+    responseF still always choosing unknown
+    responseG returning A or B as desired
+    responseH occasionaly returning wordy responses (only difference to responseG is prompt says "A or B" rather than "A B")
+    responseI returning varied output as desired
 
-# Overall, prompt format for responseI returns desired format.
-
+Overall, prompt format for responseI returns desired format.
+"""
 

@@ -70,6 +70,8 @@ simulated_voters <- data.frame("county"=sampled_counties,
                                "age"=sampled_ages,
                                "gender"=sampled_genders)
 
+write.csv(simulated_voters, "C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/simulated_voters.csv", row.names=FALSE)
+
 
 ```
 
