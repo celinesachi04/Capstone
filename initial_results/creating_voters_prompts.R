@@ -33,7 +33,7 @@ for (i in 1:50) {
 
 # Create prompt files
 for (i in 1:nrow(voters)) {
-  individual_data <- paste0("age: ", voters[i, "age_bucket"],
+  individual_data <- paste0("age: ", voters[i, "age"],
                             "; gender: ", voters[i, "gender"],
                             "; location: ", voters[i, "wa_county"], ", Washington",
                             "; return method: ", voters[i, "return_method"])
