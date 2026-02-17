@@ -5,7 +5,7 @@ from google.genai import types
 os.environ["GOOGLE_CLOUD_PROJECT"] = "STAT-496"
 os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
 
-client = genai.Client(api_key="AIzaSyCBuGuEo_3LLTns8xIvJqrBXLgUCO6E4pM")
+client = genai.Client(api_key="ADD-API-KEY")
 
 # Manual testing with small dataset (10 voters)
 response1 = client.models.generate_content(
