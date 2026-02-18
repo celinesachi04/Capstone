@@ -5,7 +5,7 @@ from google.genai import types
 os.environ["GOOGLE_CLOUD_PROJECT"] = "STAT-496"
 os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
 
-client = genai.Client(api_key="ADD API KEY")
+client = genai.Client(api_key="ADD-API-KEYs")
 
 # Test prompt adjustments to get desired output
 
@@ -120,20 +120,19 @@ response13 = client.models.generate_content(
         )
     )
 
-print(response1.text) # Always responded with yes or no, never said it couldn't predict
-print(response2.text) # Always responded with yes or no, never said it couldn't predict
-print(response3.text) # Always returned one of three options, but third option was wordy
-print(response4.text) # Always returned one of three options, but third option was wordy
-print(response5.text) # Always returned yes, no, or unknown
-print(response6.text) # Always returned yes, no, or unknown but prompt had more words than prompt for response5
-print(response7.text) # Same results as response5, even with new parameters (might run faster)
-print(response8.text) # Responses had too many words
-print(response9.text) # Responses had too many words
-print(response10.text) # Adding apostrophes did not change output content compared to responses 5 or 6
-                       # but did create uniform formatting (e.g. always "unknown" instead of "Unknown")
-print(response11.text) # Response varied in formatting (e.g. returning "Yes." rather than "yes")
-print(response12.text) # Removing commas between word options did not change output compared to responses 5 or 6
-print(response13.text) # Removing comma before word options did not change output compared to responses 5 or 6, but less clear to read
+print(response1.text)
+print(response2.text)
+print(response3.text)
+print(response4.text)
+print(response5.text)
+print(response6.text)
+print(response7.text)
+print(response8.text)
+print(response9.text)
+print(response10.text)
+print(response11.text)
+print(response12.text)
+print(response13.text)
 
 """
 response1: Always responded with yes or no, never said it couldn't predict
