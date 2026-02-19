@@ -1,0 +1,119 @@
+Here's a breakdown of how I'll approach predicting votes, followed by the predictions for each voter.  It's important to understand this is *highly* speculative, as the provided data is limited and doesn't directly relate to policy preferences. I'll base my reasoning on general trends and assumptions, and will use "unknown" when there's truly no basis for a guess.
+
+**Reasoning & Assumptions:**
+
+*   **"Prefer not to say"**:  I'll treat these as genuinely unknown.  They've explicitly opted out of sharing information, so inferring a vote is unreliable.
+*   **Marital Status & Kids**: These *might* correlate with views on social safety nets.  Married individuals and those with more kids might be more inclined to support programs that provide stability, but this is a weak signal.
+*   **Religion**: This is the most potentially informative factor.
+    *   **Conservative Religions (Christian, Sikh, Jewish, Muslim, Hindu)**:  Generally, these groups *might* be slightly more fiscally conservative, potentially leaning towards reducing funding (though this is a broad generalization).
+    *   **Buddhist**: Often associated with social responsibility, potentially leaning towards maintaining social programs.
+    *   **None/Agnostic/Atheist**:  This is a mixed bag.  Could lean either way depending on individual beliefs about government responsibility.
+    *   **Other**:  Unknown.
+*   **Long-Term Care Insurance**: The initiative *decreases* funding for a public program. This is the key. People who believe in strong social safety nets will likely vote "no". Those who are concerned about costs and individual choice might vote "yes".
+
+**Predictions (voter_ID. prediction):**
+
+1.  unknown
+2.  unknown
+3.  yes
+4.  unknown
+5.  no
+6.  unknown
+7.  unknown
+8.  yes
+9.  yes
+10. unknown
+11. no
+12. unknown
+13. yes
+14. no
+15. unknown
+16. no
+17. unknown
+18. no
+19. unknown
+20. yes
+21. yes
+22. unknown
+23. no
+24. no
+25. no
+26. unknown
+27. no
+28. unknown
+29. no
+30. unknown
+31. no
+32. yes
+33. yes
+34. unknown
+35. no
+36. yes
+37. yes
+38. unknown
+39. no
+40. no
+41. unknown
+42. yes
+43. unknown
+44. no
+45. no
+46. no
+47. yes
+48. unknown
+49. no
+50. no
+51. no
+52. no
+53. yes
+54. unknown
+55. unknown
+56. yes
+57. no
+58. yes
+59. unknown
+60. yes
+61. yes
+62. unknown
+63. unknown
+64. no
+65. no
+66. unknown
+67. no
+68. yes
+69. yes
+70. yes
+71. no
+72. no
+73. unknown
+74. no
+75. yes
+76. unknown
+77. unknown
+78. unknown
+79. no
+80. unknown
+81. no
+82. no
+83. no
+84. unknown
+85. no
+86. no
+87. no
+88. yes
+89. unknown
+90. yes
+91. unknown
+92. yes
+93. no
+94. no
+95. no
+96. no
+97. unknown
+98. no
+99. no
+100. no
+
+
+
+**Disclaimer:** These predictions are based on limited data and broad generalizations. They should not be taken as accurate representations of how any individual would actually vote.

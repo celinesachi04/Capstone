@@ -1,0 +1,118 @@
+Here's a prediction for each voter, based on the provided data and the description of Initiative Measure No. 2117.  The reasoning is explained below the predictions.  I will use "unknown" sparingly, only when there's truly no basis for a prediction.
+
+**Reasoning:**
+
+This is a complex issue. Generally:
+
+*   **Environmental Concerns:** Voters who identify with religions emphasizing stewardship of the earth (like some interpretations of Sikhism, Buddhism, and potentially Hinduism) or who explicitly state "none/agnostic/atheist" (often correlating with science-based thinking) might lean *against* the measure (vote "no").
+*   **Economic Concerns/Distrust of Government:** Voters who are widowed, divorced, or separated might be more focused on economic stability and less on long-term environmental goals. Those who "prefer not to say" on religion might also be more skeptical of government intervention. These voters might lean *for* the measure (vote "yes").
+*   **Family Size:** Larger families (4+ kids) might be more concerned about the economic impact of increased costs due to environmental regulations.
+*   **Marital Status:** Married voters might be more conservative and less likely to support environmental regulations that could impact the economy.
+*   **Religion:** Jewish voters may lean against the measure. Muslim voters may lean for the measure. Christian voters are more split.
+
+**Predictions:**
+
+1.  yes
+2.  yes
+3.  no
+4.  yes
+5.  no
+6.  yes
+7.  yes
+8.  yes
+9.  no
+10. yes
+11. no
+12. yes
+13. no
+14. no
+15. yes
+16. no
+17. yes
+18. no
+19. yes
+20. yes
+21. no
+22. yes
+23. no
+24. yes
+25. yes
+26. yes
+27. no
+28. yes
+29. no
+30. yes
+31. yes
+32. no
+33. no
+34. yes
+35. no
+36. yes
+37. no
+38. yes
+39. yes
+40. yes
+41. yes
+42. no
+43. yes
+44. no
+45. yes
+46. no
+47. no
+48. yes
+49. no
+50. yes
+51. yes
+52. no
+53. no
+54. yes
+55. yes
+56. no
+57. no
+58. yes
+59. yes
+60. yes
+61. no
+62. yes
+63. yes
+64. no
+65. yes
+66. yes
+67. no
+68. yes
+69. yes
+70. yes
+71. no
+72. no
+73. yes
+74. yes
+75. no
+76. yes
+77. yes
+78. yes
+79. no
+80. yes
+81. no
+82. no
+83. no
+84. yes
+85. no
+86. no
+87. yes
+88. yes
+89. yes
+90. no
+91. yes
+92. no
+93. no
+94. no
+95. no
+96. no
+97. yes
+98. no
+99. no
+100. yes
+
+
+
+**Disclaimer:** This is a predictive model based on limited data and generalizations. Actual voting behavior is far more complex and influenced by many factors not present in this dataset.

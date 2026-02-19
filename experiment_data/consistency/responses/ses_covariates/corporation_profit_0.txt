@@ -1,0 +1,118 @@
+Okay, I will analyze the voter data and predict their likely stance on the profit question (A or B).  I'll base this on the general correlation between education/income and views on corporate profits.  Here's the logic I'll use:
+
+*   **Higher Education & Higher Income:** Generally correlate with a more nuanced view, potentially seeing the value of profits for innovation but also acknowledging potential excess.  I'll lean towards **B** (fair and reasonable profit) for these voters, but with some caution.
+*   **Lower Education & Lower Income:**  May be more likely to view corporations as exploitative and profit-driven at the expense of workers. I'll lean towards **A** (too much profit) for these voters.
+*   **"Prefer not to say" (Education/Income):**  These are harder to predict. I'll default to **unknown** unless other factors suggest a leaning.
+*   **Middle Education/Middle Income:** These are the most difficult to predict and will likely be **unknown**.
+
+Here's the prediction for each voter, based on this logic:
+
+1.  **A**
+2.  **A**
+3.  **B**
+4.  **B**
+5.  **B**
+6.  **Unknown**
+7.  **A**
+8.  **A**
+9.  **B**
+10. **A**
+11. **A**
+12. **B**
+13. **A**
+14. **B**
+15. **A**
+16. **B**
+17. **A**
+18. **B**
+19. **Unknown**
+20. **Unknown**
+21. **B**
+22. **A**
+23. **A**
+24. **A**
+25. **B**
+26. **Unknown**
+27. **B**
+28. **B**
+29. **B**
+30. **B**
+31. **B**
+32. **B**
+33. **B**
+34. **Unknown**
+35. **A**
+36. **B**
+37. **B**
+38. **Unknown**
+39. **B**
+40. **Unknown**
+41. **Unknown**
+42. **B**
+43. **Unknown**
+44. **B**
+45. **B**
+46. **B**
+47. **B**
+48. **Unknown**
+49. **Unknown**
+50. **B**
+51. **B**
+52. **B**
+53. **B**
+54. **B**
+55. **B**
+56. **Unknown**
+57. **Unknown**
+58. **A**
+59. **Unknown**
+60. **B**
+61. **A**
+62. **Unknown**
+63. **B**
+64. **Unknown**
+65. **A**
+66. **Unknown**
+67. **B**
+68. **Unknown**
+69. **Unknown**
+70. **B**
+71. **B**
+72. **B**
+73. **Unknown**
+74. **Unknown**
+75. **B**
+76. **B**
+77. **B**
+78. **B**
+79. **B**
+80. **Unknown**
+81. **Unknown**
+82. **A**
+83. **B**
+84. **Unknown**
+85. **Unknown**
+86. **Unknown**
+87. **Unknown**
+88. **Unknown**
+89. **B**
+90. **B**
+91. **B**
+92. **B**
+93. **A**
+94. **B**
+95. **A**
+96. **Unknown**
+97. **A**
+98. **Unknown**
+99. **B**
+100. **B**
+
+**Important Considerations:**
+
+*   **This is a prediction.**  It's based on generalizations and correlations. Individual voters may have views that don't fit these patterns.
+*   **Limited Data:**  I only have education and income. Other factors (age, location, political affiliation, etc.) would significantly improve accuracy.
+*   **Nuance:** The question itself is nuanced.  "Too much profit" and "fair and reasonable" are subjective.
+
+
+

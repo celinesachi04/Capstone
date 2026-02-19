@@ -1,0 +1,119 @@
+Here's a prediction of which candidate each voter would support, based on the provided data. This is a complex task with limited information, so the predictions are based on general trends and assumptions. I'll aim to minimize "unknown" responses, but will use it when there's insufficient data to make a reasonable guess.
+
+**Assumptions:**
+
+*   **Younger Voters (18-24):** Lean towards progressive candidates (Pete Serrano).
+*   **Older Voters (65+):** Tend to be more conservative (Nick Brown).
+*   **Urban Voters:** Generally more liberal (Pete Serrano).
+*   **Rural Voters:** Generally more conservative (Nick Brown).
+*   **Higher Education/Income:** Lean towards progressive candidates (Pete Serrano).
+*   **Race/Ethnicity & Religion:** These are harder to generalize, but I'll make some assumptions based on national voting trends. Black/African American voters tend to lean Democratic (Pete Serrano). Hispanic/Latino voters are more mixed, but generally lean Democratic (Pete Serrano). Asian voters lean Democratic (Pete Serrano).
+*   **Marital Status/Number of Kids:** Less reliable indicators, but partnered/married voters with children might be slightly more conservative (Nick Brown).
+*   **"Prefer not to say":**  These are the hardest to predict and will often result in "unknown".
+
+**Predictions:**
+
+1.  Pete
+2.  Nick
+3.  Pete
+4.  Nick
+5.  Pete
+6.  Nick
+7.  Pete
+8.  Nick
+9.  Nick
+10. Pete
+11. Pete
+12. Nick
+13. Nick
+14. Pete
+15. Nick
+16. Pete
+17. Nick
+18. Pete
+19. Pete
+20. Pete
+21. Nick
+22. Pete
+23. Pete
+24. Nick
+25. Nick
+26. Pete
+27. Pete
+28. Pete
+29. Nick
+30. Pete
+31. Nick
+32. Pete
+33. Nick
+34. Pete
+35. Nick
+36. Pete
+37. Pete
+38. Nick
+39. Nick
+40. Pete
+41. Pete
+42. Pete
+43. Nick
+44. Pete
+45. Pete
+46. Pete
+47. Pete
+48. Nick
+49. Nick
+50. Pete
+51. Nick
+52. Pete
+53. Pete
+54. Nick
+55. Pete
+56. Pete
+57. Nick
+58. Nick
+59. Nick
+60. Pete
+61. Nick
+62. Pete
+63. Pete
+64. Nick
+65. Nick
+66. Pete
+67. Nick
+68. Nick
+69. Pete
+70. Nick
+71. Pete
+72. Pete
+73. Nick
+74. Pete
+75. Nick
+76. Pete
+77. Pete
+78. Nick
+79. Nick
+80. Nick
+81. Pete
+82. Nick
+83. Pete
+84. Nick
+85. Pete
+86. Pete
+87. Pete
+88. Pete
+89. Pete
+90. Nick
+91. Pete
+92. Pete
+93. Nick
+94. Pete
+95. Nick
+96. Pete
+97. Nick
+98. Pete
+99. Pete
+100. Pete
+
+
+
+**Disclaimer:** These predictions are based on limited data and broad generalizations. Actual voting behavior is far more complex.

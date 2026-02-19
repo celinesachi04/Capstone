@@ -1,0 +1,113 @@
+Here's a prediction of which candidate each voter would support, based on the provided data. This is a complex task, and the predictions are based on general trends and assumptions about how different demographics might vote in this election.  I'll use "unknown" sparingly, only when the data provides very little signal.
+
+**Important Considerations:**
+
+*   **Limited Data:** This prediction relies *solely* on the provided voter data. Real-world voting behavior is influenced by many more factors (candidate platforms, current events, etc.).
+*   **Assumptions:** I'm making assumptions about how different demographic groups lean politically in Washington State. These are generalizations and may not hold true for every individual.
+*   **State Treasurer Race Specifics:** I have no information about the specific positions of Mike Pellicciotti and Sharon Hanek. I'm basing predictions on general Democratic/Republican leanings.
+*   **"Prefer not to say"**: I'm treating "Prefer not to say" responses as neutral and leaning towards "unknown" unless other factors strongly suggest a preference.
+
+**Predictions:**
+
+1.  Mike
+2.  Mike
+3.  Sharon
+4.  Sharon
+5.  Mike
+6.  unknown
+7.  Mike
+8.  Sharon
+9.  Mike
+10. Mike
+11. Mike
+12. Sharon
+13. Sharon
+14. Mike
+15. Sharon
+16. Mike
+17. Sharon
+18. Mike
+19. Mike
+20. Mike
+21. Sharon
+22. Sharon
+23. Mike
+24. Sharon
+25. Sharon
+26. unknown
+27. Mike
+28. Mike
+29. Mike
+30. Mike
+31. Sharon
+32. Mike
+33. Mike
+34. Mike
+35. Sharon
+36. Mike
+37. Mike
+38. unknown
+39. Mike
+40. Sharon
+41. Mike
+42. Mike
+43. Sharon
+44. Sharon
+45. Mike
+46. Mike
+47. Mike
+48. Sharon
+49. Sharon
+50. Mike
+51. Sharon
+52. Mike
+53. Mike
+54. Sharon
+55. Mike
+56. Mike
+57. Sharon
+58. Sharon
+59. Mike
+60. Sharon
+61. Sharon
+62. Mike
+63. Mike
+64. Sharon
+65. Sharon
+66. Mike
+67. Mike
+68. Sharon
+69. Sharon
+70. Sharon
+71. Mike
+72. Mike
+73. Sharon
+74. Mike
+75. Sharon
+76. Mike
+77. Sharon
+78. Sharon
+79. Sharon
+80. Sharon
+81. Mike
+82. Sharon
+83. Mike
+84. Sharon
+85. Mike
+86. Mike
+87. Sharon
+88. Sharon
+89. Sharon
+90. Sharon
+91. Sharon
+92. Sharon
+93. Sharon
+94. Mike
+95. Sharon
+96. Mike
+97. Sharon
+98. Mike
+99. Mike
+100. Mike
+
+**Disclaimer:** These predictions are for illustrative purposes only and should not be taken as a definitive forecast of the election outcome.

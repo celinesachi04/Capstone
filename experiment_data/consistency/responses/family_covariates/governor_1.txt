@@ -1,0 +1,115 @@
+Here's a prediction of how each voter would likely vote, based on the provided data and general political trends in Washington State.  It's important to remember this is an *estimation* and real-world voting behavior is complex. Bob Ferguson (Democrat) is generally favored in Washington State, and the data suggests a leaning towards him, but with significant uncertainty given the "Prefer not to say" responses and diverse religious affiliations.
+
+1. Bob
+2. Bob
+3. Bob
+4. unknown
+5. Bob
+6. unknown
+7. unknown
+8. Dave
+9. Bob
+10. unknown
+11. Bob
+12. unknown
+13. Bob
+14. Bob
+15. unknown
+16. Bob
+17. unknown
+18. Bob
+19. Bob
+20. Dave
+21. Bob
+22. unknown
+23. unknown
+24. Bob
+25. Bob
+26. unknown
+27. Bob
+28. unknown
+29. Bob
+30. unknown
+31. Bob
+32. unknown
+33. Bob
+34. unknown
+35. Bob
+36. Dave
+37. Bob
+38. unknown
+39. Bob
+40. unknown
+41. unknown
+42. unknown
+43. unknown
+44. unknown
+45. Bob
+46. Bob
+47. Bob
+48. unknown
+49. Bob
+50. Dave
+51. Bob
+52. Bob
+53. Bob
+54. unknown
+55. unknown
+56. unknown
+57. Bob
+58. unknown
+59. unknown
+60. unknown
+61. Bob
+62. unknown
+63. unknown
+64. Bob
+65. unknown
+66. Bob
+67. Bob
+68. Dave
+69. Bob
+70. Dave
+71. Bob
+72. Bob
+73. unknown
+74. unknown
+75. unknown
+76. unknown
+77. unknown
+78. unknown
+79. Bob
+80. unknown
+81. Bob
+82. unknown
+83. Bob
+84. unknown
+85. Bob
+86. Bob
+87. Bob
+88. Dave
+89. unknown
+90. Bob
+91. unknown
+92. Bob
+93. Bob
+94. Bob
+95. Bob
+96. unknown
+97. unknown
+98. unknown
+99. Bob
+100. Bob
+
+
+
+**Important Considerations:**
+
+*   **"Prefer not to say"**:  These are treated as 'unknown' as there's no basis for prediction.
+*   **Religion**: While some religions have general political leanings, it's not a definitive predictor.
+*   **Marital Status/Kids**: These are included in the data but have less direct predictive power without more context.
+*   **Washington State Politics**:  Washington State leans Democratic, which influences the overall predictions.
+*   **2024 Election**: This is a prediction for a specific election, and dynamics can change.
+
+
+

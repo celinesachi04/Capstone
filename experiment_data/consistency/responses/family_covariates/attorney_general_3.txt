@@ -1,0 +1,122 @@
+Here's a prediction of who each voter would support, based on the provided data and general voting patterns.  It's important to remember this is a *highly* speculative exercise, as many factors influence voting decisions. I'm making assumptions based on correlations between demographics and likely political leanings.  I'll lean towards "unknown" when the data is too sparse to make a reasonable guess.
+
+**Assumptions:**
+
+*   **Married/Partnered, Families:** Generally lean conservative/moderate.
+*   **Single/Never Married, Divorced, Separated, Widowed:** More likely to lean liberal/moderate.
+*   **Religion:**
+    *   **Christian:** Lean conservative/moderate.
+    *   **Jewish:** Lean liberal/moderate.
+    *   **Muslim:** Lean liberal/moderate.
+    *   **Sikh/Buddhist/Hindu:** Moderate to leaning liberal.
+    *   **None/Agnostic/Atheist:** Lean liberal.
+    *   **Prefer not to say:** Difficult to predict, will often be "unknown".
+*   **Pete Serrano** is assumed to be the more progressive candidate.
+*   **Nick Brown** is assumed to be the more conservative candidate.
+
+**Predictions:**
+
+1.  Nick
+2.  Nick
+3.  Nick
+4.  Pete
+5.  Pete
+6.  Pete
+7.  Pete
+8.  Pete
+9.  Nick
+10. unknown
+11. Pete
+12. Pete
+13. Nick
+14. Pete
+15. unknown
+16. Pete
+17. Pete
+18. Pete
+19. Pete
+20. Pete
+21. Pete
+22. unknown
+23. Pete
+24. Pete
+25. Pete
+26. Pete
+27. Pete
+28. Pete
+29. Pete
+30. Pete
+31. Nick
+32. Pete
+33. Pete
+34. Pete
+35. Pete
+36. Pete
+37. Nick
+38. Pete
+39. Pete
+40. Pete
+41. Nick
+42. Pete
+43. Pete
+44. Pete
+45. Pete
+46. Pete
+47. Nick
+48. Pete
+49. Pete
+50. Pete
+51. Pete
+52. Pete
+53. Nick
+54. Nick
+55. Pete
+56. Pete
+57. Pete
+58. Pete
+59. Pete
+60. Pete
+61. Nick
+62. Pete
+63. unknown
+64. Pete
+65. Pete
+66. Nick
+67. Pete
+68. Nick
+69. Nick
+70. Nick
+71. Pete
+72. Pete
+73. Nick
+74. Pete
+75. Pete
+76. Pete
+77. Pete
+78. Pete
+79. Pete
+80. Nick
+81. Pete
+82. Pete
+83. Pete
+84. Pete
+85. Pete
+86. Pete
+87. Pete
+88. Nick
+89. Pete
+90. Nick
+91. Nick
+92. Nick
+93. Pete
+94. Pete
+95. Pete
+96. Pete
+97. Pete
+98. Pete
+99. Pete
+100. Nick
+
+
+
+**Disclaimer:** This is a simulated prediction based on limited data and assumptions. Actual voting behavior is far more complex.

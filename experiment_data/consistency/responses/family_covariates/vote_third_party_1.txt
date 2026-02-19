@@ -1,0 +1,113 @@
+Here's a prediction for each voter, based on the provided data and general trends (recognizing this is a highly speculative exercise without more context).  I'll aim to minimize "unknown" but use it when the data is truly uninformative.  The logic is based on these assumptions:
+
+*   **"Prefer not to say" on religion:**  Indicates a lack of strong affiliation, potentially leaning towards independent thought and thus, third-party consideration.
+*   **Non-traditional marital status (separated, divorced, partnered):**  May indicate dissatisfaction with the status quo, potentially extending to political views.
+*   **Smaller/Non-mainstream Religions (Sikh, Buddhist, Hindu, Jewish, Other):**  May correlate with a willingness to consider alternatives outside the mainstream.
+*   **None/Agnostic/Atheist:**  Strong indicator of independent thinking.
+*   **Number of Kids:** Less directly predictive, but larger families *might* be slightly more conservative.
+*   **Widowed/Married/Single:** Less predictive, but can contribute to the overall picture.
+
+Here are the predictions:
+
+1.  no
+2.  no
+3.  no
+4.  yes
+5.  yes
+6.  yes
+7.  yes
+8.  yes
+9.  no
+10. yes
+11. yes
+12. yes
+13. no
+14. yes
+15. yes
+16. yes
+17. yes
+18. yes
+19. yes
+20. yes
+21. yes
+22. yes
+23. yes
+24. yes
+25. no
+26. yes
+27. yes
+28. yes
+29. yes
+30. yes
+31. no
+32. no
+33. yes
+34. yes
+35. yes
+36. yes
+37. no
+38. yes
+39. no
+40. yes
+41. yes
+42. no
+43. yes
+44. yes
+45. no
+46. yes
+47. no
+48. yes
+49. yes
+50. yes
+51. yes
+52. yes
+53. no
+54. yes
+55. yes
+56. no
+57. no
+58. yes
+59. yes
+60. yes
+61. no
+62. yes
+63. yes
+64. yes
+65. yes
+66. yes
+67. no
+68. no
+69. no
+70. no
+71. yes
+72. yes
+73. yes
+74. yes
+75. no
+76. yes
+77. yes
+78. yes
+79. yes
+80. no
+81. yes
+82. yes
+83. yes
+84. yes
+85. yes
+86. yes
+87. yes
+88. no
+89. yes
+90. no
+91. no
+92. no
+93. no
+94. yes
+95. yes
+96. yes
+97. yes
+98. yes
+99. yes
+100. no
+
+**Important Disclaimer:** This is a highly simplified and speculative analysis. Real-world voting behavior is far more complex and influenced by many factors not present in this dataset.

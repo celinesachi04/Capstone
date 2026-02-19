@@ -1,0 +1,118 @@
+Here's a prediction for each voter, based on the provided data and a general understanding of how demographics *might* lean on environmental issues.  **Important Disclaimer:** This is a highly speculative exercise. Voter behavior is complex, and this is based on broad generalizations. I will use "unknown" sparingly, prioritizing a prediction based on available data.
+
+1.  no
+2.  no
+3.  unknown
+4.  no
+5.  unknown
+6.  no
+7.  unknown
+8.  no
+9.  yes
+10. no
+11. no
+12. yes
+13. unknown
+14. no
+15. no
+16. no
+17. no
+18. yes
+19. unknown
+20. no
+21. yes
+22. unknown
+23. no
+24. yes
+25. yes
+26. no
+27. unknown
+28. no
+29. yes
+30. no
+31. yes
+32. no
+33. yes
+34. no
+35. yes
+36. no
+37. yes
+38. unknown
+39. yes
+40. unknown
+41. no
+42. no
+43. yes
+44. yes
+45. no
+46. no
+47. no
+48. yes
+49. unknown
+50. yes
+51. no
+52. no
+53. no
+54. unknown
+55. yes
+56. no
+57. yes
+58. no
+59. yes
+60. unknown
+61. no
+62. no
+63. unknown
+64. yes
+65. yes
+66. no
+67. yes
+68. yes
+69. no
+70. no
+71. no
+72. no
+73. unknown
+74. no
+75. yes
+76. yes
+77. no
+78. yes
+79. no
+80. yes
+81. unknown
+82. yes
+83. no
+84. yes
+85. no
+86. unknown
+87. yes
+88. no
+89. yes
+90. yes
+91. unknown
+92. unknown
+93. no
+94. no
+95. no
+96. yes
+97. no
+98. yes
+99. unknown
+100. no
+
+
+
+**Reasoning & Generalizations Used:**
+
+*   **Race/Ethnicity:**  Generally, voters identifying as Black/African American, Native American/Alaska Native, and Hispanic/Latino tend to lean more towards supporting environmental regulations and addressing climate change. Asian voters are also generally supportive.  "Prefer not to say" and "Other" are harder to predict.
+*   **Age:** Younger voters (18-24, 25-34) are more likely to prioritize climate action. Older voters (65+) may be more concerned about economic impacts.
+*   **Gender:**  Women tend to be more supportive of environmental protection than men.
+*   **Urbanicity:** Urban voters are more likely to support environmental regulations. Rural voters may be more concerned about the economic impact on industries like agriculture and forestry.
+*   **Nonbinary:**  Given the general progressive leanings often associated with nonbinary individuals, I've leaned towards "no" on this measure (which restricts environmental action).
+*   **"Prefer not to say":**  These are the hardest to predict, so I've used "unknown" more frequently.
+*   **Carbon Tax/Cap and Invest:** The measure *prohibits* action on carbon emissions, so those generally concerned about climate change would likely vote against enacting it.
+
+
+
+**Important Note:** This is a simplified model. Real-world voting behavior is influenced by many factors not present in this dataset.

@@ -1,0 +1,122 @@
+Here's a prediction of who each voter would support, based on the provided data and general voting patterns.  It's important to remember this is a *highly* speculative exercise, as many factors influence voting decisions. I'm making assumptions based on correlations between demographics and likely political leanings.  I'll lean towards "unknown" when the data is too sparse to make a reasonable guess.
+
+**Assumptions:**
+
+*   **Married/Partnered:** Generally lean slightly towards conservative/moderate candidates.
+*   **Widowed/Divorced/Separated:** More unpredictable, potentially leaning slightly more liberal/moderate.
+*   **Single/Never Married:** Tend to lean more liberal.
+*   **Religion:**
+    *   **Christian:** Generally lean conservative/moderate.
+    *   **Jewish:** Generally lean liberal.
+    *   **Muslim:** Generally lean liberal.
+    *   **Sikh/Buddhist/Hindu:**  More diverse, but often lean liberal/moderate.
+    *   **None/Agnostic/Atheist:** Generally lean liberal.
+    *   **Prefer not to say:**  Difficult to predict, treated as neutral.
+*   **Number of Kids:**  Generally, more kids correlate with more conservative views, but this is a weak correlation.
+
+**Predictions:**
+
+1.  Pete
+2.  Pete
+3.  Nick
+4.  unknown
+5.  Nick
+6.  unknown
+7.  Nick
+8.  Nick
+9.  Nick
+10. unknown
+11. Nick
+12. unknown
+13. Nick
+14. Nick
+15. unknown
+16. Nick
+17. unknown
+18. Nick
+19. Nick
+20. Nick
+21. Nick
+22. unknown
+23. Nick
+24. Nick
+25. Nick
+26. unknown
+27. Nick
+28. unknown
+29. Nick
+30. Nick
+31. Pete
+32. Nick
+33. Nick
+34. unknown
+35. Nick
+36. unknown
+37. Nick
+38. unknown
+39. Nick
+40. Nick
+41. unknown
+42. Nick
+43. Nick
+44. Nick
+45. Nick
+46. Nick
+47. Nick
+48. unknown
+49. Nick
+50. Nick
+51. Nick
+52. Nick
+53. Nick
+54. unknown
+55. unknown
+56. Nick
+57. Nick
+58. Nick
+59. Nick
+60. Nick
+61. Nick
+62. Nick
+63. unknown
+64. Nick
+65. Nick
+66. Pete
+67. Nick
+68. Pete
+69. Pete
+70. Pete
+71. Nick
+72. Nick
+73. unknown
+74. Nick
+75. Nick
+76. Nick
+77. unknown
+78. unknown
+79. Nick
+80. unknown
+81. Nick
+82. Nick
+83. Nick
+84. unknown
+85. Nick
+86. Nick
+87. Nick
+88. Pete
+89. unknown
+90. Nick
+91. unknown
+92. Nick
+93. Nick
+94. Nick
+95. Nick
+96. Nick
+97. unknown
+98. Nick
+99. Nick
+100. Pete
+
+
+
+**Disclaimer:** These predictions are based on limited data and broad generalizations. Actual voting behavior is far more complex.

@@ -1,0 +1,116 @@
+Here's a prediction of voting preference based on the provided data, leaning heavily on income and education as proxies for voting behavior.  It's important to remember this is a *highly* speculative exercise without knowing the candidates' platforms or actual voter preferences. I'm making assumptions based on general trends.  I will use "unknown" sparingly, only when the data is truly ambiguous.
+
+**Assumptions:**
+
+*   **Higher Education & Income:** Generally lean towards Dave Larson (more conservative).
+*   **Lower Education & Income:** Generally lean towards Sal Mungia (more progressive).
+*   **"Prefer not to say":**  More difficult to predict, will lean towards "unknown" unless other factors are strong.
+*   **HS/GED:** Split leaning slightly towards Sal Mungia.
+*   **Some College:** Split leaning slightly towards Sal Mungia.
+
+Here are the predictions:
+
+1.  Dave
+2.  Dave
+3.  Dave
+4.  Dave
+5.  Dave
+6.  Sal
+7.  Sal
+8.  Sal
+9.  Dave
+10. Sal
+11. Sal
+12. Dave
+13. Dave
+14. Dave
+15. Sal
+16. Dave
+17. Sal
+18. Dave
+19. unknown
+20. unknown
+21. Sal
+22. Sal
+23. Sal
+24. Sal
+25. Sal
+26. unknown
+27. Dave
+28. Dave
+29. Sal
+30. Dave
+31. Dave
+32. Dave
+33. Dave
+34. unknown
+35. Sal
+36. Dave
+37. Dave
+38. unknown
+39. Dave
+40. unknown
+41. unknown
+42. Dave
+43. unknown
+44. Sal
+45. Dave
+46. Dave
+47. Dave
+48. unknown
+49. Sal
+50. Dave
+51. Dave
+52. Dave
+53. Dave
+54. Dave
+55. Dave
+56. unknown
+57. unknown
+58. Sal
+59. unknown
+60. Dave
+61. Sal
+62. unknown
+63. Sal
+64. unknown
+65. Sal
+66. unknown
+67. Dave
+68. unknown
+69. unknown
+70. Dave
+71. Sal
+72. Dave
+73. unknown
+74. unknown
+75. Dave
+76. Dave
+77. Dave
+78. Dave
+79. Dave
+80. Sal
+81. unknown
+82. Sal
+83. Dave
+84. unknown
+85. unknown
+86. unknown
+87. unknown
+88. unknown
+89. Dave
+90. Sal
+91. Dave
+92. Sal
+93. Sal
+94. Dave
+95. Sal
+96. unknown
+97. Sal
+98. unknown
+99. Dave
+100. Sal
+
+
+
+**Disclaimer:** This is a simulated prediction based on limited data and assumptions. Actual voting behavior is far more complex.

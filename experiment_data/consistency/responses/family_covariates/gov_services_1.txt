@@ -1,0 +1,124 @@
+Here's a prediction of each voter's preference (A or B) based on the provided data.  It's important to remember this is a *highly* speculative exercise, as the data provides no direct information about political leanings. The reasoning is detailed below the predictions.
+
+**Reasoning:**
+
+I'm basing the predictions on the following (admittedly weak) assumptions:
+
+*   **Marital Status & Family Size:**  Generally, those who are married with children tend to lean towards more stable, service-providing government (B). Those who are single/never married, divorced, or widowed *might* be more open to smaller government (A), but this is very variable.  Partnered individuals are harder to categorize.
+*   **Religion:**  This is the trickiest.  I'm making broad generalizations, knowing they will be inaccurate in many cases.
+    *   **Jewish:** Historically, a mix, but leaning slightly towards more social support (B).
+    *   **Christian:**  A wide range, but generally leaning towards a mix, with some leaning towards smaller government (A) and others towards more services (B).
+    *   **Muslim:**  Generally, a preference for community support, potentially aligning with bigger government (B).
+    *   **Sikh & Hindu:**  Tend to value community and family support, potentially aligning with bigger government (B).
+    *   **Buddhist:**  A range, but often emphasizing individual responsibility, potentially leaning towards smaller government (A).
+    *   **None/Agnostic/Atheist:**  Highly variable, but potentially leaning towards smaller government (A) due to a focus on individual liberty.
+    *   **Prefer not to say/Other:**  These are the hardest to predict and will often be marked as "unknown".
+
+*   **"Prefer not to say":**  I'm treating these as genuinely unknown, as there's no information to base a prediction on.
+
+**Predictions:**
+
+1.  A
+2.  A
+3.  B
+4.  B
+5.  A
+6.  B
+7.  A
+8.  A
+9.  B
+10. unknown
+11. A
+12. A
+13. B
+14. B
+15. A
+16. B
+17. unknown
+18. A
+19. A
+20. A
+21. A
+22. unknown
+23. A
+24. A
+25. B
+26. A
+27. A
+28. B
+29. A
+30. A
+31. B
+32. A
+33. B
+34. A
+35. A
+36. A
+37. B
+38. unknown
+39. B
+40. A
+41. unknown
+42. A
+43. A
+44. A
+45. B
+46. A
+47. B
+48. A
+49. B
+50. B
+51. B
+52. A
+53. B
+54. unknown
+55. A
+56. A
+57. B
+58. A
+59. A
+60. A
+61. B
+62. A
+63. unknown
+64. B
+65. A
+66. B
+67. B
+68. B
+69. B
+70. B
+71. A
+72. A
+73. unknown
+74. A
+75. A
+76. A
+77. A
+78. A
+79. A
+80. A
+81. A
+82. A
+83. A
+84. A
+85. B
+86. A
+87. B
+88. B
+89. A
+90. B
+91. A
+92. B
+93. B
+94. A
+95. B
+96. A
+97. A
+98. A
+99. A
+100. B
+
+
+
+**Disclaimer:**  These predictions are based on very limited and potentially misleading data. They should *not* be taken as accurate representations of anyone's actual political beliefs.  This is an exercise in applying logic to incomplete information.

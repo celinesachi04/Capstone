@@ -1,0 +1,116 @@
+Here's a breakdown of how I'll approach predicting votes, followed by the predictions for each voter.  This is a complex task, as I have no information about political leanings. I will base my predictions on reasonable assumptions about how demographic factors *might* correlate with support for or opposition to a tax repeal that impacts education funding.
+
+**Assumptions & Reasoning:**
+
+*   **Marital Status & Family Size:**  Married individuals and those with children are more likely to be concerned about long-term funding for education.  Those widowed or single/never married might be less directly impacted.
+*   **Religion:** This is tricky.  Generally, more conservative religions *might* lean towards lower taxes, but this is a broad generalization.  I'll treat "Prefer not to say" as neutral.
+*   **"Prefer not to say" responses:** I will treat these as *unknown* as there is no information to base a prediction on.
+*   **Tax Impact:** The measure *decreases* funding for education.  I assume voters who prioritize education will vote "no".
+*   **Capital Gains:** The tax applies to high earners ($250,000+ gains). I assume those who are likely to be affected by this tax (and thus benefit from its repeal) might vote "yes". However, without income data, this is a weak signal.
+
+**Predictions (voter ID. prediction):**
+
+1.  no
+2.  no
+3.  no
+4.  unknown
+5.  no
+6.  unknown
+7.  unknown
+8.  no
+9.  no
+10. unknown
+11. no
+12. no
+13. no
+14. no
+15. unknown
+16. no
+17. unknown
+18. no
+19. no
+20. no
+21. no
+22. unknown
+23. no
+24. no
+25. no
+26. no
+27. no
+28. no
+29. no
+30. unknown
+31. no
+32. no
+33. no
+34. unknown
+35. unknown
+36. no
+37. no
+38. unknown
+39. no
+40. no
+41. unknown
+42. no
+43. unknown
+44. no
+45. no
+46. no
+47. no
+48. no
+49. no
+50. no
+51. no
+52. no
+53. no
+54. unknown
+55. unknown
+56. no
+57. no
+58. no
+59. unknown
+60. no
+61. no
+62. unknown
+63. unknown
+64. no
+65. no
+66. unknown
+67. no
+68. no
+69. no
+70. no
+71. no
+72. no
+73. unknown
+74. no
+75. no
+76. unknown
+77. unknown
+78. no
+79. unknown
+80. no
+81. unknown
+82. no
+83. unknown
+84. unknown
+85. no
+86. no
+87. no
+88. no
+89. no
+90. no
+91. no
+92. no
+93. no
+94. no
+95. no
+96. no
+97. unknown
+98. unknown
+99. no
+100. no
+
+
+
+**Important Disclaimer:**  These predictions are based on limited data and assumptions.  Real-world voting behavior is far more complex. This is an exercise in applying logic to a dataset, not a reliable forecast of actual election results.

@@ -1,0 +1,116 @@
+Here's a prediction for each voter, based on the provided data and a general understanding of how demographics *might* lean on energy/environmental issues.  **Please read the disclaimer at the end!**  I'm aiming for "yes" or "no" as requested, with "unknown" used very sparingly.  The reasoning is complex and relies on assumptions, so treat this as a thought experiment.
+
+1. no
+2. no
+3. unknown
+4. no
+5. no
+6. no
+7. unknown
+8. no
+9. yes
+10. unknown
+11. no
+12. yes
+13. no
+14. unknown
+15. no
+16. no
+17. no
+18. yes
+19. unknown
+20. no
+21. yes
+22. unknown
+23. no
+24. yes
+25. yes
+26. no
+27. unknown
+28. no
+29. yes
+30. no
+31. yes
+32. no
+33. yes
+34. unknown
+35. yes
+36. no
+37. yes
+38. unknown
+39. yes
+40. unknown
+41. no
+42. no
+43. yes
+44. yes
+45. unknown
+46. no
+47. no
+48. yes
+49. unknown
+50. yes
+51. no
+52. no
+53. unknown
+54. unknown
+55. yes
+56. no
+57. yes
+58. unknown
+59. yes
+60. unknown
+61. unknown
+62. no
+63. no
+64. yes
+65. yes
+66. no
+67. yes
+68. yes
+69. no
+70. no
+71. no
+72. unknown
+73. yes
+74. no
+75. yes
+76. yes
+77. no
+78. yes
+79. unknown
+80. yes
+81. unknown
+82. yes
+83. no
+84. yes
+85. no
+86. unknown
+87. yes
+88. no
+89. yes
+90. yes
+91. yes
+92. unknown
+93. no
+94. yes
+95. no
+96. unknown
+97. no
+98. yes
+99. unknown
+100. no
+
+**DISCLAIMER:** This is a *highly speculative* exercise.  I have made numerous assumptions based on broad demographic trends and the nature of the initiative.  Here's what influences these predictions and why they are likely inaccurate:
+
+*   **Limited Data:** We only have race, age, gender, and urbanicity.  Many other factors are far more important (income, homeownership, political affiliation, environmental concerns, etc.).
+*   **Generalizations:**  I'm relying on generalizations about how different groups *might* vote. These are often wrong.
+*   **Issue Complexity:** Energy policy is complex. People's views aren't solely determined by demographics.
+*   **"Prefer not to say":**  These voters are impossible to predict without more information. I've defaulted to "unknown" where appropriate.
+*   **Nonbinary Gender:** I have no basis for predicting how gender identity influences voting on this issue.
+*   **Urbanicity nuance:** Suburban voters can lean either way.
+*   **No Political Affiliation:** The biggest missing piece of information.
+
+
+
+**This should not be used for any real-world prediction or analysis.** It's an illustration of how one might attempt to make predictions with very limited data, and a demonstration of how unreliable those predictions are likely to be.

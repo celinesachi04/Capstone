@@ -1,0 +1,124 @@
+Here's a prediction of who each voter would support, based on the provided data. This is a complex task with limited information, so the predictions are based on general trends and assumptions about how these demographics might lean.  I'll use "unknown" sparingly, only when there's truly no basis for a guess.
+
+**Assumptions:**
+
+*   **Widowed/Divorced/Separated:** Tend to be more conservative, leaning towards Larson.
+*   **Married:** Slightly more conservative, leaning towards Larson.
+*   **Single/Never Married & Partnered:** More liberal, leaning towards Mungia.
+*   **Religion:**
+    *   **Christian:** Lean towards Larson.
+    *   **Jewish:** Lean towards Mungia.
+    *   **Muslim:** Lean towards Mungia.
+    *   **Sikh & Buddhist:** Lean towards Mungia.
+    *   **Hindu:** Lean towards Mungia.
+    *   **None/Agnostic/Atheist:** Lean towards Mungia.
+    *   **Other:** Difficult to predict, will often be "unknown".
+*   **Number of Kids:**  Generally, more kids correlate with more conservative views (Larson), but this is a weak indicator.
+*   **"Prefer not to say":**  Difficult to predict, will often be "unknown".
+
+**Predictions:**
+
+1.  Larson
+2.  Larson
+3.  Mungia
+4.  Larson
+5.  Mungia
+6.  Larson
+7.  Mungia
+8.  Larson
+9.  Mungia
+10. unknown
+11. Mungia
+12. Larson
+13. Mungia
+14. Mungia
+15. Larson
+16. Mungia
+17. Mungia
+18. Mungia
+19. Mungia
+20. Larson
+21. Mungia
+22. unknown
+23. Mungia
+24. Mungia
+25. Mungia
+26. unknown
+27. Mungia
+28. Larson
+29. Mungia
+30. Mungia
+31. Larson
+32. Mungia
+33. Mungia
+34. Mungia
+35. Mungia
+36. Larson
+37. Mungia
+38. Mungia
+39. Mungia
+40. Mungia
+41. Larson
+42. Mungia
+43. Mungia
+44. Mungia
+45. Mungia
+46. Mungia
+47. Mungia
+48. unknown
+49. Mungia
+50. Mungia
+51. Mungia
+52. Mungia
+53. Mungia
+54. Larson
+55. unknown
+56. Mungia
+57. Mungia
+58. Mungia
+59. Mungia
+60. Mungia
+61. Mungia
+62. Mungia
+63. unknown
+64. Mungia
+65. Mungia
+66. Larson
+67. Mungia
+68. Larson
+69. Larson
+70. Larson
+71. Mungia
+72. Mungia
+73. Larson
+74. Mungia
+75. Mungia
+76. Mungia
+77. unknown
+78. unknown
+79. Mungia
+80. unknown
+81. Mungia
+82. Mungia
+83. Mungia
+84. unknown
+85. Mungia
+86. Mungia
+87. Mungia
+88. Larson
+89. unknown
+90. Mungia
+91. unknown
+92. Mungia
+93. Mungia
+94. Mungia
+95. Mungia
+96. Mungia
+97. unknown
+98. Mungia
+99. Mungia
+100. Larson
+
+
+
+**Disclaimer:** These predictions are highly speculative and based on broad generalizations. Actual voting behavior is influenced by many factors not included in this dataset.

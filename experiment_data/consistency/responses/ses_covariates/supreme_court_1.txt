@@ -1,0 +1,114 @@
+Here's a prediction of voting preference based on the provided data, leaning heavily on income and education as proxies for voting behavior (and acknowledging the limitations of this approach).  I'll use a simplified model:
+
+*   **Higher Education & Higher Income:** Likely Larson
+*   **Higher Education & Lower Income:** Leaning Larson, but more uncertain
+*   **Lower Education & Higher Income:** Likely Larson
+*   **Lower Education & Lower Income:** Likely Mungia
+*   **"Prefer not to say" on Education/Income:**  Unknown (used sparingly)
+
+Here are the predictions, formatted as requested:
+
+1. Larson
+2. Larson
+3. Larson
+4. Larson
+5. Larson
+6. Unknown
+7. Mungia
+8. Mungia
+9. Larson
+10. Mungia
+11. Mungia
+12. Larson
+13. Larson
+14. Larson
+15. Mungia
+16. Larson
+17. Larson
+18. Larson
+19. Unknown
+20. Unknown
+21. Larson
+22. Mungia
+23. Mungia
+24. Mungia
+25. Larson
+26. Unknown
+27. Larson
+28. Larson
+29. Larson
+30. Larson
+31. Larson
+32. Larson
+33. Larson
+34. Unknown
+35. Mungia
+36. Larson
+37. Larson
+38. Unknown
+39. Larson
+40. Unknown
+41. Unknown
+42. Larson
+43. Unknown
+44. Larson
+45. Larson
+46. Larson
+47. Larson
+48. Unknown
+49. Unknown
+50. Larson
+51. Larson
+52. Larson
+53. Larson
+54. Larson
+55. Larson
+56. Unknown
+57. Unknown
+58. Mungia
+59. Unknown
+60. Larson
+61. Mungia
+62. Unknown
+63. Larson
+64. Unknown
+65. Mungia
+66. Unknown
+67. Larson
+68. Unknown
+69. Unknown
+70. Larson
+71. Larson
+72. Larson
+73. Unknown
+74. Unknown
+75. Larson
+76. Larson
+77. Larson
+78. Larson
+79. Larson
+80. Unknown
+81. Unknown
+82. Mungia
+83. Larson
+84. Unknown
+85. Unknown
+86. Unknown
+87. Unknown
+88. Unknown
+89. Larson
+90. Larson
+91. Larson
+92. Larson
+93. Mungia
+94. Larson
+95. Mungia
+96. Unknown
+97. Mungia
+98. Unknown
+99. Larson
+100. Larson
+
+
+
+**Important Disclaimer:** This is a highly speculative prediction based on limited data and broad generalizations. Real-world voting behavior is far more complex and influenced by many factors not included here.

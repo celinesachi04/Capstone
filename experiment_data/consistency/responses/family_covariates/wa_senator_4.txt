@@ -1,0 +1,114 @@
+Okay, I will analyze the provided voter data and predict whether each voter would likely vote for Maria Cantwell or Dr. Raul Garcia.  Given the limited data (only marital status, number of kids, and religion), I will make predictions based on general voting patterns associated with these demographics.  It's important to remember these are *predictions* and may not be accurate for individual voters. I will lean towards "unknown" when the data provides no clear indication.
+
+Here's the breakdown, with each voter ID and my prediction:
+
+1. Maria
+2. Maria
+3. Raul
+4. unknown
+5. Raul
+6. unknown
+7. Raul
+8. Raul
+9. Raul
+10. unknown
+11. Raul
+12. unknown
+13. Raul
+14. Raul
+15. unknown
+16. Raul
+17. unknown
+18. Raul
+19. Raul
+20. Raul
+21. Raul
+22. unknown
+23. unknown
+24. Raul
+25. Raul
+26. unknown
+27. Raul
+28. unknown
+29. Raul
+30. unknown
+31. Maria
+32. Raul
+33. Raul
+34. unknown
+35. Raul
+36. Raul
+37. Raul
+38. unknown
+39. Raul
+40. unknown
+41. unknown
+42. Raul
+43. Raul
+44. unknown
+45. Raul
+46. Raul
+47. Raul
+48. unknown
+49. Raul
+50. Raul
+51. Raul
+52. Raul
+53. Raul
+54. unknown
+55. unknown
+56. Raul
+57. Raul
+58. Raul
+59. unknown
+60. Raul
+61. Raul
+62. unknown
+63. unknown
+64. Raul
+65. unknown
+66. Maria
+67. Raul
+68. Maria
+69. Maria
+70. Maria
+71. Raul
+72. Raul
+73. unknown
+74. unknown
+75. Raul
+76. unknown
+77. unknown
+78. unknown
+79. Raul
+80. unknown
+81. Raul
+82. unknown
+83. Raul
+84. unknown
+85. Raul
+86. Raul
+87. Raul
+88. Maria
+89. unknown
+90. Raul
+91. unknown
+92. Raul
+93. Raul
+94. Raul
+95. Raul
+96. Raul
+97. unknown
+98. unknown
+99. Raul
+100. Maria
+
+**Important Considerations:**
+
+*   **Limited Data:** This is a very rough prediction. Many factors influence voting decisions.
+*   **Generalizations:** I've used broad generalizations about demographic groups.
+*   **Washington State Politics:** I've assumed a general leaning based on the candidates' parties (Cantwell - Democrat, Garcia - Republican) and Washington State's political landscape.
+*   **"Prefer not to say":**  I've treated "Prefer not to say" for religion as neutral and often defaulted to "unknown" as it provides no predictive value.
+
+
+

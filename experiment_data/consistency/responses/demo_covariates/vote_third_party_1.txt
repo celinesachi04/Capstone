@@ -1,0 +1,116 @@
+Here's a prediction for each voter, based on the provided data and general trends (recognizing this is highly speculative without more information). I'll aim to use "unknown" sparingly, prioritizing a "yes" or "no" based on potential third-party leanings.  I'm basing this on the following assumptions:
+
+*   **Younger Voters (18-24):** More open to third parties.
+*   **Nonbinary/Unspecified Gender:**  May be less aligned with traditional party structures.
+*   **"Prefer not to say" Race:**  Could indicate dissatisfaction with the major parties.
+*   **Rural Voters:** Generally more conservative, less likely to vote third party.
+*   **Urban Voters:** More diverse, potentially more open to third parties.
+*   **Certain Racial/Ethnic Groups:** Some groups have historically shown more support for third parties (though this is a generalization).
+*   **Age (65+):** Generally more set in their political views, less likely to switch.
+
+Here are the predictions:
+
+1.  yes
+2.  no
+3.  yes
+4.  no
+5.  no
+6.  no
+7.  yes
+8.  no
+9.  no
+10. yes
+11. yes
+12. no
+13. no
+14. yes
+15. yes
+16. yes
+17. no
+18. no
+19. yes
+20. yes
+21. no
+22. yes
+23. yes
+24. no
+25. no
+26. yes
+27. yes
+28. yes
+29. no
+30. yes
+31. no
+32. yes
+33. no
+34. yes
+35. no
+36. no
+37. no
+38. no
+39. no
+40. yes
+41. yes
+42. yes
+43. no
+44. no
+45. yes
+46. yes
+47. yes
+48. no
+49. yes
+50. no
+51. no
+52. yes
+53. yes
+54. no
+55. no
+56. yes
+57. no
+58. yes
+59. no
+60. yes
+61. yes
+62. yes
+63. yes
+64. no
+65. no
+66. yes
+67. no
+68. no
+69. yes
+70. no
+71. yes
+72. yes
+73. yes
+74. yes
+75. no
+76. no
+77. yes
+78. no
+79. yes
+80. no
+81. yes
+82. no
+83. yes
+84. no
+85. yes
+86. yes
+87. no
+88. yes
+89. no
+90. no
+91. no
+92. yes
+93. yes
+94. no
+95. no
+96. yes
+97. yes
+98. no
+99. yes
+100. yes
+
+
+
+**Disclaimer:** This is a highly speculative exercise. Real-world voting behavior is far more complex and influenced by many factors not present in this limited dataset.

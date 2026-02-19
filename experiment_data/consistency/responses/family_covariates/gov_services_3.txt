@@ -1,0 +1,117 @@
+Here's a prediction of each voter's preference (A or B) based on the provided data.  It's important to remember this is a *highly* speculative exercise, as the data provides no direct information about political leanings. The reasoning is detailed below the predictions.
+
+**Reasoning:**
+
+I'm basing the predictions on the following (admittedly weak) correlations:
+
+*   **Marital Status:** Widowed/Divorced individuals *might* lean towards more government services (B) due to potential reliance on social safety nets. Partnered/Married individuals *might* lean towards less government (A). Separated individuals are harder to predict.
+*   **Number of Kids:** More kids *might* correlate with a desire for more government support for families (B).
+*   **Religion:**  This is the trickiest. I'm making broad generalizations (which are likely inaccurate) based on common stereotypes.  "Prefer not to say" and "None/Agnostic/Atheist" are treated as leaning towards less government (A).  More traditional religions are treated as potentially leaning towards more government (B).
+*   **"Prefer not to say"**: These are generally marked as "unknown" as there is no information to base a prediction on.
+
+**Predictions:**
+
+1.  B
+2.  B
+3.  A
+4.  A
+5.  B
+6.  A
+7.  A
+8.  B
+9.  A
+10. unknown
+11. B
+12. B
+13. A
+14. B
+15. B
+16. B
+17. A
+18. B
+19. B
+20. B
+21. B
+22. unknown
+23. A
+24. B
+25. B
+26. B
+27. B
+28. B
+29. B
+30. A
+31. B
+32. A
+33. B
+34. B
+35. A
+36. B
+37. A
+38. A
+39. B
+40. B
+41. A
+42. A
+43. A
+44. A
+45. B
+46. B
+47. A
+48. B
+49. B
+50. B
+51. B
+52. B
+53. A
+54. A
+55. B
+56. A
+57. B
+58. B
+59. A
+60. A
+61. A
+62. A
+63. unknown
+64. B
+65. B
+66. B
+67. B
+68. B
+69. B
+70. B
+71. B
+72. B
+73. A
+74. B
+75. A
+76. A
+77. B
+78. B
+79. A
+80. B
+81. A
+82. A
+83. A
+84. B
+85. B
+86. B
+87. B
+88. B
+89. B
+90. A
+91. B
+92. A
+93. B
+94. B
+95. B
+96. A
+97. B
+98. B
+99. B
+100. B
+
+
+
+**Disclaimer:**  These predictions are based on very limited and potentially misleading data. They should *not* be taken as accurate representations of anyone's actual political beliefs.  The "unknown" responses are used sparingly, but are appropriate for many cases given the lack of information.

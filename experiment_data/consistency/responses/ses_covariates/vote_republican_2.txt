@@ -1,0 +1,104 @@
+Okay, I will analyze the voter data and predict their likely vote in the next U.S. presidential election, responding with "yes" or "no" (representing a likely vote for a major party - I'll assume "yes" for one and "no" for the other).  I will use "unknown" *very* sparingly, only when the data provides absolutely no basis for a reasonable guess.  I'll base my predictions on general trends associating education and income with voting patterns.  Higher education and income generally correlate with one party, while lower education and income correlate with the other. "Prefer not to say" will be treated as neutral and will lean towards "unknown".
+
+Here's the breakdown, voter ID by voter ID:
+
+1.  bachelor, <$25k: no
+2.  graduate/professional, <$25k: no
+3.  associate, $75k-$99k: yes
+4.  bachelor, $75k-$99k: yes
+5.  bachelor, $50k-$74k: yes
+6.  some college, prefer not to say: unknown
+7.  less than HS, <$25k: no
+8.  less than HS, <$25k: no
+9.  associate, $50k-$74k: yes
+10. some college, <$25k: no
+11. HS/GED, <$25k: no
+12. associate, $50k-$74k: yes
+13. graduate/professional, <$25k: no
+14. bachelor, $150k+: yes
+15. less than HS, <$25k: no
+16. HS/GED, $50k-$74k: no
+17. less than HS, $50k-$74k: no
+18. graduate/professional, $100k-$149k: yes
+19. prefer not to say, $25k-$49k: unknown
+20. associate, prefer not to say: unknown
+21. bachelor, $25k-$49k: yes
+22. less than HS, <$25k: no
+23. some college, <$25k: no
+24. HS/GED, <$25k: no
+25. HS/GED, $25k-$49k: no
+26. graduate/professional, prefer not to say: unknown
+27. bachelor, $75k-$99k: yes
+28. some college, $150k+: yes
+29. graduate/professional, $25k-$49k: no
+30. associate, $50k-$74k: yes
+31. associate, $100k-$149k: yes
+32. graduate/professional, $100k-$149k: yes
+33. associate, $50k-$74k: yes
+34. prefer not to say, $75k-$99k: unknown
+35. associate, <$25k: no
+36. bachelor, $50k-$74k: yes
+37. some college, $100k-$149k: yes
+38. graduate/professional, prefer not to say: unknown
+39. bachelor, $50k-$74k: yes
+40. less than HS, prefer not to say: unknown
+41. prefer not to say, $100k-$149k: unknown
+42. HS/GED, $50k-$74k: no
+43. prefer not to say, $100k-$149k: unknown
+44. associate, $25k-$49k: yes
+45. some college, $50k-$74k: yes
+46. bachelor, $50k-$74k: yes
+47. graduate/professional, $50k-$74k: yes
+48. prefer not to say, $50k-$74k: unknown
+49. prefer not to say, $25k-$49k: unknown
+50. some college, $150k+: yes
+51. less than HS, $100k-$149k: no
+52. some college, $100k-$149k: yes
+53. HS/GED, $100k-$149k: yes
+54. some college, $75k-$99k: yes
+55. graduate/professional, $50k-$74k: yes
+56. prefer not to say, $75k-$99k: unknown
+57. some college, prefer not to say: unknown
+58. bachelor, <$25k: no
+59. prefer not to say, $75k-$99k: unknown
+60. graduate/professional, $150k+: yes
+61. some college, <$25k: no
+62. prefer not to say, $100k-$149k: unknown
+63. associate, $25k-$49k: yes
+64. HS/GED, prefer not to say: unknown
+65. HS/GED, <$25k: no
+66. prefer not to say, $50k-$74k: unknown
+67. bachelor, $75k-$99k: yes
+68. bachelor, prefer not to say: unknown
+69. graduate/professional, prefer not to say: unknown
+70. HS/GED, $100k-$149k: yes
+71. some college, $25k-$49k: no
+72. graduate/professional, $50k-$74k: yes
+73. prefer not to say, $75k-$99k: unknown
+74. some college, prefer not to say: unknown
+75. less than HS, $100k-$149k: no
+76. associate, $150k+: yes
+77. associate, $50k-$74k: yes
+78. HS/GED, $75k-$99k: yes
+79. less than HS, $100k-$149k: no
+80. prefer not to say, $25k-$49k: unknown
+81. prefer not to say, $50k-$74k: unknown
+82. HS/GED, <$25k: no
+83. bachelor, $150k+: yes
+84. associate, prefer not to say: unknown
+85. graduate/professional, prefer not to say: unknown
+86. HS/GED, prefer not to say: unknown
+87. prefer not to say, $75k-$99k: unknown
+88. bachelor, prefer not to say: unknown
+89. some college, $50k-$74k: yes
+90. bachelor, $25k-$49k: yes
+91. HS/GED, $150k+: yes
+92. some college, $25k-$49k: no
+93. bachelor, <$25k: no
+94. bachelor, $50k-$74k: yes
+95. HS/GED, <$25k: no
+96. HS/GED, prefer not to say: unknown
+97. less than HS, <$25k: no
+98. graduate/professional, prefer not to say: unknown
+99. associate, $75k-$99k: yes
+100. bachelor, $25k-$49k: yes

@@ -1,0 +1,122 @@
+Here's a breakdown of how I'll approach predicting votes, followed by the predictions for each voter.  I'll aim for "yes" or "no" based on likely voter tendencies, and use "unknown" *very* sparingly.
+
+**Reasoning & Assumptions:**
+
+*   **Tax Repeal & Funding Cuts:** This initiative *repeals a tax on high earners* and *reduces funding for education*. This is a complex issue.
+*   **Likely "No" Voters:**  Those likely to prioritize education funding, or who may be negatively impacted by cuts to those services, are likely to vote "no". This includes:
+    *   Parents (difficult to determine from data, so less reliable)
+    *   Those who may benefit from public education/childcare (younger voters, those in lower income brackets - again, hard to infer directly)
+    *   Those who generally favor progressive taxation.
+*   **Likely "Yes" Voters:** Those likely to favor tax cuts, especially high earners, are likely to vote "yes".
+*   **"Prefer not to say" & Unspecified Demographics:** These are the hardest to predict. I'll lean towards "unknown" unless other factors suggest a leaning.
+*   **Age:** Younger voters (18-24) might be more concerned about education funding, but are also less likely to be significantly impacted by capital gains taxes. Older voters (65+) might be more concerned about taxes in general.
+*   **Race/Ethnicity:**  I will *not* make assumptions about voting preferences based on race/ethnicity. This is crucial to avoid bias.
+*   **Urbanicity:** Urban voters may be more likely to support funding for public services like education. Rural voters may be more inclined towards lower taxes.
+*   **Gender/Nonbinary:** I will *not* make assumptions about voting preferences based on gender identity.
+
+**Predictions (voter ID. prediction):**
+
+1.  no
+2.  no
+3.  unknown
+4.  no
+5.  unknown
+6.  yes
+7.  unknown
+8.  no
+9.  yes
+10. no
+11. no
+12. yes
+13. yes
+14. no
+15. yes
+16. no
+17. no
+18. yes
+19. unknown
+20. no
+21. yes
+22. unknown
+23. no
+24. yes
+25. yes
+26. no
+27. unknown
+28. no
+29. no
+30. no
+31. yes
+32. no
+33. yes
+34. no
+35. yes
+36. no
+37. no
+38. unknown
+39. yes
+40. unknown
+41. no
+42. no
+43. yes
+44. yes
+45. no
+46. yes
+47. no
+48. yes
+49. unknown
+50. yes
+51. no
+52. no
+53. no
+54. unknown
+55. yes
+56. no
+57. yes
+58. yes
+59. no
+60. yes
+61. yes
+62. no
+63. unknown
+64. yes
+65. yes
+66. yes
+67. yes
+68. yes
+69. no
+70. no
+71. no
+72. no
+73. yes
+74. no
+75. yes
+76. yes
+77. no
+78. yes
+79. no
+80. yes
+81. unknown
+82. yes
+83. no
+84. yes
+85. yes
+86. unknown
+87. yes
+88. no
+89. no
+90. yes
+91. yes
+92. unknown
+93. no
+94. yes
+95. no
+96. yes
+97. no
+98. yes
+99. yes
+100. no
+
+
+
+**Important Disclaimer:**  These are *predictions* based on limited data and broad assumptions. Actual voting behavior is far more complex and influenced by individual circumstances and beliefs.  I have tried to be as unbiased as possible, but inherent biases may still exist.

@@ -1,0 +1,121 @@
+Here's a prediction of which candidate each voter would support, based on the provided data. This is a complex task with limited information, so the predictions are based on reasonable assumptions about how different demographics might lean in a Washington State Attorney General election.  I'll use "unknown" sparingly, only when the data provides very little signal.
+
+**Assumptions:**
+
+*   **Young Voters (18-24):** Tend to lean more progressive.
+*   **Racial/Ethnic Minorities:** Generally favor Democratic candidates, but this varies.
+*   **Income:** Lower income voters may be more focused on social safety nets and economic issues, potentially leaning Democratic. Higher income voters may lean more conservative.
+*   **Education:** Higher education levels often correlate with more liberal views.
+*   **Religion:**  This is complex, but some generalizations can be made (e.g., Jewish voters often lean Democratic). "Prefer not to say" is treated as neutral.
+*   **Urban/Rural:** Urban areas tend to lean Democratic, rural areas more Republican.
+*   **Marital Status/Number of Kids:** These are less strong predictors but can offer some insight.
+*   **Gender/Nonbinary:** Nonbinary voters are assumed to lean progressive.
+*   **Pete Serrano** is assumed to be the more progressive candidate.
+*   **Nick Brown** is assumed to be the more conservative candidate.
+
+Here are the predictions:
+
+1.  Pete
+2.  Pete
+3.  Pete
+4.  Pete
+5.  Pete
+6.  Nick
+7.  Pete
+8.  Nick
+9.  Pete
+10. Pete
+11. Pete
+12. Nick
+13. Nick
+14. Pete
+15. Nick
+16. Pete
+17. Nick
+18. Pete
+19. Pete
+20. Pete
+21. Pete
+22. Nick
+23. Pete
+24. Nick
+25. Pete
+26. Pete
+27. Pete
+28. Pete
+29. Pete
+30. Pete
+31. Nick
+32. Pete
+33. Pete
+34. Pete
+35. Pete
+36. Pete
+37. Pete
+38. Pete
+39. Pete
+40. Pete
+41. Pete
+42. Pete
+43. Nick
+44. Pete
+45. Pete
+46. Pete
+47. Pete
+48. Pete
+49. Pete
+50. Pete
+51. Nick
+52. Pete
+53. Pete
+54. Nick
+55. Pete
+56. Pete
+57. Nick
+58. Nick
+59. Pete
+60. Pete
+61. Nick
+62. Pete
+63. Pete
+64. Nick
+65. Nick
+66. Pete
+67. Pete
+68. Nick
+69. Pete
+70. Pete
+71. Pete
+72. Pete
+73. Nick
+74. Pete
+75. Nick
+76. Pete
+77. Pete
+78. Pete
+79. Pete
+80. Nick
+81. Pete
+82. Nick
+83. Pete
+84. Nick
+85. Pete
+86. Pete
+87. Pete
+88. Pete
+89. Pete
+90. Pete
+91. Nick
+92. Pete
+93. Nick
+94. Pete
+95. Nick
+96. Pete
+97. Nick
+98. Pete
+99. Pete
+100. Pete
+
+
+
+**Disclaimer:** These are predictions based on limited data and assumptions. Actual voting behavior is complex and influenced by many factors.
