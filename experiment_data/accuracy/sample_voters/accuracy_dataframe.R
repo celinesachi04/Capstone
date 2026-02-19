@@ -1,17 +1,5 @@
----
-title: "Create Voter Data"
-author: "Casey Logan"
-date: "`r Sys.Date()`"
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Accuracy
-
-```{r}
+library(dplyr)
 
 # Files from https://www.sos.wa.gov/elections/data-research/election-data-and-maps/reports-data-and-statistics/voter-demographics
 wa_demographics_file_path <- "C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/Voter Demographics Tables.xlsx"
@@ -25,14 +13,14 @@ wa_counties <- unlist(wa_county_age$County)[-nrow(wa_county_age)]
 
 genders <- colnames(wa_county_gender)[-c(1, ncol(wa_county_gender))]
 return_methods <- c("dropbox", "mail", "other")
-
+voter_id <- sprintf("%03d", 1:N)
 
 
 # Data engineering
 ## P(county)
 county_prop <- unlist(lapply(X=wa_counties,
                              FUN=function(X) {wa_county_age[wa_county_age[, "County"]==X, "Total"] /
-                                        wa_county_age[wa_county_age[, "County"]=="Total", "Total"]}))
+                                 wa_county_age[wa_county_age[, "County"]=="Total", "Total"]}))
 names(county_prop) <- wa_counties
 ## P(age bucket | county)
 wa_age_county_prop <- data.frame("County"=wa_county_age$County)
@@ -55,6 +43,7 @@ wa_gender_county_prop <- wa_gender_county_prop[-nrow(wa_gender_county_prop), ]
 set.seed(496)
 N <- 100
 
+
 sampled_counties <- sample(x=wa_counties, size=N, replace=TRUE, prob=county_prop)
 sampled_ages <- vector(length=N)
 sampled_genders <- vector(length=N)
@@ -66,14 +55,12 @@ for (i in 1:N) {
   sampled_genders[i] <- gender
 }
 
-simulated_voters <- data.frame("county"=sampled_counties,
+simulated_voters <- data.frame("voter_id"=voter_id,
+                               "county"=sampled_counties,
                                "age"=sampled_ages,
                                "gender"=sampled_genders)
 
-write.csv(simulated_voters, "C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/simulated_voters.csv", row.names=FALSE)
-
-
-```
-
-
+write.csv(simulated_voters,
+          "C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/accuracy/sample_voters/sim_wa_voters.csv",
+          row.names = FALSE)
 
