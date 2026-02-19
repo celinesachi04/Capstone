@@ -1,0 +1,113 @@
+Here's a prediction of voting preference based on the provided voter data, leaning on general demographic trends in Washington State for the 2024 State Treasurer race between Mike Pellicciotti and Sharon Hanek.  I'll use the following assumptions (based on available data and typical voting patterns):
+
+*   **Age:** Younger voters (18-34) tend to lean towards Pellicciotti. Older voters (65+) tend to lean towards Hanek. Middle-aged voters (35-54) are more split, with a slight edge to Hanek. 55-64 is also split, leaning slightly towards Hanek.
+*   **Gender:** Women tend to lean towards Pellicciotti. Men are more split, with a slight edge to Hanek.
+*   **County:** King County leans heavily towards Pellicciotti. Other counties are more mixed, but generally lean slightly towards Hanek.
+*   **Unknown/Other Gender:** Will be marked as "unknown" due to lack of information.
+
+Here are the predictions, formatted as requested:
+
+1.  Sharon
+2.  Sharon
+3.  Sharon
+4.  Mike
+5.  Sharon
+6.  Mike
+7.  Sharon
+8.  Mike
+9.  unknown
+10. Sharon
+11. Mike
+12. Mike
+13. Mike
+14. Mike
+15. Mike
+16. Mike
+17. Sharon
+18. Sharon
+19. Mike
+20. Sharon
+21. Mike
+22. Sharon
+23. Sharon
+24. Sharon
+25. Mike
+26. Mike
+27. Sharon
+28. Mike
+29. Sharon
+30. Sharon
+31. Mike
+32. Mike
+33. Mike
+34. Mike
+35. Sharon
+36. Sharon
+37. Mike
+38. Sharon
+39. Mike
+40. Mike
+41. Sharon
+42. Sharon
+43. Mike
+44. Mike
+45. Mike
+46. Mike
+47. Mike
+48. Sharon
+49. Sharon
+50. Sharon
+51. Sharon
+52. Mike
+53. Mike
+54. Mike
+55. Sharon
+56. Mike
+57. Mike
+58. Mike
+59. Mike
+60. Mike
+61. Sharon
+62. Sharon
+63. Sharon
+64. Sharon
+65. Mike
+66. Sharon
+67. Mike
+68. Sharon
+69. Mike
+70. Sharon
+71. Mike
+72. Mike
+73. Mike
+74. Mike
+75. Mike
+76. Sharon
+77. Sharon
+78. Sharon
+79. Sharon
+80. Mike
+81. Sharon
+82. Sharon
+83. unknown
+84. Mike
+85. Sharon
+86. Sharon
+87. Sharon
+88. Sharon
+89. Mike
+90. Sharon
+91. Sharon
+92. Sharon
+93. Sharon
+94. Sharon
+95. Mike
+96. Mike
+97. Mike
+98. Sharon
+99. Mike
+100. Mike
+
+
+
+**Disclaimer:** These are predictions based on generalizations. Individual voting behavior can vary significantly.

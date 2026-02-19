@@ -6,7 +6,7 @@ from google import genai
 os.environ["GOOGLE_CLOUD_PROJECT"] = "STAT-496"
 os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
 
-client = genai.Client(api_key="AIzaSyAc_amSyRb2821ej7QmoUIk36nrYnjuUKs")
+client = genai.Client(api_key="ADD-API-KEY")
 
 base = Path(__file__).parent
 
