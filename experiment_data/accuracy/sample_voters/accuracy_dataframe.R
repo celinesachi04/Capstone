@@ -2,7 +2,7 @@
 library(dplyr)
 
 # Files from https://www.sos.wa.gov/elections/data-research/election-data-and-maps/reports-data-and-statistics/voter-demographics
-wa_demographics_file_path <- "C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/Voter Demographics Tables.xlsx"
+wa_demographics_file_path <- "C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/accuracy/sample_voters/Voter Demographics Tables.xlsx"
 wa_demographics_tabs <- readxl::excel_sheets(wa_demographics_file_path)
 wa_county_age <- readxl::read_excel(wa_demographics_file_path, sheet=wa_demographics_tabs[1])
 wa_county_gender <- readxl::read_excel(wa_demographics_file_path, sheet=wa_demographics_tabs[2])
