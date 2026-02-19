@@ -131,7 +131,7 @@ for (question in names(questions)) {
   all_prompt <- paste0("Voter data (", paste(colnames(df_all), collapse=", "), "): ",
                        paste(all_formatted_data, collapse="; "),
                        ". ", questions[question])
-  all_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\prompts\\all_covariates\\",
+  all_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\prompts\\consistency\\all_covariates\\",
                           question, ".txt")
   writeLines(all_prompt, all_file_path)
   
@@ -139,7 +139,7 @@ for (question in names(questions)) {
   demo_prompt <- paste0("Voter data (", paste(colnames(df_demo), collapse=", "), "): ",
                        paste(demo_formatted_data, collapse="; "),
                        ". ", questions[question])
-  demo_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\prompts\\demo_covariates\\",
+  demo_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\prompts\\consistency\\demo_covariates\\",
                            question, ".txt")
   writeLines(demo_prompt, demo_file_path)
   
@@ -147,7 +147,7 @@ for (question in names(questions)) {
   family_prompt <- paste0("Voter data (", paste(colnames(df_family), collapse=", "), "): ",
                         paste(family_formatted_data, collapse="; "),
                         ". ", questions[question])
-  family_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\prompts\\family_covariates\\",
+  family_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\prompts\\consistency\\family_covariates\\",
                              question, ".txt")
   writeLines(family_prompt, family_file_path)
 
@@ -155,7 +155,7 @@ for (question in names(questions)) {
   ses_prompt <- paste0("Voter data (", paste(colnames(df_ses), collapse=", "), "): ",
                           paste(ses_formatted_data, collapse="; "),
                           ". ", questions[question])
-  ses_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\prompts\\ses_covariates\\",
+  ses_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\prompts\\consistency\\ses_covariates\\",
                              question, ".txt")
   writeLines(ses_prompt, ses_file_path)
 }
