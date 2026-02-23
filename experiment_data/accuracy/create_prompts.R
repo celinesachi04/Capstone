@@ -2,7 +2,7 @@
 # Questions
 ## General questions
 what_party <- paste0("For each voter in the voter data, what party is the voter likely to vote for in the next ",
-                     "U.S. presidential election? Respond with one word, yes no. ",
+                     "U.S. presidential election? Respond with one word, name of party. ",
                      "Can only return unknown sparingly: voter id. prediction")
 vote_democrat <- paste0("For each voter in the voter data, is the voter likely to vote ",
                         "democrat in the next U.S. presidential election? Respond with ",
