@@ -7,7 +7,7 @@ questions <- c("what_party", "vote_democrat", "vote_republican", "vote_third_par
                "carbon_tax_initiative", "insurance_initiative", "supreme_court",
                "governor", "state_treasurer", "attorney_general")
 
-response_data <- data.frame("voter_id"=c(1:100))
+response_data <- read.csv(".\\sample_voters\\sim_wa_voters.csv")
 
 for (question in questions) {
   # Read in txt response file
