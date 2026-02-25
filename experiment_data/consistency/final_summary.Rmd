@@ -1,0 +1,85 @@
+---
+title: "Final Stability Summary Across Prompts"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(readr)
+library(dplyr)
+library(knitr)
+library(purrr)
+```
+
+## Overview
+
+This report summarizes stability across the 19 prompts for each covariate group.
+
+- Overall mean = average of prompt-level `mean_stability_score`
+- Overall SD = standard deviation of prompt-level `mean_stability_score` (variation in consistency across prompts)
+
+```{r final-summary}
+knit_input <- tryCatch(knitr::current_input(), error = function(e) "")
+knit_dir <- if (is.character(knit_input) && length(knit_input) == 1 && nzchar(knit_input)) {
+  dirname(knit_input)
+} else {
+  ""
+}
+
+candidate_dirs <- c(
+  ".",
+  "experiment_data/consistency/clean_responses/stability_summary",
+  knit_dir
+)
+
+summary_probe <- "all_covariates_stability_summary.csv"
+base_dir <- candidate_dirs[
+  which(file.exists(file.path(candidate_dirs, summary_probe)))[1]
+]
+
+if (is.na(base_dir)) {
+  stop("Could not locate summary CSV files. Set working directory to the project root or the stability_summary folder.")
+}
+
+summary_files <- tibble::tribble(
+  ~covariate_group, ~file_name,
+  "all_covariates", "all_covariates_stability_summary.csv",
+  "demo_covariates", "demo_covariates_stability_summary.csv",
+  "family_covariates", "family_covariates_stability_summary.csv",
+  "ses_covariates", "ses_covariates_stability_summary.csv"
+)
+
+final_summary <- purrr::pmap_dfr(
+  summary_files,
+  function(covariate_group, file_name) {
+    data <- read_csv(file.path(base_dir, file_name), show_col_types = FALSE)
+    tibble(
+      covariate_group = covariate_group,
+      n_prompts = nrow(data),
+      overall_mean = mean(data$mean_stability_score, na.rm = TRUE),
+      overall_sd = sd(data$mean_stability_score, na.rm = TRUE)
+    )
+  }
+) %>%
+  mutate(
+    overall_mean = round(overall_mean, 4),
+    overall_sd = round(overall_sd, 4)
+  )
+
+kable(
+  final_summary,
+  col.names = c("Covariate Group", "Prompts", "Overall Mean", "Overall SD"),
+  caption = "Final stability summary across prompts"
+)
+```
+
+## Summary Interpretation
+
+The **overall mean** summarizes average stability across the 19 prompts for each covariate group. Higher values indicate more consistent responses overall. The **overall SD** summarizes how much stability changes from one prompt to another within that group. Lower SD means consistency is more uniform across prompts, while higher SD means prompt-to-prompt variability is larger.
+
+- **all_covariates** (Mean = 0.9306, SD = 0.0711): This group shows the highest average stability and the lowest variability across prompts. Responses are both highly consistent and relatively uniform from prompt to prompt.
+- **demo_covariates** (Mean = 0.8846, SD = 0.1355): This group has strong average stability, but with moderate variation across prompts. Some prompts appear more stable than others.
+- **family_covariates** (Mean = 0.8009, SD = 0.1878): This group has the lowest average stability and the highest prompt-to-prompt variability. Consistency is weaker overall and less uniform across prompts.
+- **ses_covariates** (Mean = 0.8978, SD = 0.1255): This group shows high average stability with moderate variability. It is more stable than demo and family on average, though not as consistently high as all_covariates.
+
+Overall, the pattern suggests that combining all covariates yields the most stable and most uniform behavior, while family covariates alone produce the least stable and most variable behavior across prompts.
