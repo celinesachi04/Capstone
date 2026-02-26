@@ -88,7 +88,7 @@ sim_wa_voters <- read.csv("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experi
 formatted_data <- apply(X=sim_wa_voters, MARGIN=1, FUN=function(X) paste(X, collapse=", "))
 data_string <- paste0("Voter data (", paste(colnames(sim_wa_voters), collapse=", "), "): ")
                        
-questions <- c("what_party"=what_party, "vote_democrat"=what_party, "vote_republican"=what_party,
+questions <- c("what_party"=what_party, "vote_democrat"=vote_democrat, "vote_republican"=vote_republican,
                "vote_third_party"=vote_third_party,
                "president_vote"=president_vote, "wa_senator"=wa_senator, "energy_initiative"=energy_initiative,
                "taxes_initiative"=taxes_initiative, "carbon_tax_initiative"=carbon_tax_initiative,

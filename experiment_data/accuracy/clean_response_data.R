@@ -30,10 +30,12 @@ for (question in questions) {
 }
 
 
-# Fix what_party format
-
+# Fix specific columns
 response_values <- stringr::str_split_fixed(response_data$what_party, ". ", 2)
 response_data$what_party <- response_values[, 2]
+response_data <- response_data %>%
+  mutate(across(where(is.character), stringr::str_trim, side="left"))
+
 
 # Save data frame as csv file
 write.csv(response_data, file=".\\response_data.csv", row.names=FALSE)

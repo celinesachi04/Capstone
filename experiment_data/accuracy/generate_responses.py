@@ -6,13 +6,14 @@ from google import genai
 os.environ["GOOGLE_CLOUD_PROJECT"] = "STAT-496"
 os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
 
-client = genai.Client(api_key="ADD-API-KEY")
+client = genai.Client(api_key="AIzaSyDfcSETQ_3cGsS1ne-QX88qcMVvnPjh3do")
 
 base = Path(__file__).parent
 
-questions = ["what_party", "vote_democrat", "vote_republican", "vote_third_party", "president_vote",
-             "wa_senator", "energy_initiative", "taxes_initiative", "carbon_tax_initiative", "insurance_initiative",
-             "supreme_court", "governor", "state_treasurer", "attorney_general"]
+questions = ["vote_democrat", "vote_republican"]
+#questions = ["what_party", "vote_democrat", "vote_republican", "vote_third_party", "president_vote",
+#             "wa_senator", "energy_initiative", "taxes_initiative", "carbon_tax_initiative", "insurance_initiative",
+#             "supreme_court", "governor", "state_treasurer", "attorney_general"]
 
 # Configurations
 MODEL_NAME = "models/gemma-3-27b-it"
