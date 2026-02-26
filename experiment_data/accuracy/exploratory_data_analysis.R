@@ -1,8 +1,7 @@
 
 library(ggplot2)
 
-setwd("C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/accuracy")
-response_data <- read.csv(".\\sample_voters\\sim_wa_voters.csv")
+response_data <- read.csv("C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/accuracy/response_data.csv")
 n <- nrow(response_data)
 
 ggplot(response_data, mapping=aes(x=county, y=age, shape=gender, color=what_party)) +
@@ -19,15 +18,8 @@ nrow(response_data %>% filter(vote_democrat=="no",
                               vote_republican=="no",
                               vote_third_party=="yes"))
 
-nrow(response_data %>% filter(what_party=="Democrat",
-                              vote_democrat=="yes"))
-nrow(response_data %>% filter(what_party=="Democrat",
-                              vote_democrat=="no"))
-nrow(response_data %>% filter(what_party=="Republican",
-                              vote_republican=="yes"))
-nrow(response_data %>% filter(what_party=="Republican",
-                              vote_republican=="no"))
 table(response_data %>% select(what_party, vote_democrat))
+table(response_data %>% select(what_party, vote_republican))
 
 
 # Ideally, would want this number to be 1.0
