@@ -53,4 +53,65 @@ for (row in 1:nrow(response_data)) {
   response_data[row, "pop_proportion"] <- prop
 }
 
-response_data[, "pop_counts"] <- response_data$pop_proportion * N
+
+# Probability of vote prediction ------------------------------------------
+
+setwd("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\accuracy") # data from https://results.vote.wa.gov/results/20241105/export.html
+county_data <- read.csv("20241105_allcounties.csv") %>%
+  mutate(Candidate=ifelse(Candidate=="Yes", "yes", ifelse(Candidate=="No", "no", Candidate)))
+questions <- c("what_party"="what_party", "vote_democrat"="vote_democrat",
+               "vote_republican"="vote_republican", "vote_third_party"="vote_third_party",
+               "United States President/Vice President"="president_vote",
+               "United States U.S. Senator"="wa_senator",
+               "Washington State Initiative Measure No. 2066"="energy_initiative",
+               "Washington State Initiative Measure No. 2109"="taxes_initiative",
+               "Washington State Initiative Measure No. 2117"="carbon_tax_initiative",
+               "Washington State Initiative Measure No. 2124"="insurance_initiative",
+               "SUPREME COURT Justice Position #02"="supreme_court",
+               "Washington State Governor"="governor",
+               "Washington State State Treasurer"="state_treasurer",
+               "Washington State State Treasurer"="attorney_general")
+
+
+get_counts <- function(county, measure, vote) {
+  measure_name <- names(which(questions==measure))
+  count <- (county_data %>% filter(County==county, Race==measure_name, grepl(vote, Candidate)))["Votes"]
+  return(unlist(count))
+  }
+
+
+
+# Get expected counts for 1 question: president_vote
+question <- "president_vote"
+question_data <- response_data %>% count(county, age, gender, !!sym(question))
+
+for (row in 1:nrow(question_data)) {
+  county <- question_data[row, "county"]
+  measure_name <- names(which(questions==question))
+  vote <- question_data[row, question]
+  count <- (county_data %>% filter(County==county, Race==measure_name, grepl(vote, Candidate)))["Votes"]
+  question_data[row, "expected_count"] <- count
+}
+
+apply(X=question_data, MARGIN=1, FUN=get_counts("county", question, "question"))
+question_data %>%
+  rowwise() %>%
+  mutate("expected_counts"=get_counts(county=county, measure=question, vote=president_vote))
+
+# for (question in questions) {
+#   
+#   
+# }
+# 
+# test <- response_data[1, ]
+# 
+# for (row in 1:nrow(test)) {
+#   county <- unlist(response_data[row, "county"])
+#   
+#   for (question in questions) {
+#     
+#   }
+# }
+
+
+
