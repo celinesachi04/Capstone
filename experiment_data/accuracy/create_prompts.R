@@ -18,7 +18,7 @@ vote_third_party <- paste0("For each voter in the voter data, is the voter likel
 ### Federal:
 president_vote <- paste0("For each voter in the voter data, who would the voter vote ",
                          "for in the 2024 general election for President/Vice President? ",
-                         "Respond with only the first name of the presidential candidate. ",
+                         "Respond with only the first name of the presidential candidate, not Kamala. ",
                          "Can only return unknown sparingly: voter id. prediction")
 wa_senator <- paste0("For each voter in the voter data, would the voter vote for Maria Cantwell ",
                      "or Dr Raul Garcia for U.S. Senator for Washington State in the 2024 ",

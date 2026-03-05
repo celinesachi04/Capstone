@@ -2,7 +2,7 @@
 # Questions
 ## General questions
 what_party <- paste0("For each voter in the voter data, what party is the voter likely to vote for in the next ",
-                     "U.S. presidential election? Respond with one word, yes no. ",
+                     "U.S. presidential election? Respond with one word, name of party. ",
                      "Can only return unknown sparingly: voter id. prediction")
 vote_democrat <- paste0("For each voter in the voter data, is the voter likely to vote ",
                         "democrat in the next U.S. presidential election? Respond with ",
@@ -40,7 +40,7 @@ religion_government <- paste0("For each voter in the voter data, which of the fo
 ### Federal:
 president_vote <- paste0("For each voter in the voter data, who would the voter vote ",
                          "for in the 2024 general election for President/Vice President? ",
-                         "Respond with only the first name of the presidential candidate. ",
+                         "Respond with only the first name of the presidential candidate, not Kamala. ",
                          "Can only return unknown sparingly: voter id. prediction")
 wa_senator <- paste0("For each voter in the voter data, would the voter vote for Maria Cantwell ",
                      "or Dr Raul Garcia for U.S. Senator for Washington State in the 2024 ",
@@ -116,7 +116,7 @@ demo_formatted_data <- apply(X=df_demo, MARGIN=1, FUN=function(X) paste(X, colla
 family_formatted_data <- apply(X=df_family, MARGIN=1, FUN=function(X) paste(X, collapse=", "))
 ses_formatted_data <- apply(X=df_ses, MARGIN=1, FUN=function(X) paste(X, collapse=", "))
 
-questions <- c("what_party"=what_party, "vote_democrat"=what_party, "vote_republican"=what_party,
+questions <- c("what_party"=what_party, "vote_democrat"=vote_democrat, "vote_republican"=vote_republican,
                "vote_third_party"=vote_third_party, "easy_to_predict"=easy_to_predict,
                "gov_services"=gov_services, "corporation_profit"=corporation_profit,
                "candidates_view"=candidates_view, "religion_government"=religion_government,
@@ -131,7 +131,7 @@ for (question in names(questions)) {
   all_prompt <- paste0("Voter data (", paste(colnames(df_all), collapse=", "), "): ",
                        paste(all_formatted_data, collapse="; "),
                        ". ", questions[question])
-  all_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\consistncy\\prompts\\all_covariates\\",
+  all_file_path <- paste0("C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/consistency/prompts/all_covariates/",
                           question, ".txt")
   writeLines(all_prompt, all_file_path)
   
@@ -155,7 +155,7 @@ for (question in names(questions)) {
   ses_prompt <- paste0("Voter data (", paste(colnames(df_ses), collapse=", "), "): ",
                           paste(ses_formatted_data, collapse="; "),
                           ". ", questions[question])
-  ses_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\consistncy\\prompts\\ses_covariates\\",
+  ses_file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\consistency\\prompts\\ses_covariates\\",
                              question, ".txt")
   writeLines(ses_prompt, ses_file_path)
 }
