@@ -1,0 +1,156 @@
+---
+title: "Exploratory Data Analysis: Consistency"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+
+library(readr)
+library(dplyr)
+library(stringr)
+library(ggplot2)
+```
+
+## Load Summary Data
+
+```{r load-data}
+summary_dir <- "experiment_data/consistency/clean_responses/stability_summary"
+
+summary_files <- c(
+  all_covariates = "all_covariates_stability_summary.csv",
+  demo_covariates = "demo_covariates_stability_summary.csv",
+  family_covariates = "family_covariates_stability_summary.csv",
+  ses_covariates = "ses_covariates_stability_summary.csv"
+)
+
+load_summary <- function(group_name, file_name) {
+  d <- read_csv(file.path(summary_dir, file_name), show_col_types = FALSE)
+  d %>%
+    mutate(
+      group = group_name,
+      prompt = str_remove(csv_file, "^all_covariates_|^demo_covariates_|^family_covariates_|^ses_covariates_"),
+      prompt = str_remove(prompt, "\\.csv$")
+    )
+}
+
+all_cov <- load_summary("all_covariates", summary_files[["all_covariates"]])
+demo_cov <- load_summary("demo_covariates", summary_files[["demo_covariates"]])
+family_cov <- load_summary("family_covariates", summary_files[["family_covariates"]])
+ses_cov <- load_summary("ses_covariates", summary_files[["ses_covariates"]])
+```
+
+## Plot Function
+
+```{r plot-function}
+plot_prompt_summary <- function(df, title_text, fill_color) {
+  df %>%
+    arrange(prompt) %>%
+    mutate(prompt = factor(prompt, levels = rev(unique(prompt)))) %>%
+    ggplot(aes(x = prompt, y = mean_stability_score)) +
+    geom_col(fill = fill_color, alpha = 0.85, width = 0.75) +
+    geom_errorbar(
+      aes(
+        ymin = pmax(0, mean_stability_score - std_stability_score),
+        ymax = pmin(1, mean_stability_score + std_stability_score)
+      ),
+      width = 0.2,
+      color = "gray25"
+    ) +
+    coord_flip() +
+    ylim(0, 1.05) +
+    labs(
+      title = title_text,
+      x = "Prompt",
+      y = "Mean Stability (error bar = +/- SD)"
+    ) +
+    theme_classic(base_size = 12) +
+    theme(
+      plot.title = element_text(face = "bold"),
+      axis.text.y = element_text(size = 8)
+    )
+}
+```
+
+## 1) All Covariates
+
+```{r plot-all}
+plot_all <- plot_prompt_summary(
+  all_cov,
+  "All Covariates: Prompt-Level Stability",
+  "#3B82F6"
+)
+plot_all
+```
+
+## 2) Demo Covariates
+
+```{r plot-demo}
+plot_demo <- plot_prompt_summary(
+  demo_cov,
+  "Demo Covariates: Prompt-Level Stability",
+  "#10B981"
+)
+plot_demo
+```
+
+## 3) Family Covariates
+
+```{r plot-family}
+plot_family <- plot_prompt_summary(
+  family_cov,
+  "Family Covariates: Prompt-Level Stability",
+  "#F59E0B"
+)
+plot_family
+```
+
+## 4) SES Covariates
+
+```{r plot-ses}
+plot_ses <- plot_prompt_summary(
+  ses_cov,
+  "SES Covariates: Prompt-Level Stability",
+  "#EF4444"
+)
+plot_ses
+```
+
+## Save 4 PNG Files
+
+```{r save-png}
+out_dir <- "experiment_data/consistency"
+if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
+
+ggsave(
+  filename = file.path(out_dir, "eda_all_covariates_summary.png"),
+  plot = plot_all,
+  width = 10,
+  height = 8,
+  dpi = 300
+)
+
+ggsave(
+  filename = file.path(out_dir, "eda_demo_covariates_summary.png"),
+  plot = plot_demo,
+  width = 10,
+  height = 8,
+  dpi = 300
+)
+
+ggsave(
+  filename = file.path(out_dir, "eda_family_covariates_summary.png"),
+  plot = plot_family,
+  width = 10,
+  height = 8,
+  dpi = 300
+)
+
+ggsave(
+  filename = file.path(out_dir, "eda_ses_covariates_summary.png"),
+  plot = plot_ses,
+  width = 10,
+  height = 8,
+  dpi = 300
+)
+```
