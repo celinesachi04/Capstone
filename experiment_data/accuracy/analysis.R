@@ -92,12 +92,7 @@ for (row in 1:nrow(question_data)) {
   count <- (county_data %>% filter(County==county, Race==measure_name, grepl(vote, Candidate)))["Votes"]
   question_data[row, "expected_count"] <- count
 }
-
-apply(X=question_data, MARGIN=1, FUN=get_counts("county", question, "question"))
-question_data %>%
-  rowwise() %>%
-  mutate("expected_counts"=get_counts(county=county, measure=question, vote=president_vote))
-
+g
 # for (question in questions) {
 #   
 #   
