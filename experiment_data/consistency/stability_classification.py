@@ -72,13 +72,13 @@ def classify(values: list[str], num_labels: int) -> tuple[float, str]:
     return score, label
 
 
-def process_csv(path: Path) -> tuple[str, str, str]:
+def process_csv(path: Path) -> tuple[str, str, str] | None:
     with path.open("r", newline="", encoding="utf-8") as infile:
         reader = csv.reader(infile)
         rows = list(reader)
 
     if not rows:
-        return
+        return None
 
     header = rows[0][:5]
     data_rows = [r[:5] for r in rows[1:] if r]
@@ -127,7 +127,9 @@ def main() -> None:
 
     rules_rows = [["csv_file", "response_to_number", "classification_rules"]]
     for csv_path in csv_paths:
-        rules_rows.append(list(process_csv(csv_path)))
+        result = process_csv(csv_path)
+        if result is not None:
+            rules_rows.append(list(result))
 
     rules_path = BASE_DIR / "stability_classification_rules.csv"
     with rules_path.open("w", newline="", encoding="utf-8") as outfile:
