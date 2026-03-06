@@ -3,59 +3,48 @@
 ## General questions
 what_party <- paste0("For each voter in the voter data, what party is the voter likely to vote for in the next ",
                      "U.S. presidential election? Respond with one word, name of party. ",
-                     "Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                     "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                     "Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 vote_democrat <- paste0("For each voter in the voter data, is the voter likely to vote ",
                         "democrat in the next U.S. presidential election? Respond with ",
-                        "one word, yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                        "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                        "one word, yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 vote_republican <- paste0("For each voter in the voter data, is the voter likely to vote ",
                           "republican in the next U.S. presidential election? Respond with ",
-                          "one word, yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                          "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                          "one word, yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 vote_third_party <- paste0("For each voter in the voter data, is the voter likely to vote third party in the next U.S. ",
-                           "presidential election? Respond with one word, yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                           "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                           "presidential election? Respond with one word, yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 easy_to_predict <- paste0("For each voter in the voter data, is their behavior easy to predict? Respond with one word, ",
-                          "yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                          "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                          "yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 
 ## Pew study questions: https://www.pewresearch.org/politics/quiz/political-typology/
   
 gov_services <- paste0("for each voter in the voter data , does the voter think A: small government providing ",
                        "fewer services; or B: bigger government providing more services; ",
-                       "Respond with only A B. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                       "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                       "Respond with only A B. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 corporation_profit <- paste0("Does this voter think A: Business corporations make ",
                              "too much profit or B: Most corporations make a fair ",
                              "and reasonable amount of profit. ",
-                             " Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                             "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                             " Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 candidates_view <- paste0("for each voter in the voter data, which comes closer to the voters view of candidates ",
                           "for political office, even if neither is exactly right? ",
                           "A: There is at least one candidate who shares most of my ",
                           "views; B: None of the candidates represent my views well. ",
-                          "Respond with only A B. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                          "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                          "Respond with only A B. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 religion_government <- paste0("For each voter in the voter data, which of the following ",
                               "statements comes closest to their view? Religion should ",
                               "be kept separate from government policies Government policies ",
                               "should support religious values and beliefs. Respond with only A B. ",
-                              " Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                              "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                              " Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 
 ## Specific voting: https://www.sos.wa.gov/elections/data-research/election-results-and-voters-pamphlets/2024-general-election-voters-guide
 ### Federal:
 president_vote <- paste0("For each voter in the voter data, who would the voter vote ",
                          "for in the 2024 general election for President/Vice President? ",
                          "Respond with only the first name of the presidential candidate, not Kamala. ",
-                         " Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                         "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                         " Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 wa_senator <- paste0("For each voter in the voter data, would the voter vote for Maria Cantwell ",
                      "or Dr Raul Garcia for U.S. Senator for Washington State in the 2024 ",
                      "General Election? Respond with only the first name of the candidate. ",
-                     " Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                     "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                     " Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 ### State:
 energy_initiative <- paste0("For each voter in the voter data, how would the voter vote on the following: ",
                             "Initiative Measure No. 2066 concerns regulating energy services, ",
@@ -64,8 +53,7 @@ energy_initiative <- paste0("For each voter in the voter data, how would the vot
                             "use and/or promote electrification, and require certain utilities and ",
                             "local governments to provide natural gas to eligible customers. Should ",
                             "this measure be enacted into law? Respond with one word, yes no. Rules (MUST follow all): Can ",
-                            "only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                            "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                            "only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 taxes_initiative <- paste0("For each voter in the voter data, how would the voter vote on the following: ",
                            "Initiative Measure No. 2109 concerns taxes. This measure would repeal ",
                            "an excise tax imposed on the sale or exchange of certain long-term ",
@@ -73,8 +61,7 @@ taxes_initiative <- paste0("For each voter in the voter data, how would the vote
                            "$250,000. This measure would decrease funding for K-12 education, ",
                            "higher education, school construction, early learning, and childcare. ",
                            "Should this measure be enacted into law? Respond with one word, yes no. Rules (MUST follow all): Can ",
-                           "only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                           "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                           "only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 carbon_tax_initiative <- paste0("For each voter in the voter data, how would the voter vote on the following: ",
                                 "Initiative Measure No. 2117 concerns carbon tax credit trading. This ",
                                 "measure would prohibit state agencies from imposing any type of ",
@@ -83,8 +70,7 @@ carbon_tax_initiative <- paste0("For each voter in the voter data, how would the
                                 "measure would decrease funding for investments in transportation, ",
                                 "clean air, renewable energy, conservation, and emissions-reduction. ",
                                 "Should this measure be enacted into law? Respond with one word, yes no. Rules (MUST follow all): Can ",
-                                "only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                                "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                                "only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 insurance_initiative <- paste0("For each voter in the voter data, how would the voter vote on the following: ",
                                "Initiative Measure No. 2124 concerns state long term care insurance. ",
                                "This measure would provide that employees and self-employed people must ",
@@ -92,33 +78,28 @@ insurance_initiative <- paste0("For each voter in the voter data, how would the 
                                "would also repeal a law governing an exemption for employees. This measure ",
                                "would decrease funding for Washington’s public insurance program providing ",
                                "long-term care benefits and services. Should this measure be enacted into law?",
-                               "Respond with one word, yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                               "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                               "Respond with one word, yes no. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 
 supreme_court <- paste0("For each voter in the voter data, would the voter vote ",
                         "for Sal Mungia or Dave Larson for Supreme Court Justice Position ",
                         "#02 in Washington State, in the 2024 general election?, Respond ",
-                        "with only the first name of the candidate. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                        "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                        "with only the first name of the candidate. Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 
 governor <- paste0("For each voter in the voter data, would the voter vote ",
                    "for Bob Ferguson or Dave Reichert for Governor ",
                    "in Washington State, in the 2024 general election?, Respond ",
                    "with only the first name of the candidate. Rules (MUST follow all): Can only return unknown ",
-                   "sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                   "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                   "sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 state_treasurer <- paste0("For each voter in the voter data, would the voter vote ",
                           "for Mike Pellicciotti or Sharon Hanek for State Treasurer ",
                           "in Washington State, in the 2024 general election?, Respond ",
                           "with only the first name of the candidate. Rules (MUST follow all): Can only return unknown ",
-                          "sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                          "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                          "sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 attorney_general <- paste0("For each voter in the voter data, would the voter vote ",
                            "for Pete Serrano or Nick Brown for Attorney General ",
                            "in Washington State, in the 2024 general election?, Respond ",
                            "with only the first name of the candidate. Rules (MUST follow all): Can only return unknown ",
-                           "sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                           "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                           "sparingly, do not omit any voter, Produce EXACTLY 100 predictions with the output in the order of voter_id's given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 
 
 # Save questions as files
