@@ -1,102 +1,102 @@
-Here's a prediction for each voter, based on the provided data and a general understanding of demographic trends related to long-term care insurance initiatives.  It's important to remember this is speculative, as individual voting behavior is complex. I'm leaning towards "no" for younger voters and those who might be less financially secure, and "yes" for older voters who are more likely to need long-term care.
+Here's a prediction for each voter, based on the provided demographic data and the description of Initiative Measure No. 2124.  The reasoning is based on general trends – older voters tend to be more conservative with finances (potentially favoring opting out of a program), while younger voters might be more inclined to support social safety nets. Gender is considered less impactful here, but included in the overall assessment.  I've used "unknown" sparingly, prioritizing a prediction for each voter.
 
-1. 24. no
-2. 69. no
-3. 10. yes
-4. 91. yes
-5. 76. yes
-6. 42. yes
-7. 8. no
-8. 35. yes
-9. 12. no
-10. 93. yes
-11. 98. yes
-12. 23. yes
-13. 56. no
-14. 88. yes
-15. 79. yes
-16. 3. yes
-17. 90. yes
-18. 5. yes
-19. 53. yes
-20. 82. yes
-21. 55. yes
-22. 62. yes
-23. 15. no
-24. 29. yes
-25. 44. yes
-26. 17. yes
-27. 74. no
-28. 61. yes
-29. 7. no
-30. 19. no
-31. 13. no
-32. 54. no
-33. 81. yes
-34. 4. no
-35. 60. no
-36. 30. yes
-37. 16. no
-38. 1. yes
-39. 27. no
-40. 2. no
-41. 92. yes
-42. 97. no
-43. 38. yes
-44. 51. yes
-45. 99. no
-46. 34. no
-47. 96. no
-48. 78. yes
-49. 94. yes
-50. 64. yes
-51. 87. yes
-52. 26. no
-53. 70. yes
-54. 31. no
-55. 40. no
-56. 32. no
-57. 28. no
-58. 33. no
-59. 52. no
-60. 37. no
-61. 11. no
-62. 65. no
-63. 75. yes
-64. 89. no
-65. 18. yes
-66. 84. yes
-67. 45. no
-68. 66. yes
-69. 50. yes
-70. 22. yes
-71. 67. no
-72. 86. yes
-73. 63. yes
-74. 71. yes
-75. 100. no
-76. 57. yes
-77. 58. no
-78. 47. no
-79. 46. no
-80. 83. yes
-81. 14. no
-82. 73. no
-83. 39. no
-84. 9. no
-85. 59. yes
-86. 72. no
-87. 36. yes
-88. 95. no
-89. 77. yes
-90. 41. yes
-91. 20. yes
-92. 43. no
-93. 48. yes
-94. 49. yes
-95. 21. no
-96. 68. yes
-97. 85. yes
-98. 80. yes
-99. 25. no
-100. 100. no
+1. yes
+2. no
+3. no
+4. no
+5. no
+6. yes
+7. yes
+8. no
+9. no
+10. no
+11. no
+12. yes
+13. no
+14. no
+15. no
+16. no
+17. no
+18. no
+19. no
+20. yes
+21. no
+22. yes
+23. yes
+24. no
+25. no
+26. no
+27. no
+28. no
+29. yes
+30. yes
+31. no
+32. no
+33. no
+34. no
+35. yes
+36. yes
+37. no
+38. yes
+39. no
+40. no
+41. yes
+42. no
+43. no
+44. yes
+45. no
+46. no
+47. no
+48. yes
+49. yes
+50. no
+51. no
+52. no
+53. yes
+54. no
+55. yes
+56. no
+57. yes
+58. no
+59. yes
+60. no
+61. yes
+62. yes
+63. no
+64. yes
+65. no
+66. yes
+67. no
+68. yes
+69. no
+70. no
+71. yes
+72. no
+73. no
+74. no
+75. yes
+76. yes
+77. yes
+78. no
+79. yes
+80. yes
+81. yes
+82. yes
+83. unknown
+84. no
+85. no
+86. yes
+87. yes
+88. yes
+89. no
+90. yes
+91. yes
+92. no
+93. no
+94. yes
+95. no
+96. no
+97. no
+98. no
+99. no
+100. no

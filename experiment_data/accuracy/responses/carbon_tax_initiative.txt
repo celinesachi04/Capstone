@@ -1,102 +1,102 @@
-Here's a prediction for each voter, based on the provided demographic data and the description of Initiative Measure No. 2117. The reasoning leans on general voting patterns – older voters and those in more rural/conservative counties (like Benton, Spokane, Grant) are more likely to oppose carbon taxes, while younger voters and those in urban areas (like King, Snohomish) are more likely to support them.  However, this is a simplification, and individual votes can vary.
+Here's a prediction of how each voter would vote on Initiative Measure No. 2117, based on the provided data and general voting patterns.  I've made assumptions based on age, gender, and county, leaning towards "no" for younger voters, females, and those in more environmentally conscious counties (King, Pierce, Snohomish) and "yes" for older voters, males, and those in more conservative/rural counties.  "Unknown" is used sparingly.
 
-1. 63. no
-2. 98. no
-3. 28. yes
-4. 55. no
-5. 26. yes
-6. 45. yes
-7. 87. no
-8. 18. no
-9. 68. no
-10. 38. no
-11. 50. no
-12. 72. yes
-13. 58. yes
-14. 89. yes
-15. 100. yes
-16. 12. yes
-17. 48. no
-18. 53. yes
-19. 30. no
-20. 51. yes
-21. 85. no
-22. 75. yes
-23. 22. no
-24. 88. no
-25. 8. yes
-26. 19. no
-27. 71. yes
-28. 41. no
-29. 79. no
-30. 59. yes
-31. 49. no
-32. 61. no
-33. 3. no
-34. 36. no
-35. 80. yes
-36. 34. no
-37. 16. yes
-38. 86. no
-39. 42. no
-40. 69. yes
-41. 95. yes
-42. 81. no
-43. 91. no
-44. 21. yes
-45. 60. yes
-46. 29. no
-47. 77. no
-48. 84. yes
-49. 33. yes
-50. 66. no
-51. 64. no
-52. 17. no
-53. 73. yes
-54. 62. no
-55. 11. yes
-56. 37. yes
-57. 46. yes
-58. 76. no
-59. 9. unknown
-60. 82. no
-61. 54. yes
-62. 23. no
-63. 7. no
-64. 92. no
-65. 83. unknown
-66. 44. no
-67. 14. yes
-68. 47. yes
-69. 6. yes
-70. 4. no
-71. 2. no
-72. 52. yes
-73. 78. yes
-74. 10. yes
-75. 97. yes
-76. 15. no
-77. 25. yes
-78. 39. yes
-79. 90. no
-80. 35. no
-81. 99. no
-82. 43. no
-83. 31. yes
-84. 74. yes
-85. 94. yes
-86. 67. yes
-87. 96. no
-88. 24. yes
-89. 70. no
-90. 57. yes
-91. 65. yes
-92. 32. no
-93. 1. no
-94. 27. yes
-95. 93. no
-96. 20. no
-97. 56. no
-98. 40. yes
-99. 13. yes
-100. 8. yes
+1. yes
+2. no
+3. yes
+4. no
+5. yes
+6. no
+7. yes
+8. no
+9. yes
+10. no
+11. no
+12. no
+13. no
+14. no
+15. yes
+16. no
+17. no
+18. no
+19. no
+20. yes
+21. no
+22. yes
+23. yes
+24. no
+25. no
+26. no
+27. no
+28. no
+29. no
+30. yes
+31. no
+32. no
+33. no
+34. no
+35. yes
+36. yes
+37. no
+38. yes
+39. no
+40. no
+41. no
+42. yes
+43. no
+44. yes
+45. no
+46. no
+47. no
+48. yes
+49. yes
+50. yes
+51. no
+52. no
+53. no
+54. no
+55. yes
+56. no
+57. yes
+58. no
+59. no
+60. no
+61. yes
+62. yes
+63. yes
+64. yes
+65. no
+66. yes
+67. no
+68. yes
+69. no
+70. yes
+71. yes
+72. no
+73. no
+74. no
+75. yes
+76. yes
+77. yes
+78. yes
+79. yes
+80. yes
+81. yes
+82. yes
+83. unknown
+84. yes
+85. yes
+86. yes
+87. yes
+88. yes
+89. no
+90. yes
+91. yes
+92. yes
+93. yes
+94. yes
+95. no
+96. no
+97. no
+98. yes
+99. yes
+100. yes

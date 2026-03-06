@@ -1,39 +1,31 @@
-Here's a prediction for each voter, based on the provided data and general voting trends. Please remember this is a simplified model and real-world voting behavior is far more complex. The assumptions are:
+Here's a prediction for each voter, based on the provided data, aiming for a "yes" or "no" response, with "unknown" used sparingly. The logic prioritizes age and county as indicators, with gender as a minor factor. Younger voters (18-34) and those in more politically diverse counties (King, Snohomish) are more likely to be predicted as "yes". Older voters (65+) and those in consistently red/blue counties (Yakima, Spokane) are more likely to be "no".
 
-*   **Younger Voters (18-24 & 25-34):** More likely to consider third parties.
-*   **Gender:** Women are slightly more likely to lean towards Democratic candidates, while men are slightly more likely to lean towards Republican candidates. Third-party consideration is assumed equal.
-*   **Age (45+):** Less likely to vote third party, generally more set in their political views.
-*   **County:** No specific county-level assumptions are made, as the data doesn't provide enough information to establish trends.
-*   **Unknown/Other Gender:** Treated as neutral.
-
-Here's the output, sorted by voter\_id:
-
-1. no
-2. yes
-3. yes
-4. yes
-5. no
+1. yes
+2. no
+3. no
+4. no
+5. yes
 6. no
 7. no
 8. no
 9. yes
 10. no
 11. no
-12. no
+12. yes
 13. yes
 14. no
-15. yes
-16. no
-17. yes
-18. yes
+15. no
+16. yes
+17. no
+18. no
 19. yes
 20. no
-21. no
+21. yes
 22. no
 23. no
-24. no
+24. yes
 25. yes
-26. no
+26. yes
 27. no
 28. yes
 29. no
@@ -41,15 +33,15 @@ Here's the output, sorted by voter\_id:
 31. yes
 32. yes
 33. yes
-34. yes
+34. no
 35. no
 36. no
-37. no
+37. yes
 38. no
-39. no
+39. yes
 40. no
 41. no
-42. yes
+42. no
 43. yes
 44. no
 45. yes
@@ -70,16 +62,16 @@ Here's the output, sorted by voter\_id:
 60. yes
 61. no
 62. no
-63. yes
+63. no
 64. no
 65. yes
 66. no
-67. no
+67. yes
 68. no
 69. yes
 70. no
 71. no
-72. no
+72. yes
 73. no
 74. yes
 75. no
@@ -92,14 +84,14 @@ Here's the output, sorted by voter\_id:
 82. no
 83. unknown
 84. no
-85. yes
+85. no
 86. no
 87. no
 88. no
 89. no
 90. no
 91. no
-92. yes
+92. no
 93. no
 94. no
 95. yes

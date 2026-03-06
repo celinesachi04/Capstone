@@ -26,15 +26,16 @@ for (question in questions) {
   
   # Merge data into final data frame
   response_data <- merge(x=response_data, y=question_data, by="voter_id", all=TRUE)
+  # Test that output includes all simulated voters. Sum should = 5050
   print(sum(as.numeric(question_data$voter_id), na.rm=TRUE))
 }
 
 
 # Fix specific columns
-# response_values <- stringr::str_split_fixed(response_data$what_party, ". ", 2)
-# response_data$what_party <- response_values[, 2]
-# response_data <- response_data %>%
-#   mutate(across(where(is.character), stringr::str_trim, side="left"))
+response_values <- stringr::str_split_fixed(response_data$taxes_initiative, ". ", 2)
+response_data$taxes_initiative <- response_values[, 2]
+response_data <- response_data %>%
+  mutate(across(where(is.character), stringr::str_trim, side="left"))
 
 
 # Save data frame as csv file

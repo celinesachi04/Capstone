@@ -21,7 +21,7 @@ vote_third_party <- paste0("For each voter in the voter data, is the voter likel
 ### Federal:
 president_vote <- paste0("For each voter in the voter data, who would the voter vote ",
                          "for in the 2024 general election for President/Vice President? ",
-                         "Respond with only the first name of the presidential candidate, not Kamala. ",
+                         "Respond with only the first name of the presidential candidate, Donald or Kamala",
                          "Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
                          "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
 wa_senator <- paste0("For each voter in the voter data, would the voter vote for Maria Cantwell ",

@@ -1,102 +1,102 @@
-Here's a prediction for each voter, based on the provided data and a reasonable assumption about how demographics might correlate with views on a capital gains tax repeal impacting education funding.  I'm leaning towards "no" votes from those likely to benefit from or support education funding (younger voters, women, those in areas with strong public services) and "yes" from those potentially impacted by the tax (older, wealthier individuals).  "Unknown" is used sparingly.
+Here's a prediction for each voter, based on the provided data and a general understanding of how demographics *might* lean on a tax-related issue impacting education funding.  **Please remember this is a simulated prediction and does not reflect actual voting behavior.**  I'm making assumptions based on age, gender, and potentially county (though county-level political leanings aren't explicitly provided).  I'm prioritizing a response for *every* voter and adhering to the "no" or "yes" only rule, with "unknown" used very sparingly.
 
-1. no
-2. no
-3. no
-4. no
-5. no
-6. no
-7. yes
-8. no
-9. unknown
-10. no
-11. no
-12. no
-13. no
-14. no
-15. no
-16. no
-17. no
-18. no
-19. no
-20. yes
-21. no
-22. yes
-23. yes
-24. no
-25. no
-26. no
-27. no
-28. no
-29. no
-30. yes
-31. no
-32. no
-33. no
-34. no
-35. yes
-36. yes
-37. no
-38. yes
-39. no
-40. no
-41. no
-42. yes
-43. no
-44. yes
-45. no
-46. no
-47. no
-48. yes
-49. yes
-50. yes
-51. no
-52. no
-53. no
-54. no
-55. yes
-56. no
-57. yes
-58. no
-59. no
-60. no
-61. yes
-62. yes
-63. yes
-64. yes
-65. no
-66. yes
-67. no
-68. yes
-69. no
-70. yes
-71. no
-72. no
-73. no
-74. no
-75. no
-76. yes
-77. yes
-78. no
-79. yes
-80. no
-81. yes
-82. yes
-83. unknown
-84. no
-85. yes
-86. yes
-87. yes
-88. yes
-89. no
-90. yes
-91. yes
-92. yes
-93. no
-94. no
-95. no
-96. no
-97. no
-98. yes
-99. no
-100. no
+1. 65. no
+2. 6. no
+3. 39. no
+4. 20. no
+5. 3. yes
+6. 71. no
+7. 81. no
+8. 13. no
+9. 24. yes
+10. 91. no
+11. 67. no
+12. 28. no
+13. 87. no
+14. 33. no
+15. 76. no
+16. 83. unknown
+17. 51. yes
+18. 68. no
+19. 98. yes
+20. 42. yes
+21. 23. no
+22. 21. no
+23. 93. yes
+24. 12. no
+25. 40. no
+26. 45. yes
+27. 84. no
+28. 74. yes
+29. 11. yes
+30. 31. no
+31. 61. no
+32. 96. yes
+33. 32. yes
+34. 99. yes
+35. 82. no
+36. 97. no
+37. 25. no
+38. 88. no
+39. 63. yes
+40. 18. yes
+41. 79. no
+42. 37. no
+43. 16. no
+44. 55. no
+45. 49. no
+46. 48. no
+47. 78. yes
+48. 73. no
+49. 52. no
+50. 26. no
+51. 89. no
+52. 54. no
+53. 7. no
+54. 77. no
+55. 90. no
+56. 94. no
+57. 70. yes
+58. 100. no
+59. 95. yes
+60. 69. no
+61. 65. no
+62. 86. no
+63. 43. yes
+64. 41. no
+65. 17. yes
+66. 66. no
+67. 58. no
+68. 38. no
+69. 46. no
+70. 64. no
+71. 22. no
+72. 80. no
+73. 10. yes
+74. 35. no
+75. 47. no
+76. 34. yes
+77. 29. no
+78. 14. yes
+79. 4. yes
+80. 60. no
+81. 19. yes
+82. 85. yes
+83. 9. unknown
+84. 5. no
+85. 27. yes
+86. 50. yes
+87. 56. yes
+88. 59. no
+89. 1. no
+90. 30. no
+91. 2. yes
+92. 62. no
+93. 15. yes
+94. 53. no
+95. 8. no
+96. 72. no
+97. 92. yes
+98. 36. no
+99. 75. no
+100. 57. no
