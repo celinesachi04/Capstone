@@ -1,114 +1,102 @@
-Here's a prediction for each voter, based on the provided data and the initiative description. The reasoning is included after the full list.
+Here's a prediction for each voter, based on the provided data and a general understanding of how demographics *might* lean on an energy initiative like this.  This is inherently speculative, and I'm aiming for a reasonable distribution, leaning towards "no" for younger voters and those in more environmentally conscious areas, and "yes" for older voters and those in areas reliant on natural gas.  I'll use "unknown" sparingly.
 
-(82) no
-(72) no
-(100) no
-(85) yes
-(31) no
-(23) no
-(77) no
-(3) yes
-(17) yes
-(80) yes
-(94) yes
-(28) no
-(81) yes
-(87) no
-(18) yes
-(5) yes
-(22) yes
-(10) yes
-(67) no
-(15) no
-(7) yes
-(4) no
-(50) yes
-(54) no
-(16) no
-(97) no
-(86) no
-(36) yes
-(6) no
-(2) yes
-(91) yes
-(56) no
-(24) yes
-(69) no
-(76) yes
-(60) no
-(1) yes
-(41) yes
-(83) unknown
-(45) yes
-(40) no
-(71) yes
-(84) no
-(48) no
-(92) yes
-(51) yes
-(49) yes
-(42) yes
-(88) yes
-(78) yes
-(53) no
-(65) no
-(20) yes
-(55) yes
-(33) no
-(37) no
-(58) no
-(12) no
-(38) no
-(35) no
-(96) yes
-(44) no
-(46) no
-(47) no
-(59) no
-(61) yes
-(39) no
-(43) yes
-(57) no
-(14) no
-(30) yes
-(25) no
-(29) no
-(70) yes
-(95) yes
-(13) no
-(75) no
-(74) yes
-(11) no
-(98) yes
-(34) no
-(8) no
-(64) yes
-(90) yes
-(66) yes
-(52) no
-(27) yes
-(26) no
-(9) unknown
-(68) yes
-(21) no
-(32) no
-(19) yes
-(99) no
-(62) no
-(73) no
-(89) no
-(63) yes
-(93) yes
-(79) yes
-
-**Reasoning:**
-
-*   **Age:** Older voters (65+) are generally more likely to support measures that protect existing energy sources like natural gas, as they may be less inclined towards rapid changes and electrification. Younger voters (18-24, 25-34) are more likely to favor electrification and renewable energy.
-*   **Gender:** There's no strong gender bias apparent in the initiative description, so this factor is given less weight.
-*   **County:** While county-level political leanings could be considered, the data doesn't provide enough information to reliably predict based on county alone. However, more rural counties (like Spokane, Grays Harbor) might lean slightly towards supporting the measure due to reliance on natural gas.
-*   **"Unknown/Other" Gender:** These are marked as "unknown" as there is no way to predict their vote.
-*   **Overall:** The initiative favors those who want to maintain access to natural gas and resist mandates for electrification. Therefore, voters in older age brackets and those potentially in more rural areas are more likely to vote "yes."
-
-
-
-**Disclaimer:** This is a predictive exercise based on limited data and generalizations. Actual voting behavior is complex and influenced by many factors not present in this dataset.
+1. 48. no
+2. 52. no
+3. 74. no
+4. 75. no
+5. 69. no
+6. 92. yes
+7. 77. yes
+8. 89. no
+9. 26. no
+10. 3. yes
+11. 18. yes
+12. 38. yes
+13. 45. no
+14. 88. yes
+15. 36. yes
+16. 79. yes
+17. 62. yes
+18. 83. unknown
+19. 40. no
+20. 34. no
+21. 2. no
+22. 9. yes
+23. 49. yes
+24. 47. no
+25. 99. no
+26. 70. yes
+27. 37. no
+28. 98. yes
+29. 54. no
+30. 23. yes
+31. 95. no
+32. 73. no
+33. 86. yes
+34. 35. yes
+35. 65. no
+36. 71. no
+37. 30. yes
+38. 94. yes
+39. 58. no
+40. 12. no
+41. 46. no
+42. 16. no
+43. 11. no
+44. 22. yes
+45. 97. no
+46. 19. no
+47. 100. no
+48. 96. no
+49. 57. yes
+50. 17. yes
+51. 29. yes
+52. 66. yes
+53. 15. no
+54. 51. yes
+55. 6. no
+56. 5. yes
+57. 1. yes
+58. 80. yes
+59. 90. yes
+60. 63. yes
+61. 43. no
+62. 50. yes
+63. 53. no
+64. 32. no
+65. 13. no
+66. 10. yes
+67. 7. yes
+68. 42. yes
+69. 24. no
+70. 56. no
+71. 76. yes
+72. 82. yes
+73. 25. no
+74. 8. no
+75. 78. yes
+76. 64. yes
+77. 72. no
+78. 55. yes
+79. 93. yes
+80. 21. no
+81. 60. no
+82. 39. no
+83. 31. no
+84. 28. no
+85. 59. no
+86. 68. yes
+87. 85. yes
+88. 27. yes
+89. 84. no
+90. 61. yes
+91. 33. no
+92. 20. yes
+93. 91. yes
+94. 4. no
+95. 41. no
+96. 14. no
+97. 67. no
+98. 3. no
+99. 1. no
+100. 1. no

@@ -14,8 +14,7 @@ for (question in questions) {
   response_file <- readLines(paste0(".\\responses\\", question, ".txt"))
   
   # Find first value of list of responses
-  first_val <- grep("1. ", response_file)[1]
-  # Exactract list of responses from txt response file
+  first_val <- grep("^[0-9]+. ", response_file)[1]
   response_text <- response_file[c(first_val: (first_val + 99))]
   
   # Split list into voter id and response value
@@ -27,14 +26,15 @@ for (question in questions) {
   
   # Merge data into final data frame
   response_data <- merge(x=response_data, y=question_data, by="voter_id", all=TRUE)
+  print(sum(as.numeric(question_data$voter_id), na.rm=TRUE))
 }
 
 
 # Fix specific columns
-response_values <- stringr::str_split_fixed(response_data$what_party, ". ", 2)
-response_data$what_party <- response_values[, 2]
-response_data <- response_data %>%
-  mutate(across(where(is.character), stringr::str_trim, side="left"))
+# response_values <- stringr::str_split_fixed(response_data$what_party, ". ", 2)
+# response_data$what_party <- response_values[, 2]
+# response_data <- response_data %>%
+#   mutate(across(where(is.character), stringr::str_trim, side="left"))
 
 
 # Save data frame as csv file
