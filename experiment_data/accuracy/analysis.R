@@ -89,24 +89,21 @@ for (row in 1:nrow(question_data)) {
   county <- question_data[row, "county"]
   measure_name <- names(which(questions==question))
   vote <- question_data[row, question]
-  count <- (county_data %>% filter(County==county, Race==measure_name, grepl(vote, Candidate)))["Votes"]
-  question_data[row, "expected_count"] <- count
+  if (vote == "Unknown") {
+    percent <- "unknown"
+  } else {
+    count <- (county_data %>% filter(County==county,
+                                     Race==measure_name,
+                                     grepl(vote, Candidate)))["Votes"]
+  }
+  question_data[row, "raw_count"] <- as.numeric(count)
 }
-g
-# for (question in questions) {
-#   
-#   
-# }
-# 
-# test <- response_data[1, ]
-# 
-# for (row in 1:nrow(test)) {
-#   county <- unlist(response_data[row, "county"])
-#   
-#   for (question in questions) {
-#     
-#   }
-# }
 
+raw_total <- sum(question_data$raw_count)
+question_data <- question_data %>% mutate("expected_count"=raw_count/raw_total * 100)
+
+test_data <- na.omit(question_data)
+test_stat <- sum((test_data$n - test_data$expected_count)^2 / test_data$expected_count)
+p_val <- pchisq(q=test_stat, df=(nrow(test_data) - 1))
 
 

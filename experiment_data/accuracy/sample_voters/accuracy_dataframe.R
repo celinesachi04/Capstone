@@ -1,5 +1,6 @@
 
 library(dplyr)
+N <- 15000
 
 # Files from https://www.sos.wa.gov/elections/data-research/election-data-and-maps/reports-data-and-statistics/voter-demographics
 wa_demographics_file_path <- "C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/accuracy/sample_voters/Voter Demographics Tables.xlsx"
@@ -41,8 +42,6 @@ wa_gender_county_prop <- wa_gender_county_prop[-nrow(wa_gender_county_prop), ]
 
 # Simulate voters based on WA demographic data
 set.seed(496)
-N <- 100
-
 
 sampled_counties <- sample(x=wa_counties, size=N, replace=TRUE, prob=county_prop)
 sampled_ages <- vector(length=N)

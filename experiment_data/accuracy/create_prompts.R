@@ -1,34 +1,25 @@
 
 # Questions
 ## General questions
-what_party <- paste0("For each voter in the voter data, what party is the voter likely to vote for in the next ",
-                     "U.S. presidential election? Respond with one word, name of party. ",
-                     "Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                     "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+what_party <- paste0("For each voter in the voter data, what party is the voter likely to vote ",
+                     "for in the next U.S. presidential election? Respond with one word, name of party. ")
 vote_democrat <- paste0("For each voter in the voter data, is the voter likely to vote ",
                         "democrat in the next U.S. presidential election? Respond with ",
-                        "one word, yes no. Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                        "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                        "one word, yes no. ")
 vote_republican <- paste0("For each voter in the voter data, is the voter likely to vote ",
                           "republican in the next U.S. presidential election? Respond with ",
-                          "one word, yes no. Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                          "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                          "one word, yes no. ")
 vote_third_party <- paste0("For each voter in the voter data, is the voter likely to vote third party in the next U.S. ",
-                           "presidential election? Respond with one word, yes no. Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                           "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                           "presidential election? Respond with one word, yes no. ")
 
 ## Specific voting: https://www.sos.wa.gov/elections/data-research/election-results-and-voters-pamphlets/2024-general-election-voters-guide
 ### Federal:
 president_vote <- paste0("For each voter in the voter data, who would the voter vote ",
                          "for in the 2024 general election for President/Vice President? ",
-                         "Respond with only the first name of the presidential candidate, Donald or Kamala",
-                         "Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                         "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                         "Respond with only the first name of the presidential candidate, Donald or Kamala. ")
 wa_senator <- paste0("For each voter in the voter data, would the voter vote for Maria Cantwell ",
                      "or Dr Raul Garcia for U.S. Senator for Washington State in the 2024 ",
-                     "General Election? Respond with only the first name of the candidate. ",
-                     "Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                     "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                     "General Election? Respond with only the first name of the candidate. ")
 ### State:
 energy_initiative <- paste0("For each voter in the voter data, how would the voter vote on the following: ",
                             "Initiative Measure No. 2066 concerns regulating energy services, ",
@@ -36,18 +27,14 @@ energy_initiative <- paste0("For each voter in the voter data, how would the vot
                             "or prohibit certain laws and regulations that discourage natural gas ",
                             "use and/or promote electrification, and require certain utilities and ",
                             "local governments to provide natural gas to eligible customers. Should ",
-                            "this measure be enacted into law? Respond with one word, yes no. Can ",
-                            "only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                            "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                            "this measure be enacted into law? Respond with one word, yes no. ")
 taxes_initiative <- paste0("For each voter in the voter data, how would the voter vote on the following: ",
                            "Initiative Measure No. 2109 concerns taxes. This measure would repeal ",
                            "an excise tax imposed on the sale or exchange of certain long-term ",
                            "capital assets by individuals who have annual capital gains of over ",
                            "$250,000. This measure would decrease funding for K-12 education, ",
                            "higher education, school construction, early learning, and childcare. ",
-                           "Should this measure be enacted into law? Respond with one word, yes no. Can ",
-                           "only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                           "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                           "Should this measure be enacted into law? Respond with one word, yes no. ")
 carbon_tax_initiative <- paste0("For each voter in the voter data, how would the voter vote on the following: ",
                                 "Initiative Measure No. 2117 concerns carbon tax credit trading. This ",
                                 "measure would prohibit state agencies from imposing any type of ",
@@ -55,9 +42,7 @@ carbon_tax_initiative <- paste0("For each voter in the voter data, how would the
                                 "cap and invest program to reduce greenhouse gas emissions. This ",
                                 "measure would decrease funding for investments in transportation, ",
                                 "clean air, renewable energy, conservation, and emissions-reduction. ",
-                                "Should this measure be enacted into law? Respond with one word, yes no. Can ",
-                                "only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                                "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                                "Should this measure be enacted into law? Respond with one word, yes no. ")
 insurance_initiative <- paste0("For each voter in the voter data, how would the voter vote on the following: ",
                                "Initiative Measure No. 2124 concerns state long term care insurance. ",
                                "This measure would provide that employees and self-employed people must ",
@@ -65,33 +50,25 @@ insurance_initiative <- paste0("For each voter in the voter data, how would the 
                                "would also repeal a law governing an exemption for employees. This measure ",
                                "would decrease funding for Washington’s public insurance program providing ",
                                "long-term care benefits and services. Should this measure be enacted into law?",
-                               "Respond with one word, yes no. Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                               "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                               "Respond with one word, yes no. ")
 
 supreme_court <- paste0("For each voter in the voter data, would the voter vote ",
                         "for Sal Mungia or Dave Larson for Supreme Court Justice Position ",
                         "#02 in Washington State, in the 2024 general election?, Respond ",
-                        "with only the first name of the candidate. Can only return unknown sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                        "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                        "with only the first name of the candidate. ")
 
 governor <- paste0("For each voter in the voter data, would the voter vote ",
                    "for Bob Ferguson or Dave Reichert for Governor ",
                    "in Washington State, in the 2024 general election?, Respond ",
-                   "with only the first name of the candidate. Can only return unknown ",
-                   "sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                   "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                   "with only the first name of the candidate. ")
 state_treasurer <- paste0("For each voter in the voter data, would the voter vote ",
                           "for Mike Pellicciotti or Sharon Hanek for State Treasurer ",
                           "in Washington State, in the 2024 general election?, Respond ",
-                          "with only the first name of the candidate. Can only return unknown ",
-                          "sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                          "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                          "with only the first name of the candidate. ")
 attorney_general <- paste0("For each voter in the voter data, would the voter vote ",
                            "for Pete Serrano or Nick Brown for Attorney General ",
                            "in Washington State, in the 2024 general election?, Respond ",
-                           "with only the first name of the candidate. Can only return unknown ",
-                           "sparingly, do not omit any voter, Produce EXACTLY 100 voters with voter_id's 1 to 100, output ",
-                           "MUST be sorted by voter_id in order given, do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
+                           "with only the first name of the candidate. ")
 
 
 sim_wa_voters <- read.csv("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\accuracy\\sample_voters\\sim_wa_voters.csv",
@@ -104,23 +81,41 @@ questions <- c("what_party"=what_party, "vote_democrat"=vote_democrat, "vote_rep
                "insurance_initiative"=insurance_initiative, "supreme_court"=supreme_court,
                "governor"=governor, "state_treasurer"=state_treasurer, "attorney_general"=attorney_general)
 
-for (question in names(questions)) {
-  # Randomize voter and covariate order
-  shuffled_rows <- sample(c(1:nrow(sim_wa_voters)), size=nrow(sim_wa_voters))
-  shuffled_cols <- sample(c(1:ncol(sim_wa_voters)), size=ncol(sim_wa_voters))
-  shuffled_data <- sim_wa_voters[shuffled_rows, shuffled_cols]
+for (i in 1:15) {
+  lower_bound <- 1 + 1000*(i - 1)
+  upper_bound <- 1000 * i
+  print(paste(lower_bound, ":", upper_bound))
   
-  # Save all voter data into one string
-  formatted_data <- apply(X=shuffled_data, MARGIN=1, FUN=function(X) paste(X, collapse=", "))
-  data_string <- paste0("Voter data (", paste(colnames(shuffled_data), collapse=", "), "): ")
-  
-  # Add question to voter data to create prompt
-  prompt <- paste0(data_string,
-                   paste(formatted_data, collapse="; "),
-                   ". ", questions[question])
-  
-  # Save prompt
-  file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\accuracy\\prompts\\",
-                          question, ".txt")
-  writeLines(prompt, file_path)
+  concat_data <- sim_wa_voters[c(lower_bound:upper_bound), ]
+  rules <- paste0("Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, ",
+                  "Produce EXACTLY 1000 voters with voter_id's ", lower_bound, " to ", upper_bound,
+                  " return only the 1000 prediction lines with no intro or explanation, ",
+                  "for line k user voter_id from row k in the voter data above, ",
+                  "do NOT sort group or reorder by voter_id, keep the exact row sequence as provided ",
+                  "do not fabricate voter_id values, ",
+                  "format each line exactly: voter_id. prediction")
+
+  for (question in names(questions)) {
+    # Randomize voter and covariate order
+    shuffled_rows <- sample(c(1:nrow(concat_data)), size=nrow(concat_data))
+    shuffled_cols <- sample(c(1:ncol(concat_data)), size=ncol(concat_data))
+    shuffled_data <- concat_data[shuffled_rows, shuffled_cols]
+
+    # Save all voter data into one string
+    formatted_data <- apply(X=shuffled_data, MARGIN=1, FUN=function(X) paste(X, collapse=", "))
+    data_string <- paste0("Voter data (", paste(colnames(shuffled_data), collapse=", "), "): ")
+
+    # Add question to voter data to create prompt
+    question_with_rules <- paste0(questions[question], rules)
+    prompt <- paste0(data_string,
+                     paste(formatted_data, collapse="; "),
+                     ". ", question_with_rules)
+
+    # Save prompt
+    file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\accuracy\\prompts\\",
+                        question, "_", i, ".txt")
+    writeLines(prompt, file_path)
+  }
 }
+
+
