@@ -1,102 +1,125 @@
-Here's a prediction for each voter, based on the provided data, using "A" for "Religion should be kept separate from government policies" and "B" for "Government policies should support religious values and beliefs".  The reasoning is based on the assumption that higher education and income generally correlate with more secular views (A), while lower education and income might correlate with more traditional/religious views (B). "Prefer not to say" for education or income will result in "Unknown".
-
-1. A
-2. A
-3. B
-4. A
-5. A
-6. Unknown
-7. B
-8. B
-9. B
-10. B
-11. B
-12. B
-13. A
-14. A
-15. B
-16. B
-17. B
-18. A
-19. Unknown
-20. Unknown
-21. A
-22. B
-23. B
-24. B
-25. B
-26. Unknown
-27. A
-28. A
-29. A
-30. B
-31. A
-32. A
-33. B
-34. Unknown
-35. B
-36. A
-37. A
-38. Unknown
-39. A
-40. Unknown
-41. Unknown
-42. B
-43. Unknown
-44. B
-45. B
-46. A
-47. A
-48. Unknown
-49. Unknown
-50. A
-51. B
-52. A
-53. A
-54. B
-55. A
-56. Unknown
-57. Unknown
-58. B
-59. Unknown
-60. A
-61. B
-62. Unknown
-63. B
-64. Unknown
-65. B
-66. Unknown
-67. A
-68. Unknown
-69. Unknown
-70. A
-71. B
-72. A
-73. Unknown
-74. Unknown
-75. B
-76. A
-77. B
-78. B
-79. B
-80. Unknown
-81. Unknown
-82. B
-83. A
-84. Unknown
-85. Unknown
-86. Unknown
-87. Unknown
-88. Unknown
-89. B
-90. A
-91. A
-92. B
-93. B
-94. A
-95. B
-96. Unknown
-97. B
-98. Unknown
-99. B
-100. A
+45.A
+49.A
+94.A
+29.A
+35.A
+11.B
+68.A
+79.B
+42.A
+21.A
+95.B
+19.A
+77.A
+62.A
+93.A
+17.B
+5.A
+88.A
+100.A
+25.B
+71.A
+37.A
+86.B
+34.A
+59.A
+12.A
+72.A
+65.B
+7.B
+55.A
+80.A
+56.A
+8.B
+43.A
+39.A
+9.A
+63.A
+50.A
+78.B
+14.A
+81.A
+48.A
+33.A
+38.A
+53.B
+20.A
+4.A
+67.A
+10.A
+46.A
+90.A
+83.A
+16.B
+85.A
+32.A
+57.A
+100.A
+98.A
+91.B
+22.B
+92.A
+47.A
+76.A
+60.A
+70.B
+41.A
+87.A
+26.A
+30.A
+75.B
+23.A
+24.B
+61.A
+54.A
+58.A
+99.A
+18.A
+66.A
+89.A
+6.A
+74.A
+84.A
+44.A
+15.B
+13.A
+69.A
+31.A
+52.A
+51.B
+1.A
+36.A
+19.A
+27.A
+28.A
+73.A
+64.A
+97.B
+96.B
+82.B
+100.A
+73.A
+64.B
+78.B
+79.B
+80.A
+81.A
+82.B
+83.A
+84.A
+85.A
+86.B
+87.A
+88.A
+89.A
+90.A
+91.B
+92.A
+93.A
+94.A
+95.B
+96.B
+97.B
+98.A
+99.A
+100.A

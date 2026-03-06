@@ -1,102 +1,87 @@
-Here's a prediction of each voter's preference (A or B) based on the provided data.  The reasoning is based on common correlations between demographics and political leanings, but is inherently limited by the data provided.  "Unknown" is used sparingly, only when there's truly insufficient information.
-
-1. A
-2. B
-3. A
-4. B
-5. A
-6. Unknown
-7. A
-8. B
-9. A
-10. B
-11. A
-12. B
-13. B
-14. A
-15. B
-16. B
-17. B
-18. A
-19. B
-20. A
-21. B
-22. A
-23. B
-24. A
-25. B
-26. B
-27. A
-28. A
-29. B
-30. A
-31. B
-32. A
-33. A
-34. A
-35. B
-36. B
-37. A
-38. B
-39. A
-40. B
-41. B
-42. B
-43. A
-44. B
-45. B
-46. A
-47. A
-48. B
-49. B
-50. A
-51. A
-52. B
-53. A
-54. B
-55. B
-56. B
-57. B
-58. B
-59. B
-60. A
-61. B
-62. A
-63. A
-64. B
-65. B
-66. A
-67. A
-68. A
-69. B
-70. B
-71. A
-72. B
-73. A
-74. B
-75. A
-76. A
-77. B
-78. A
-79. B
-80. B
-81. A
-82. B
-83. A
-84. B
-85. B
-86. A
-87. B
-88. B
-89. B
-90. B
-91. A
-92. B
-93. B
-94. B
-95. B
-96. A
-97. B
-98. A
-99. A
-100. B
+61.A
+16.B
+37.B
+41.A
+35.B
+67.A
+36.B
+31.A
+22.B
+30.A
+99.B
+84.A
+56.B
+65.A
+10.B
+63.A
+44.B
+58.A
+15.B
+83.A
+25.B
+71.A
+72.B
+52.A
+54.B
+5.B
+27.A
+78.B
+100.A
+81.B
+85.A
+17.B
+48.A
+88.B
+2.A
+69.B
+46.A
+93.B
+66.A
+90.B
+28.A
+97.B
+11.A
+87.B
+39.A
+51.B
+57.A
+55.B
+43.A
+96.B
+4.A
+12.B
+14.A
+42.B
+21.A
+23.B
+1.B
+79.A
+3.B
+64.A
+68.B
+53.A
+8.B
+45.B
+38.A
+98.B
+50.A
+73.B
+6.B
+34.A
+77.B
+76.A
+49.B
+74.A
+47.B
+92.A
+20.B
+9.B
+86.A
+62.B
+18.A
+32.B
+80.A
+40.B
+82.A
+13.B
+75.A

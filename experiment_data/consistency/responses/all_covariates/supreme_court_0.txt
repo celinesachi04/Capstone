@@ -1,118 +1,92 @@
-Here's a prediction of who each voter would support, based on the provided data. This is a complex task with limited information, so the predictions are based on general trends and assumptions. I'll aim to minimize "unknown" responses, but will use it when there's truly insufficient data.
-
-**Assumptions:**
-
-*   **Younger Voters (18-24):** Tend to lean progressive.
-*   **Older Voters (65+):** Tend to lean conservative.
-*   **Higher Education/Income:** Generally correlates with progressive leanings.
-*   **Race/Ethnicity:** While generalizations are dangerous, some trends exist. I'll use them cautiously.
-*   **Religion:** Some religions have political tendencies.
-*   **Urbanicity:** Urban areas tend to be more progressive.
-*   **Marital Status/Kids:** Can influence priorities, but less directly.
-*   **Nonbinary/Unspecified Gender:** Often lean progressive.
-*   **"Prefer not to say":** Indicates uncertainty, leaning towards unknown.
-
-**Predictions:**
-
-1.  Sal
-2.  Dave
-3.  Sal
-4.  Dave
-5.  Sal
-6.  Unknown
-7.  Sal
-8.  Dave
-9.  Sal
-10. Sal
-11. Sal
-12. Dave
-13. Dave
-14. Sal
-15. Dave
-16. Sal
-17. Dave
-18. Sal
-19. Sal
-20. Sal
-21. Dave
-22. Dave
-23. Sal
-24. Dave
-25. Dave
-26. Unknown
-27. Sal
-28. Sal
-29. Dave
-30. Sal
-31. Dave
-32. Sal
-33. Sal
-34. Sal
-35. Dave
-36. Sal
-37. Sal
-38. Unknown
-39. Dave
-40. Unknown
-41. Sal
-42. Sal
-43. Sal
-44. Sal
-45. Sal
-46. Sal
-47. Sal
-48. Dave
-49. Dave
-50. Sal
-51. Dave
-52. Sal
-53. Sal
-54. Dave
-55. Sal
-56. Sal
-57. Dave
-58. Dave
-59. Dave
-60. Sal
-61. Dave
-62. Sal
-63. Sal
-64. Dave
-65. Dave
-66. Sal
-67. Dave
-68. Dave
-69. Unknown
-70. Dave
-71. Sal
-72. Sal
-73. Dave
-74. Sal
-75. Dave
-76. Sal
-77. Sal
-78. Sal
-79. Dave
-80. Dave
-81. Sal
-82. Dave
-83. Sal
-84. Dave
-85. Sal
-86. Sal
-87. Sal
-88. Sal
-89. Sal
-90. Dave
-91. Sal
-92. Dave
-93. Dave
-94. Sal
-95. Dave
-96. Sal
-97. Dave
-98. Sal
-99. Sal
-100. Sal
-
-**Disclaimer:** These are predictions based on limited data and broad generalizations. Actual voting behavior is far more complex.
+14. Sal Mungia
+78. Dave Larson
+46. Sal Mungia
+97. Dave Larson
+84. Dave Larson
+85. Sal Mungia
+43. Sal Mungia
+30. Dave Larson
+32. Sal Mungia
+87. Dave Larson
+38. Dave Larson
+23. Sal Mungia
+68. Dave Larson
+28. Sal Mungia
+37. Sal Mungia
+63. Dave Larson
+69. Dave Larson
+31. Dave Larson
+52. Sal Mungia
+79. Dave Larson
+81. Sal Mungia
+17. Sal Mungia
+25. Dave Larson
+16. Sal Mungia
+83. Sal Mungia
+49. Sal Mungia
+62. Sal Mungia
+35. Dave Larson
+21. Dave Larson
+29. Sal Mungia
+58. Sal Mungia
+41. Sal Mungia
+65. Dave Larson
+2. Sal Mungia
+51. Sal Mungia
+7. Dave Larson
+45. Sal Mungia
+60. Sal Mungia
+100. Sal Mungia
+95. Dave Larson
+47. Sal Mungia
+90. Dave Larson
+12. Sal Mungia
+71. Sal Mungia
+73. Dave Larson
+10. Sal Mungia
+24. Dave Larson
+15. Sal Mungia
+70. Dave Larson
+20. Sal Mungia
+39. Dave Larson
+82. Sal Mungia
+93. Dave Larson
+74. Sal Mungia
+42. Sal Mungia
+99. Sal Mungia
+19. Dave Larson
+86. Sal Mungia
+92. Sal Mungia
+98. Sal Mungia
+75. Dave Larson
+11. Sal Mungia
+4. Dave Larson
+5. Dave Larson
+48. Sal Mungia
+91. Dave Larson
+53. Sal Mungia
+80. Dave Larson
+96. Sal Mungia
+1. Sal Mungia
+56. Sal Mungia
+36. Dave Larson
+59. Dave Larson
+18. Sal Mungia
+26. Dave Larson
+61. Sal Mungia
+34. Sal Mungia
+77. Dave Larson
+94. Sal Mungia
+76. Sal Mungia
+13. Sal Mungia
+8. Dave Larson
+64. Dave Larson
+57. Dave Larson
+44. Sal Mungia
+55. Sal Mungia
+3. Sal Mungia
+9. Dave Larson
+67. Dave Larson
+22. Dave Larson
+88. Sal Mungia
+72. Sal Mungia

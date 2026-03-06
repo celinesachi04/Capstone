@@ -1,102 +1,94 @@
-Here's a prediction of who each voter would support, based on the provided data and general demographic voting patterns in Washington State.  It's important to remember this is a *prediction* and real-world voting is complex. I'm leaning towards Pete Serrano for younger voters, nonbinary voters, and voters of color, and Nick Brown for older, white voters. I will use "unknown" sparingly.
-
-1. Pete
-2. Pete
-3. Pete
-4. Nick
-5. Nick
-6. Pete
-7. Pete
-8. Nick
-9. Nick
-10. Pete
-11. Pete
-12. Nick
-13. Nick
-14. Pete
-15. Pete
-16. Pete
-17. Pete
-18. Nick
-19. Pete
-20. Pete
-21. Nick
-22. Pete
-23. Pete
-24. Nick
-25. Nick
-26. Pete
-27. Pete
-28. Pete
-29. Nick
-30. Pete
-31. Nick
-32. Pete
-33. Nick
-34. Pete
-35. Nick
-36. Pete
-37. Nick
-38. Nick
-39. Nick
-40. Nick
-41. Pete
-42. Pete
-43. Nick
-44. Nick
-45. Pete
-46. Pete
-47. Pete
-48. Nick
-49. Pete
-50. Nick
-51. Nick
-52. Pete
-53. Pete
-54. Nick
-55. Nick
-56. Pete
-57. Nick
-58. Pete
-59. Nick
-60. Pete
-61. Pete
-62. Pete
-63. Pete
-64. Nick
-65. Nick
-66. Pete
-67. Nick
-68. Nick
-69. Pete
-70. Pete
-71. Pete
-72. Pete
-73. Pete
-74. Pete
-75. Nick
-76. Nick
-77. Pete
-78. Nick
-79. Pete
-80. Nick
-81. Pete
-82. Nick
-83. Pete
-84. Nick
-85. Pete
-86. Pete
-87. Nick
-88. Pete
-89. Pete
-90. Pete
-91. Nick
-92. Pete
-93. Pete
-94. Pete
-95. Pete
-96. Pete
-97. Pete
-98. Nick
-99. Pete
-100. Pete
+96. Nick Brown
+55. Pete Serrano
+52. Nick Brown
+85. Pete Serrano
+10. Nick Brown
+51. Nick Brown
+56. Pete Serrano
+12. Nick Brown
+87. Pete Serrano
+71. Nick Brown
+24. Nick Brown
+5. Nick Brown
+31. Nick Brown
+97. Pete Serrano
+35. Nick Brown
+25. Nick Brown
+21. Nick Brown
+67. Nick Brown
+14. Pete Serrano
+42. Pete Serrano
+64. Nick Brown
+84. Nick Brown
+40. Pete Serrano
+83. Nick Brown
+80. Nick Brown
+37. Nick Brown
+66. Pete Serrano
+72. Pete Serrano
+15. Pete Serrano
+65. Pete Serrano
+43. Pete Serrano
+91. Nick Brown
+7. Nick Brown
+27. unknown
+1. Nick Brown
+36. Nick Brown
+81. unknown
+18. Nick Brown
+76. unknown
+44. Pete Serrano
+39. Nick Brown
+41. Pete Serrano
+93. Pete Serrano
+98. Nick Brown
+92. unknown
+13. Pete Serrano
+53. Pete Serrano
+62. Pete Serrano
+100. Pete Serrano
+20. Nick Brown
+9. Nick Brown
+82. Pete Serrano
+68. unknown
+88. Pete Serrano
+26. Pete Serrano
+3. unknown
+32. Pete Serrano
+74. Pete Serrano
+19. unknown
+78. unknown
+48. Nick Brown
+28. Pete Serrano
+47. Pete Serrano
+2. Nick Brown
+6. Pete Serrano
+79. Pete Serrano
+34. Pete Serrano
+54. unknown
+49. Pete Serrano
+50. unknown
+77. Pete Serrano
+23. Nick Brown
+90. Pete Serrano
+94. unknown
+95. Pete Serrano
+70. Nick Brown
+99. Pete Serrano
+30. Nick Brown
+73. Pete Serrano
+60. Pete Serrano
+17. Pete Serrano
+89. Pete Serrano
+57. Nick Brown
+4. Nick Brown
+38. unknown
+59. Nick Brown
+61. Pete Serrano
+58. Pete Serrano
+16. Pete Serrano
+11. Pete Serrano
+45. Pete Serrano
+46. Pete Serrano
+86. unknown
+63. unknown

@@ -1,102 +1,89 @@
-Here's a prediction of how each voter would likely vote, based on the provided data and general voting patterns.  It's important to remember this is an *estimation* and real-world voting is complex. I'm leaning towards Maria Cantwell (the incumbent Democrat) for most voters, but will consider factors like age, income, and stated religion/affiliation.  I will use "unknown" sparingly, only when the data is truly insufficient to make a reasonable guess.
-
-1. Maria
-2. Raul
-3. Maria
-4. Raul
-5. Maria
-6. Raul
-7. Raul
-8. Raul
-9. Maria
-10. Raul
-11. Raul
-12. Maria
-13. Raul
-14. Maria
-15. Raul
-16. Maria
-17. Raul
-18. Maria
-19. Maria
-20. Maria
-21. Raul
-22. Raul
-23. Maria
-24. Raul
-25. Raul
-26. Maria
-27. Maria
-28. Maria
-29. Maria
-30. Maria
-31. Maria
-32. Maria
-33. Maria
-34. Maria
-35. Raul
-36. Maria
-37. Maria
-38. Maria
-39. Raul
-40. Raul
-41. Maria
-42. Maria
-43. Raul
-44. Raul
-45. Maria
-46. Raul
-47. Maria
-48. Raul
-49. Raul
-50. Maria
-51. Raul
-52. Maria
-53. Maria
-54. Maria
-55. Raul
-56. Maria
-57. Raul
-58. Raul
-59. Maria
-60. Raul
-61. Raul
-62. Maria
-63. Maria
-64. Raul
-65. Raul
-66. Raul
-67. Raul
-68. Raul
-69. Maria
-70. Maria
-71. Maria
-72. Maria
-73. Raul
-74. Maria
-75. Raul
-76. Maria
-77. Raul
-78. Raul
-79. Raul
-80. Raul
-81. Maria
-82. Raul
-83. Maria
-84. Maria
-85. Raul
-86. Maria
-87. Raul
-88. Maria
-89. Raul
-90. Raul
-91. Raul
-92. Raul
-93. Raul
-94. Maria
-95. Raul
-96. Raul
-97. Raul
-98. Maria
-99. Maria
-100. Maria
+98. Maria Cantwell
+89. Raul Garcia
+28. Maria Cantwell
+26. Raul Garcia
+13. Raul Garcia
+41. Maria Cantwell
+53. Raul Garcia
+92. Maria Cantwell
+24. Raul Garcia
+10. Maria Cantwell
+5. Maria Cantwell
+38. Raul Garcia
+83. Maria Cantwell
+45. Raul Garcia
+93. Raul Garcia
+62. Maria Cantwell
+77. Raul Garcia
+70. Maria Cantwell
+20. Raul Garcia
+88. Maria Cantwell
+80. Raul Garcia
+6. Raul Garcia
+11. Raul Garcia
+27. Maria Cantwell
+58. Raul Garcia
+73. Raul Garcia
+49. Raul Garcia
+40. Raul Garcia
+60. Raul Garcia
+78. Raul Garcia
+18. Maria Cantwell
+57. Raul Garcia
+21. Raul Garcia
+14. Maria Cantwell
+23. Maria Cantwell
+81. Raul Garcia
+3. Raul Garcia
+31. Maria Cantwell
+15. Raul Garcia
+17. Raul Garcia
+99. Raul Garcia
+9. Raul Garcia
+46. Maria Cantwell
+63. Maria Cantwell
+44. Raul Garcia
+43. Raul Garcia
+71. Maria Cantwell
+54. Raul Garcia
+91. Raul Garcia
+19. Maria Cantwell
+66. Raul Garcia
+37. Raul Garcia
+42. Maria Cantwell
+39. Raul Garcia
+79. Raul Garcia
+100. Maria Cantwell
+94. Raul Garcia
+29. Maria Cantwell
+85. Raul Garcia
+25. Raul Garcia
+7. Raul Garcia
+1. Raul Garcia
+55. Maria Cantwell
+35. Raul Garcia
+2. Raul Garcia
+16. Maria Cantwell
+48. Raul Garcia
+90. Raul Garcia
+33. Raul Garcia
+76. Raul Garcia
+52. Maria Cantwell
+56. Maria Cantwell
+75. Raul Garcia
+68. Raul Garcia
+47. Maria Cantwell
+30. Maria Cantwell
+59. Raul Garcia
+32. Maria Cantwell
+51. Raul Garcia
+67. Raul Garcia
+64. Maria Cantwell
+8. Raul Garcia
+4. Maria Cantwell
+87. Raul Garcia
+74. Maria Cantwell
+97. Raul Garcia
+82. Raul Garcia
+96. Raul Garcia
+95. Raul Garcia

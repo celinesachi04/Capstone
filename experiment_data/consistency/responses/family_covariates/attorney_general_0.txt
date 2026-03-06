@@ -1,122 +1,100 @@
-Here's a prediction of who each voter would support, based on the provided data and general voting patterns.  It's important to remember this is a *highly* speculative exercise, as many factors influence voting decisions. I'm making assumptions based on correlations between demographics and likely political leanings.  I'll lean towards "unknown" when the data is too sparse to make a reasonable guess.
-
-**Assumptions:**
-
-*   **Married/Partnered:** Generally lean slightly towards conservative/moderate candidates.
-*   **Widowed/Divorced/Separated:** More unpredictable, potentially leaning slightly more liberal/moderate.
-*   **Single/Never Married:** Tend to lean more liberal.
-*   **Religion:**
-    *   **Christian:** Generally lean conservative/moderate.
-    *   **Jewish:** Generally lean liberal.
-    *   **Muslim:** Generally lean liberal.
-    *   **Sikh/Buddhist/Hindu:**  More diverse, but often lean liberal/moderate.
-    *   **None/Agnostic/Atheist:** Generally lean liberal.
-    *   **Prefer not to say:**  Difficult to predict, treated as neutral.
-*   **Number of Kids:**  Generally, more kids correlate with more conservative views, but this is a weak correlation.
-
-**Predictions:**
-
-1.  Pete
-2.  Pete
-3.  Nick
-4.  unknown
-5.  Nick
-6.  unknown
-7.  Nick
-8.  Nick
-9.  Nick
-10. unknown
-11. Nick
-12. unknown
-13. Nick
-14. Nick
-15. unknown
-16. Nick
-17. unknown
-18. Nick
-19. Nick
-20. Nick
-21. Nick
-22. unknown
-23. Nick
-24. Nick
-25. Nick
-26. unknown
-27. Nick
-28. unknown
-29. Nick
-30. Nick
-31. Pete
-32. Nick
-33. Nick
-34. unknown
-35. Nick
-36. unknown
-37. Nick
-38. unknown
-39. Nick
-40. Nick
-41. unknown
-42. Nick
-43. Nick
-44. Nick
-45. Nick
-46. Nick
-47. Nick
-48. unknown
-49. Nick
-50. Nick
-51. Nick
-52. Nick
-53. Nick
-54. unknown
-55. unknown
-56. Nick
-57. Nick
-58. Nick
-59. Nick
-60. Nick
-61. Nick
-62. Nick
-63. unknown
-64. Nick
-65. Nick
-66. Pete
-67. Nick
-68. Pete
-69. Pete
-70. Pete
-71. Nick
-72. Nick
-73. unknown
-74. Nick
-75. Nick
-76. Nick
-77. unknown
-78. unknown
-79. Nick
-80. unknown
-81. Nick
-82. Nick
-83. Nick
-84. unknown
-85. Nick
-86. Nick
-87. Nick
-88. Pete
-89. unknown
-90. Nick
-91. unknown
-92. Nick
-93. Nick
-94. Nick
-95. Nick
-96. Nick
-97. unknown
-98. Nick
-99. Nick
-100. Pete
-
-
-
-**Disclaimer:** These predictions are based on limited data and broad generalizations. Actual voting behavior is far more complex.
+46. Pete Serrano
+13. Nick Brown
+42. Pete Serrano
+72. Nick Brown
+54. Pete Serrano
+20. Nick Brown
+6. Pete Serrano
+21. Nick Brown
+60. Pete Serrano
+45. Nick Brown
+14. Pete Serrano
+85. Nick Brown
+91. Pete Serrano
+99. Nick Brown
+30. Pete Serrano
+64. Nick Brown
+5. Pete Serrano
+31. Nick Brown
+69. Pete Serrano
+62. Pete Serrano
+28. Nick Brown
+4. Pete Serrano
+82. Pete Serrano
+22. Nick Brown
+12. Pete Serrano
+36. Nick Brown
+26. Pete Serrano
+17. Pete Serrano
+29. Nick Brown
+1. Nick Brown
+38. Pete Serrano
+67. Nick Brown
+89. Pete Serrano
+83. Pete Serrano
+37. Nick Brown
+80. Pete Serrano
+47. Nick Brown
+15. Nick Brown
+32. Pete Serrano
+27. Nick Brown
+55. Pete Serrano
+92. Nick Brown
+86. Pete Serrano
+96. Nick Brown
+24. Nick Brown
+50. Nick Brown
+2. Nick Brown
+35. Pete Serrano
+98. Nick Brown
+63. Pete Serrano
+39. Nick Brown
+88. Nick Brown
+48. Pete Serrano
+52. Nick Brown
+33. Nick Brown
+75. Pete Serrano
+84. Pete Serrano
+79. Pete Serrano
+93. Nick Brown
+9. Pete Serrano
+49. Nick Brown
+8. Nick Brown
+3. Nick Brown
+71. Pete Serrano
+68. Nick Brown
+81. Pete Serrano
+23. Pete Serrano
+59. Pete Serrano
+25. Nick Brown
+16. Nick Brown
+7. Pete Serrano
+90. Nick Brown
+76. Pete Serrano
+44. Pete Serrano
+94. Nick Brown
+56. Pete Serrano
+41. Pete Serrano
+73. Nick Brown
+74. Pete Serrano
+87. Nick Brown
+53. Pete Serrano
+95. Pete Serrano
+10. Nick Brown
+34. Nick Brown
+97. Pete Serrano
+100. Nick Brown
+78. Pete Serrano
+18. Pete Serrano
+51. Nick Brown
+57. Nick Brown
+40. Pete Serrano
+61. Pete Serrano
+11. Nick Brown
+66. Pete Serrano
+65. Pete Serrano
+43. Pete Serrano
+58. Nick Brown
+70. Nick Brown
+19. Nick Brown
+77. Pete Serrano

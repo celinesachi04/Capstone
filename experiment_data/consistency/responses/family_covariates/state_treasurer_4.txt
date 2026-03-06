@@ -1,119 +1,99 @@
-Here's a prediction of voting preference for each voter, based on the provided data and general political trends. **Please note:** This is a highly speculative exercise. Voter behavior is complex, and this prediction relies on broad generalizations. I'm aiming for a reasonable distribution, leaning on observed correlations between demographics and voting patterns in Washington State.  I will use "unknown" sparingly, only when the data provides absolutely no basis for a guess.
-
-Here's the breakdown:
-
-1. Mike
-2. Mike
-3. Sharon
-4. Mike
-5. Sharon
-6. Mike
-7. Sharon
-8. Sharon
-9. Sharon
-10. unknown
-11. Sharon
-12. Sharon
-13. Sharon
-14. Sharon
-15. Mike
-16. Sharon
-17. Mike
-18. Sharon
-19. Sharon
-20. Sharon
-21. Sharon
-22. unknown
-23. Mike
-24. Sharon
-25. Sharon
-26. Sharon
-27. Sharon
-28. Mike
-29. Sharon
-30. Mike
-31. Mike
-32. Sharon
-33. Sharon
-34. Mike
-35. Sharon
-36. Sharon
-37. Sharon
-38. Mike
-39. Sharon
-40. Mike
-41. Mike
-42. Mike
-43. Sharon
-44. Mike
-45. Sharon
-46. Sharon
-47. Sharon
-48. Sharon
-49. Sharon
-50. Sharon
-51. Sharon
-52. Sharon
-53. Sharon
-54. Mike
-55. Sharon
-56. Mike
-57. Sharon
-58. Mike
-59. Mike
-60. Mike
-61. Sharon
-62. Mike
-63. Mike
-64. Sharon
-65. Mike
-66. Mike
-67. Sharon
-68. Mike
-69. Mike
-70. Mike
-71. Sharon
-72. Sharon
-73. Mike
-74. Mike
-75. Mike
-76. Mike
-77. Sharon
-78. Sharon
-79. Sharon
-80. Sharon
-81. Sharon
-82. Mike
-83. Sharon
-84. Sharon
-85. Sharon
-86. Sharon
-87. Sharon
-88. Mike
-89. Sharon
-90. Sharon
-91. Sharon
-92. Sharon
-93. Sharon
-94. Sharon
-95. Sharon
-96. Mike
-97. Sharon
-98. Mike
-99. Sharon
-100. Mike
-
-
-
-**Important Considerations:**
-
-*   **Washington State Politics:** Washington State generally leans Democratic.
-*   **Treasurer Race:** State Treasurer races are often lower-profile, making predictions harder.
-*   **Limited Data:** The provided data is very limited.  Factors like income, education, and specific political views are missing.
-*   **"Prefer not to say":**  I've treated "Prefer not to say" responses as neutral or leaning slightly towards the Democratic candidate (Mike Pellicciotti) in most cases, as those voters are less likely to be strongly conservative.
-*   **Religion:** I've used general trends associating religious groups with political leanings.
-*   **Marital Status/Kids:** These are used as proxies for life stage and potential priorities.
-*   **Divorced/Separated:** These are often associated with a slight lean towards the Democratic party.
-
-
-
+35. Sharon Hanek
+11. Mike Pellicciotti
+20. Sharon Hanek
+61. Sharon Hanek
+25. Mike Pellicciotti
+5. Sharon Hanek
+85. Sharon Hanek
+87. Mike Pellicciotti
+89. Sharon Hanek
+4. Sharon Hanek
+8. Mike Pellicciotti
+49. Sharon Hanek
+63. Sharon Hanek
+86. Sharon Hanek
+18. Sharon Hanek
+92. Mike Pellicciotti
+65. Mike Pellicciotti
+79. Sharon Hanek
+99. Sharon Hanek
+16. Sharon Hanek
+40. Mike Pellicciotti
+83. Sharon Hanek
+60. Mike Pellicciotti
+90. Sharon Hanek
+66. Sharon Hanek
+22. Mike Pellicciotti
+95. Sharon Hanek
+7. Sharon Hanek
+91. Sharon Hanek
+15. Mike Pellicciotti
+53. Sharon Hanek
+52. Mike Pellicciotti
+38. Sharon Hanek
+77. Mike Pellicciotti
+93. Mike Pellicciotti
+33. Sharon Hanek
+81. Sharon Hanek
+55. Sharon Hanek
+59. Mike Pellicciotti
+42. Sharon Hanek
+45. Mike Pellicciotti
+84. Sharon Hanek
+31. Mike Pellicciotti
+51. Mike Pellicciotti
+3. Mike Pellicciotti
+37. Sharon Hanek
+97. Sharon Hanek
+56. Sharon Hanek
+75. Mike Pellicciotti
+36. Mike Pellicciotti
+67. Mike Pellicciotti
+48. Mike Pellicciotti
+41. Sharon Hanek
+76. Mike Pellicciotti
+9. Sharon Hanek
+6. Sharon Hanek
+39. Mike Pellicciotti
+30. Mike Pellicciotti
+82. Sharon Hanek
+21. Mike Pellicciotti
+26. Mike Pellicciotti
+74. Mike Pellicciotti
+98. Sharon Hanek
+71. Sharon Hanek
+47. Sharon Hanek
+88. Mike Pellicciotti
+17. Sharon Hanek
+57. Mike Pellicciotti
+24. Mike Pellicciotti
+23. Mike Pellicciotti
+12. Mike Pellicciotti
+94. Mike Pellicciotti
+54. Sharon Hanek
+19. Mike Pellicciotti
+1. Mike Pellicciotti
+34. Mike Pellicciotti
+73. Sharon Hanek
+2. Mike Pellicciotti
+69. Mike Pellicciotti
+46. Sharon Hanek
+44. Sharon Hanek
+28. Mike Pellicciotti
+29. Mike Pellicciotti
+80. Sharon Hanek
+13. Sharon Hanek
+27. Sharon Hanek
+32. Sharon Hanek
+14. Sharon Hanek
+96. Sharon Hanek
+64. Sharon Hanek
+10. Mike Pellicciotti
+78. Mike Pellicciotti
+72. Sharon Hanek
+70. Mike Pellicciotti
+58. Mike Pellicciotti
+50. Mike Pellicciotti
+43. Sharon Hanek
+100. Sharon Hanek
+62. Mike Pellicciotti

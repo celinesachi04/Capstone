@@ -62,4 +62,8 @@ for covariate in covariates:
 
             # Save response to txt file
             with open(response_file_path, "w") as file:
-                file.write(response.text)
+                try:
+                    file.write(response.text)
+                except Exception as e:
+                    print(f"  Error writing response to file: {response_file_path}")
+                    print(f"  Detail: {e}")

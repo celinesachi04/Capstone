@@ -1,102 +1,100 @@
-Here's a prediction of who each voter would support, based on the provided data and general political trends in Washington State (as of late 2023/early 2024).  Bob Ferguson (Democrat) is generally favored in urban areas and among younger voters, those with higher education, and minority groups. Dave Reichert (Republican) tends to perform better in rural areas, among older voters, and with higher income brackets.  "Unknown" is used sparingly when the data is too ambiguous.
-
-1. Bob
-2. Bob
-3. Bob
-4. Bob
-5. Bob
-6. Bob
-7. Bob
-8. Dave
-9. Bob
-10. Bob
-11. Bob
-12. Dave
-13. Dave
-14. Bob
-15. Dave
-16. Bob
-17. Dave
-18. Bob
-19. Bob
-20. Bob
-21. Dave
-22. Dave
-23. Bob
-24. Dave
-25. Dave
-26. Bob
-27. Bob
-28. Bob
-29. Bob
-30. Bob
-31. Dave
-32. Bob
-33. Bob
-34. Bob
-35. Dave
-36. Bob
-37. Bob
-38. Bob
-39. Dave
-40. Bob
-41. Bob
-42. Bob
-43. Dave
-44. Dave
-45. Bob
-46. Bob
-47. Bob
-48. Dave
-49. Dave
-50. Bob
-51. Dave
-52. Bob
-53. Bob
-54. Dave
-55. Bob
-56. Bob
-57. Dave
-58. Dave
-59. Bob
-60. Dave
-61. Dave
-62. Bob
-63. Bob
-64. Dave
-65. Dave
-66. Bob
-67. Dave
-68. Dave
-69. Bob
-70. Dave
-71. Bob
-72. Bob
-73. Dave
-74. Bob
-75. Dave
-76. Bob
-77. Bob
-78. Dave
-79. Dave
-80. Dave
-81. Bob
-82. Dave
-83. Bob
-84. Dave
-85. Bob
-86. Bob
-87. Dave
-88. Bob
-89. Dave
-90. Dave
-91. Dave
-92. Bob
-93. Dave
-94. Bob
-95. Dave
-96. Bob
-97. Dave
-98. Bob
-99. Bob
-100. Bob
+1. Bob Ferguson
+2. Bob Ferguson
+3. Dave Reichert
+4. Bob Ferguson
+5. Bob Ferguson
+6. Dave Reichert
+7. Bob Ferguson
+8. Bob Ferguson
+9. Bob Ferguson
+10. Bob Ferguson
+11. Dave Reichert
+12. Bob Ferguson
+13. Bob Ferguson
+14. Bob Ferguson
+15. Bob Ferguson
+16. Bob Ferguson
+17. Bob Ferguson
+18. Bob Ferguson
+19. Bob Ferguson
+20. Bob Ferguson
+21. Bob Ferguson
+22. Bob Ferguson
+23. Bob Ferguson
+24. Bob Ferguson
+25. Bob Ferguson
+26. Bob Ferguson
+27. Bob Ferguson
+28. Bob Ferguson
+29. Bob Ferguson
+30. Bob Ferguson
+31. Bob Ferguson
+32. Bob Ferguson
+33. Bob Ferguson
+34. Bob Ferguson
+35. Bob Ferguson
+36. Bob Ferguson
+37. Bob Ferguson
+38. Bob Ferguson
+39. Bob Ferguson
+40. Bob Ferguson
+41. Bob Ferguson
+42. Bob Ferguson
+43. Bob Ferguson
+44. Bob Ferguson
+45. Bob Ferguson
+46. Bob Ferguson
+47. Bob Ferguson
+48. Bob Ferguson
+49. Bob Ferguson
+50. Bob Ferguson
+51. Bob Ferguson
+52. Bob Ferguson
+53. Bob Ferguson
+54. Bob Ferguson
+55. Bob Ferguson
+56. Bob Ferguson
+57. Bob Ferguson
+58. Bob Ferguson
+59. Bob Ferguson
+60. Bob Ferguson
+61. Bob Ferguson
+62. Bob Ferguson
+63. Bob Ferguson
+64. Bob Ferguson
+65. Bob Ferguson
+66. Bob Ferguson
+67. Bob Ferguson
+68. Bob Ferguson
+69. Bob Ferguson
+70. Bob Ferguson
+71. Bob Ferguson
+72. Bob Ferguson
+73. Bob Ferguson
+74. Bob Ferguson
+75. Bob Ferguson
+76. Bob Ferguson
+77. Bob Ferguson
+78. Bob Ferguson
+79. Bob Ferguson
+80. Bob Ferguson
+81. Bob Ferguson
+82. Bob Ferguson
+83. Bob Ferguson
+84. Bob Ferguson
+85. Bob Ferguson
+86. Bob Ferguson
+87. Bob Ferguson
+88. Bob Ferguson
+89. Bob Ferguson
+90. Bob Ferguson
+91. Bob Ferguson
+92. Bob Ferguson
+93. Bob Ferguson
+94. Bob Ferguson
+95. Bob Ferguson
+96. Bob Ferguson
+97. Bob Ferguson
+98. Bob Ferguson
+99. Bob Ferguson
+100. Bob Ferguson

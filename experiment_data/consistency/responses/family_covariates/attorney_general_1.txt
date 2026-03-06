@@ -1,122 +1,100 @@
-Here's a prediction of who each voter would support, based on the provided data and general voting patterns.  It's important to remember this is a *highly* speculative exercise, as many factors influence voting decisions. I'm making assumptions based on correlations between demographics and likely political leanings.  I'll lean towards "unknown" when the data is insufficient to make a reasonable guess.
-
-**Assumptions:**
-
-*   **Married/Partnered, Families:** Generally lean conservative/moderate.
-*   **Single/Never Married, Divorced, Separated, Widowed:** More likely to lean liberal/moderate.
-*   **Religion:**
-    *   **Christian:** Lean conservative/moderate.
-    *   **Jewish:** Lean liberal/moderate.
-    *   **Muslim:** Lean liberal/moderate.
-    *   **Sikh/Buddhist/Hindu:** Moderate to leaning liberal.
-    *   **None/Agnostic/Atheist:** Lean liberal.
-    *   **Prefer not to say:** Difficult to predict, will often be "unknown".
-*   **Pete Serrano** is assumed to be the more progressive candidate.
-*   **Nick Brown** is assumed to be the more conservative candidate.
-
-**Predictions:**
-
-1.  Nick
-2.  Nick
-3.  Nick
-4.  unknown
-5.  Pete
-6.  unknown
-7.  unknown
-8.  Pete
-9.  Pete
-10. unknown
-11. Pete
-12. Pete
-13. Pete
-14. Pete
-15. unknown
-16. Pete
-17. unknown
-18. Pete
-19. Pete
-20. Pete
-21. Pete
-22. unknown
-23. Pete
-24. Pete
-25. Pete
-26. Pete
-27. Pete
-28. unknown
-29. Pete
-30. Pete
-31. Nick
-32. Pete
-33. Pete
-34. unknown
-35. Pete
-36. unknown
-37. Nick
-38. unknown
-39. Pete
-40. Pete
-41. unknown
-42. Pete
-43. unknown
-44. Pete
-45. Pete
-46. Pete
-47. Nick
-48. Pete
-49. Pete
-50. Pete
-51. Pete
-52. Pete
-53. Pete
-54. unknown
-55. Pete
-56. Pete
-57. Pete
-58. Pete
-59. Pete
-60. Pete
-61. Pete
-62. Pete
-63. unknown
-64. Pete
-65. Pete
-66. Nick
-67. Pete
-68. Nick
-69. Nick
-70. Nick
-71. Pete
-72. Pete
-73. unknown
-74. Pete
-75. Pete
-76. Pete
-77. Pete
-78. Pete
-79. Pete
-80. Nick
-81. Pete
-82. Pete
-83. Pete
-84. Pete
-85. Pete
-86. Pete
-87. Pete
-88. Nick
-89. Pete
-90. Pete
-91. Nick
-92. Pete
-93. Pete
-94. Pete
-95. Pete
-96. Pete
-97. Pete
-98. Pete
-99. Pete
-100. Nick
-
-
-
-**Disclaimer:** This is a simulated prediction based on limited data and assumptions. Actual voting behavior is far more complex.
+46. Pete Serrano
+13. Nick Brown
+42. Pete Serrano
+72. Nick Brown
+54. Pete Serrano
+20. Nick Brown
+6. Pete Serrano
+21. Nick Brown
+60. Pete Serrano
+45. Nick Brown
+14. Pete Serrano
+85. Nick Brown
+91. Pete Serrano
+99. Nick Brown
+30. Pete Serrano
+64. Nick Brown
+5. Pete Serrano
+31. Nick Brown
+69. Pete Serrano
+62. Pete Serrano
+28. Nick Brown
+4. Pete Serrano
+82. Pete Serrano
+22. Nick Brown
+12. Pete Serrano
+36. Nick Brown
+26. Pete Serrano
+17. Pete Serrano
+29. Nick Brown
+1. Nick Brown
+38. Pete Serrano
+67. Nick Brown
+89. Pete Serrano
+83. Pete Serrano
+37. Nick Brown
+80. Pete Serrano
+47. Nick Brown
+15. Nick Brown
+32. Pete Serrano
+27. Nick Brown
+55. Pete Serrano
+92. Nick Brown
+86. Pete Serrano
+96. Nick Brown
+24. Nick Brown
+50. Nick Brown
+2. Nick Brown
+35. Pete Serrano
+98. Nick Brown
+63. Pete Serrano
+39. Nick Brown
+88. Nick Brown
+48. Pete Serrano
+52. Nick Brown
+33. Nick Brown
+75. Pete Serrano
+84. Pete Serrano
+79. Pete Serrano
+93. Nick Brown
+9. Nick Brown
+49. Pete Serrano
+8. Nick Brown
+3. Nick Brown
+71. Pete Serrano
+68. Nick Brown
+81. Pete Serrano
+23. Pete Serrano
+59. Pete Serrano
+25. Nick Brown
+16. Nick Brown
+7. Pete Serrano
+90. Nick Brown
+76. Pete Serrano
+44. Pete Serrano
+94. Nick Brown
+56. Pete Serrano
+41. Pete Serrano
+73. Nick Brown
+74. Pete Serrano
+87. Nick Brown
+53. Nick Brown
+95. Pete Serrano
+10. Nick Brown
+34. Nick Brown
+97. Pete Serrano
+100. Nick Brown
+78. Pete Serrano
+18. Pete Serrano
+51. Nick Brown
+57. Nick Brown
+40. Pete Serrano
+61. Nick Brown
+11. Pete Serrano
+66. Pete Serrano
+65. Pete Serrano
+43. Pete Serrano
+58. Nick Brown
+70. Nick Brown
+19. Nick Brown
+77. Pete Serrano

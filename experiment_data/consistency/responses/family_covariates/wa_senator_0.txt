@@ -1,114 +1,100 @@
-Okay, I will analyze the provided voter data and predict whether each voter would likely vote for Maria Cantwell or Dr. Raul Garcia.  Given the limited data (only marital status, number of kids, and religion), I will make these predictions based on general voting patterns associated with these demographics.  It's important to remember these are *predictions* and may not be accurate for individual voters.  I will use "unknown" sparingly, primarily when the data is too ambiguous to make a reasonable guess.
-
-Here's the breakdown, voter ID by voter ID:
-
-1. Maria
-2. Maria
-3. Raul
-4. Maria
-5. Raul
-6. Maria
-7. Raul
-8. Raul
-9. Raul
-10. unknown
-11. Raul
-12. Raul
-13. Raul
-14. Raul
-15. Raul
-16. Raul
-17. unknown
-18. Raul
-19. Raul
-20. Raul
-21. Raul
-22. unknown
-23. Maria
-24. Raul
-25. Raul
-26. Raul
-27. Raul
-28. Maria
-29. Raul
-30. Maria
-31. Maria
-32. Maria
-33. Raul
-34. unknown
-35. Raul
-36. Raul
-37. Raul
-38. unknown
-39. Raul
-40. Maria
-41. unknown
-42. Maria
-43. Raul
-44. Maria
-45. Raul
-46. Raul
-47. Raul
-48. Raul
-49. Raul
-50. Raul
-51. Raul
-52. Raul
-53. Raul
-54. unknown
-55. Raul
-56. Maria
-57. Raul
-58. Maria
-59. Maria
-60. Maria
-61. Raul
-62. Maria
-63. unknown
-64. Raul
-65. Maria
-66. Maria
-67. Raul
-68. Maria
-69. Maria
-70. Maria
-71. Raul
-72. Raul
-73. unknown
-74. Maria
-75. Maria
-76. Maria
-77. Raul
-78. Raul
-79. Raul
-80. Raul
-81. Raul
-82. Maria
-83. Raul
-84. Raul
-85. Raul
-86. Raul
-87. Raul
-88. Maria
-89. Raul
-90. Raul
-91. Raul
-92. Raul
-93. Raul
-94. Raul
-95. Raul
-96. Maria
-97. Raul
-98. Maria
-99. Raul
-100. Maria
-
-**Important Considerations:**
-
-*   **Generalizations:** These predictions are based on broad demographic trends. Individual voters may deviate significantly.
-*   **Limited Data:** The lack of information about political affiliation, income, education, and other factors limits the accuracy of these predictions.
-*   **2024 Election Specifics:** The dynamics of the 2024 election (candidate platforms, current events) are not factored into this analysis.
-*   **Washington State Politics:** Washington State tends to lean Democratic, which influences some of the predictions.
-
-
-
+4. Maria Cantwell
+25. Raul Garcia
+8. Maria Cantwell
+87. Raul Garcia
+45. Raul Garcia
+36. Maria Cantwell
+43. Maria Cantwell
+90. Maria Cantwell
+77. Raul Garcia
+16. Raul Garcia
+53. Maria Cantwell
+93. Raul Garcia
+82. Maria Cantwell
+28. Maria Cantwell
+24. Raul Garcia
+14. Raul Garcia
+76. Maria Cantwell
+59. Maria Cantwell
+63. Maria Cantwell
+57. Raul Garcia
+91. Raul Garcia
+32. Maria Cantwell
+58. Raul Garcia
+73. Maria Cantwell
+99. Maria Cantwell
+35. Maria Cantwell
+83. Maria Cantwell
+44. Maria Cantwell
+1. Raul Garcia
+5. Raul Garcia
+80. Raul Garcia
+7. Raul Garcia
+60. Raul Garcia
+33. Maria Cantwell
+54. Maria Cantwell
+10. Raul Garcia
+27. Raul Garcia
+40. Maria Cantwell
+49. Raul Garcia
+48. Raul Garcia
+98. Maria Cantwell
+95. Raul Garcia
+46. Maria Cantwell
+34. Raul Garcia
+89. Raul Garcia
+6. Maria Cantwell
+38. Maria Cantwell
+84. Raul Garcia
+72. Raul Garcia
+31. Maria Cantwell
+18. Maria Cantwell
+30. Maria Cantwell
+70. Raul Garcia
+62. Maria Cantwell
+26. Raul Garcia
+69. Raul Garcia
+50. Raul Garcia
+20. Raul Garcia
+100. Maria Cantwell
+23. Raul Garcia
+12. Raul Garcia
+21. Raul Garcia
+29. Raul Garcia
+39. Raul Garcia
+67. Raul Garcia
+19. Maria Cantwell
+47. Raul Garcia
+66. Maria Cantwell
+51. Raul Garcia
+86. Maria Cantwell
+55. Raul Garcia
+94. Raul Garcia
+68. Raul Garcia
+79. Maria Cantwell
+81. Maria Cantwell
+96. Maria Cantwell
+56. Maria Cantwell
+37. Raul Garcia
+64. Maria Cantwell
+22. Raul Garcia
+61. Maria Cantwell
+11. Raul Garcia
+92. Raul Garcia
+9. Maria Cantwell
+42. Maria Cantwell
+41. Maria Cantwell
+13. Maria Cantwell
+74. Maria Cantwell
+88. Raul Garcia
+52. Raul Garcia
+65. Maria Cantwell
+2. Raul Garcia
+85. Raul Garcia
+75. Maria Cantwell
+97. Raul Garcia
+71. Maria Cantwell
+3. Raul Garcia
+78. Raul Garcia
+15. Raul Garcia
+17. Maria Cantwell
