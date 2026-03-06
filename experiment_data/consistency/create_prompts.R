@@ -60,7 +60,7 @@ religion_government <- paste0("For each voter in the voter data, which of the fo
 ### Federal:
 president_vote <- paste0("For each voter in the voter data, who would the voter vote ",
                          "for in the 2024 general election for President/Vice President? ",
-                         "Respond with only the first name of the presidential candidate, not Kamala. ",
+                         "Respond with only the first name of the presidential candidate, not Joe Biden ",
                          " Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, ",
                          "Produce EXACTLY 100 predictions with the output in the order of voter_id's given, ",
                          "do not fabricate voter_id values only use those provide, Output format: voter_id. prediction")
