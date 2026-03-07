@@ -1,0 +1,323 @@
+---
+title: "Ordinal Regression of Consistency Levels"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(stringr)
+library(ggplot2)
+library(MASS)
+library(knitr)
+library(gridExtra)
+library(grid)
+```
+
+## Overview
+
+This report models `consistency_level` (`low < medium < high`) using ordinal logistic regression.
+It quantifies how covariate group and prompt are associated with the odds of being at a higher consistency level.
+
+```{r load-data}
+knit_input <- tryCatch(knitr::current_input(), error = function(e) "")
+knit_dir <- if (is.character(knit_input) && length(knit_input) == 1 && nzchar(knit_input)) {
+  dirname(knit_input)
+} else {
+  ""
+}
+
+candidate_clean_dirs <- c(
+  "experiment_data/consistency/clean_responses",
+  "clean_responses",
+  file.path(knit_dir, "clean_responses"),
+  file.path(dirname(knit_dir), "clean_responses")
+)
+candidate_clean_dirs <- unique(candidate_clean_dirs[nzchar(candidate_clean_dirs)])
+
+clean_base <- candidate_clean_dirs[
+  which(file.exists(file.path(candidate_clean_dirs, "all_covariates")))[1]
+]
+
+if (is.na(clean_base)) {
+  stop(
+    paste0(
+      "Could not locate clean_responses directory. Checked: ",
+      paste(candidate_clean_dirs, collapse = " | ")
+    )
+  )
+}
+
+groups <- c("all_covariates", "demo_covariates", "family_covariates", "ses_covariates")
+
+read_group_csvs <- function(group_name) {
+  group_dir <- file.path(clean_base, group_name)
+  files <- list.files(group_dir, pattern = "\\.csv$", full.names = TRUE)
+  files <- files[!grepl("stability_summary|classification_rules", files)]
+
+  map_dfr(files, function(fp) {
+    dat <- read_csv(fp, show_col_types = FALSE)
+    if (!all(c("voter_id", "consistency_level", "stability_score") %in% names(dat))) {
+      return(tibble())
+    }
+    tibble(
+      covariate_group = group_name,
+      prompt = str_remove(basename(fp), paste0("^", group_name, "_")) |> str_remove("\\.csv$"),
+      voter_id = dat$voter_id,
+      consistency_level = dat$consistency_level,
+      stability_score = suppressWarnings(as.numeric(dat$stability_score))
+    )
+  })
+}
+
+analysis_df <- map_dfr(groups, read_group_csvs) %>%
+  filter(!is.na(consistency_level), consistency_level %in% c("low", "medium", "high")) %>%
+  mutate(
+    consistency_level = factor(consistency_level, levels = c("low", "medium", "high"), ordered = TRUE),
+    covariate_group = factor(covariate_group, levels = groups),
+    prompt = factor(prompt)
+  )
+
+if (nrow(analysis_df) == 0) {
+  stop("No classified rows found. Run clean_responses.py and stability_classification.py first.")
+}
+
+output_dir <- if (nzchar(knit_dir)) knit_dir else "experiment_data/consistency"
+table_png_dir <- file.path(output_dir, "ordinal_regression_tables")
+dir.create(table_png_dir, recursive = TRUE, showWarnings = FALSE)
+
+table_theme <- gridExtra::ttheme_minimal(
+  base_size = 14,
+  core = list(
+    fg_params = list(col = "black"),
+    bg_params = list(fill = "white", col = "black", lwd = 0.8)
+  ),
+  colhead = list(
+    fg_params = list(col = "black", fontface = "bold"),
+    bg_params = list(fill = "white", col = "black", lwd = 1.2)
+  )
+)
+```
+
+## Distribution of Consistency Levels
+
+```{r distribution-table}
+dist_table <- analysis_df %>%
+  count(covariate_group, consistency_level) %>%
+  group_by(covariate_group) %>%
+  mutate(prop = n / sum(n)) %>%
+  ungroup() %>%
+  mutate(prop = round(prop, 4))
+
+kable(
+  dist_table,
+  col.names = c("Covariate Group", "Consistency Level", "Count", "Proportion"),
+  caption = "Observed consistency-level distribution by covariate group"
+)
+
+# Save Table 1 as PNG
+table1_grob <- gridExtra::tableGrob(
+  dist_table,
+  rows = NULL,
+  theme = table_theme
+)
+png(file.path(table_png_dir, "table1_distribution.png"), width = 3000, height = 1600, res = 220)
+grid::grid.newpage()
+grid::grid.draw(table1_grob)
+dev.off()
+```
+
+```{r distribution-plot, fig.height=4.8, fig.width=8}
+plot_data <- analysis_df %>%
+  count(covariate_group, consistency_level) %>%
+  group_by(covariate_group) %>%
+  mutate(prop = n / sum(n)) %>%
+  ungroup()
+
+ggplot(plot_data, aes(x = covariate_group, y = prop, fill = consistency_level)) +
+  geom_col(position = "fill", width = 0.75) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
+  scale_fill_manual(values = c("low" = "#d73027", "medium" = "#fdae61", "high" = "#1a9850")) +
+  labs(
+    title = "Consistency Level Composition by Covariate Group",
+    x = "Covariate Group",
+    y = "Share of Responses",
+    fill = "Consistency Level"
+  ) +
+  theme_minimal(base_size = 12)
+```
+
+## Ordinal Regression
+
+```{r fit-model}
+# Proportional-odds model:
+# logit(P(Y <= k)) = threshold_k - X * beta
+ord_fit <- MASS::polr(
+  consistency_level ~ covariate_group + prompt,
+  data = analysis_df,
+  Hess = TRUE
+)
+
+coef_table <- coef(summary(ord_fit))
+p_vals <- 2 * pnorm(abs(coef_table[, "t value"]), lower.tail = FALSE)
+
+coef_df <- as_tibble(coef_table, rownames = "term") %>%
+  mutate(
+    p_value = p_vals,
+    odds_ratio = exp(Value),
+    conf_low = exp(Value - 1.96 * `Std. Error`),
+    conf_high = exp(Value + 1.96 * `Std. Error`)
+  ) %>%
+  dplyr::select(term, estimate = Value, std_error = `Std. Error`, t_value = `t value`,
+                p_value, odds_ratio, conf_low, conf_high)
+
+group_effects <- coef_df %>%
+  filter(str_detect(term, "^covariate_group")) %>%
+  mutate(
+    comparison = str_remove(term, "^covariate_group"),
+    across(
+      c(estimate, std_error, t_value, p_value, odds_ratio, conf_low, conf_high),
+      ~ round(.x, 4)
+    )
+  ) %>%
+  dplyr::select(comparison, estimate, std_error, t_value, p_value, odds_ratio, conf_low, conf_high)
+
+kable(
+  group_effects,
+  col.names = c("Group vs all_covariates", "Estimate", "SE", "t", "p",
+                "Odds Ratio", "OR 95% Low", "OR 95% High"),
+  caption = "Ordinal regression effects for covariate groups (reference: all_covariates)"
+)
+
+# Save Table 2 as PNG
+table2_grob <- gridExtra::tableGrob(
+  group_effects,
+  rows = NULL,
+  theme = table_theme
+)
+png(file.path(table_png_dir, "table2_ordinal_effects.png"), width = 3400, height = 1200, res = 220)
+grid::grid.newpage()
+grid::grid.draw(table2_grob)
+dev.off()
+```
+
+### Table 2 Interpretation
+
+```{r table2-interpretation, results='asis'}
+sig <- group_effects %>% filter(p_value < 0.05)
+pos <- group_effects %>% arrange(desc(odds_ratio)) %>% slice(1)
+neg <- group_effects %>% arrange(odds_ratio) %>% slice(1)
+
+cat(
+  paste0(
+    "- Meaning: odds ratio (OR) > 1 indicates higher odds of being in a higher consistency level than `all_covariates`; OR < 1 indicates lower odds.\n",
+    "- Significant differences (p < 0.05): ", ifelse(nrow(sig) == 0, "none", paste(sig$comparison, collapse = ", ")), ".\n",
+    "- Strongest upward shift: **", pos$comparison, "** (OR = ", sprintf("%.3f", pos$odds_ratio), ").\n",
+    "- Strongest downward shift: **", neg$comparison, "** (OR = ", sprintf("%.3f", neg$odds_ratio), ").\n",
+    "- Conclusion: Relative to `all_covariates`, groups with OR above 1 are more likely to produce higher consistency levels; groups below 1 are less likely."
+  )
+)
+```
+
+```{r predicted-probabilities}
+pred_grid <- tibble(
+  covariate_group = factor(groups, levels = levels(analysis_df$covariate_group)),
+  prompt = factor(levels(analysis_df$prompt)[1], levels = levels(analysis_df$prompt))
+)
+
+pred_probs <- as_tibble(
+  predict(ord_fit, newdata = pred_grid, type = "probs")
+) %>%
+  mutate(covariate_group = pred_grid$covariate_group) %>%
+  pivot_longer(cols = c(low, medium, high), names_to = "consistency_level", values_to = "prob")
+
+pred_table <- pred_probs %>%
+  mutate(prob = round(prob, 4)) %>%
+  arrange(covariate_group, match(consistency_level, c("low", "medium", "high")))
+
+kable(
+  pred_table,
+  col.names = c("Covariate Group", "Consistency Level", "Predicted Probability"),
+  caption = "Predicted probabilities from ordinal model (holding prompt constant)"
+)
+
+# Save Table 3 as PNG
+table3_grob <- gridExtra::tableGrob(
+  pred_table,
+  rows = NULL,
+  theme = table_theme
+)
+png(file.path(table_png_dir, "table3_predicted_probabilities.png"), width = 3000, height = 1800, res = 220)
+grid::grid.newpage()
+grid::grid.draw(table3_grob)
+dev.off()
+```
+
+### Table 3 Interpretation
+
+```{r table3-interpretation, results='asis'}
+high_probs <- pred_table %>%
+  filter(consistency_level == "high") %>%
+  arrange(desc(prob))
+
+low_probs <- pred_table %>%
+  filter(consistency_level == "low") %>%
+  arrange(desc(prob))
+
+best_high <- high_probs %>% slice(1)
+worst_high <- high_probs %>% slice(n())
+highest_low <- low_probs %>% slice(1)
+
+cat(
+  paste0(
+    "- Meaning: These are model-implied probabilities for each consistency level by covariate group.\n",
+    "- Highest probability of `high`: **", best_high$covariate_group, "** (", sprintf("%.2f%%", 100 * best_high$prob), ").\n",
+    "- Lowest probability of `high`: **", worst_high$covariate_group, "** (", sprintf("%.2f%%", 100 * worst_high$prob), ").\n",
+    "- Highest probability of `low`: **", highest_low$covariate_group, "** (", sprintf("%.2f%%", 100 * highest_low$prob), ").\n",
+    "- Conclusion: The ranking of predicted probabilities confirms which covariate groups are most and least likely to fall in the `high` consistency category."
+  )
+)
+```
+
+```{r predicted-plot, fig.height=4.8, fig.width=8}
+ggplot(pred_probs, aes(x = covariate_group, y = prob, color = consistency_level, group = consistency_level)) +
+  geom_point(size = 2.8) +
+  geom_line(linewidth = 0.9) +
+  scale_color_manual(values = c("low" = "#d73027", "medium" = "#fdae61", "high" = "#1a9850")) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1), limits = c(0, 1)) +
+  labs(
+    title = "Model-Implied Probability by Covariate Group",
+    x = "Covariate Group",
+    y = "Predicted Probability",
+    color = "Consistency Level"
+  ) +
+  theme_minimal(base_size = 12)
+```
+
+## Interpretation
+
+```{r interpretation, results='asis'}
+group_rank <- analysis_df %>%
+  group_by(covariate_group) %>%
+  summarize(mean_stability = mean(stability_score, na.rm = TRUE), .groups = "drop") %>%
+  arrange(desc(mean_stability))
+
+top_group <- group_rank %>% slice(1)
+bottom_group <- group_rank %>% slice(n())
+
+cat(
+  paste0(
+    "1. **Scale of levels**: The observed composition and model probabilities provide the practical scale for ",
+    "`low`, `medium`, and `high` consistency across groups.\n",
+    "2. **Highest consistency group**: **", top_group$covariate_group, "** has the highest average stability score (",
+    sprintf("%.4f", top_group$mean_stability), ").\n",
+    "3. **Lowest consistency group**: **", bottom_group$covariate_group, "** has the lowest average stability score (",
+    sprintf("%.4f", bottom_group$mean_stability), ").\n",
+    "4. **Ordinal model meaning**: For each group coefficient, odds ratio > 1 means higher odds of being in a higher consistency level (toward `high`) relative to **all_covariates**; odds ratio < 1 means lower odds.\n",
+    "5. **Use in analysis**: Treat `consistency_level` as an ordered outcome where shifts from `low -> medium -> high` are quantified through odds ratios and predicted probabilities."
+  )
+)
+```

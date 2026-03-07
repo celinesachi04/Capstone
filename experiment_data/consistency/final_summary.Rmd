@@ -28,9 +28,13 @@ knit_dir <- if (is.character(knit_input) && length(knit_input) == 1 && nzchar(kn
 
 candidate_dirs <- c(
   ".",
+  "clean_responses/stability_summary",
   "experiment_data/consistency/clean_responses/stability_summary",
+  file.path(knit_dir, "clean_responses", "stability_summary"),
+  file.path(dirname(knit_dir), "clean_responses", "stability_summary"),
   knit_dir
 )
+candidate_dirs <- unique(candidate_dirs[nzchar(candidate_dirs)])
 
 summary_probe <- "all_covariates_stability_summary.csv"
 base_dir <- candidate_dirs[
@@ -38,7 +42,12 @@ base_dir <- candidate_dirs[
 ]
 
 if (is.na(base_dir)) {
-  stop("Could not locate summary CSV files. Set working directory to the project root or the stability_summary folder.")
+  stop(
+    paste0(
+      "Could not locate summary CSV files. Checked: ",
+      paste(candidate_dirs, collapse = " | ")
+    )
+  )
 }
 
 summary_files <- tibble::tribble(
@@ -75,11 +84,38 @@ kable(
 
 ## Summary Interpretation
 
-The **overall mean** summarizes average stability across the 19 prompts for each covariate group. Higher values indicate more consistent responses overall. The **overall SD** summarizes how much stability changes from one prompt to another within that group. Lower SD means consistency is more uniform across prompts, while higher SD means prompt-to-prompt variability is larger.
+The **overall mean** summarizes average stability across prompts for each covariate group. Higher values indicate more consistent responses overall. The **overall SD** summarizes how much stability changes from one prompt to another within that group. Lower SD means consistency is more uniform across prompts.
 
-- **all_covariates** (Mean = 0.9306, SD = 0.0711): This group shows the highest average stability and the lowest variability across prompts. Responses are both highly consistent and relatively uniform from prompt to prompt.
-- **demo_covariates** (Mean = 0.8846, SD = 0.1355): This group has strong average stability, but with moderate variation across prompts. Some prompts appear more stable than others.
-- **family_covariates** (Mean = 0.8009, SD = 0.1878): This group has the lowest average stability and the highest prompt-to-prompt variability. Consistency is weaker overall and less uniform across prompts.
-- **ses_covariates** (Mean = 0.8978, SD = 0.1255): This group shows high average stability with moderate variability. It is more stable than demo and family on average, though not as consistently high as all_covariates.
+```{r summary-interpretation, results='asis'}
+ranked_mean <- final_summary %>% arrange(desc(overall_mean))
+ranked_sd <- final_summary %>% arrange(overall_sd)
 
-Overall, the pattern suggests that combining all covariates yields the most stable and most uniform behavior, while family covariates alone produce the least stable and most variable behavior across prompts.
+best_mean <- ranked_mean %>% slice(1)
+worst_mean <- ranked_mean %>% slice(n())
+most_uniform <- ranked_sd %>% slice(1)
+least_uniform <- ranked_sd %>% slice(n())
+
+cat(
+  paste0(
+    "- Highest average stability: **", best_mean$covariate_group, "** (Mean = ",
+    sprintf("%.4f", best_mean$overall_mean), ", SD = ", sprintf("%.4f", best_mean$overall_sd), ").\n",
+    "- Lowest average stability: **", worst_mean$covariate_group, "** (Mean = ",
+    sprintf("%.4f", worst_mean$overall_mean), ", SD = ", sprintf("%.4f", worst_mean$overall_sd), ").\n",
+    "- Most uniform across prompts (lowest SD): **", most_uniform$covariate_group, "** (SD = ",
+    sprintf("%.4f", most_uniform$overall_sd), ").\n",
+    "- Least uniform across prompts (highest SD): **", least_uniform$covariate_group, "** (SD = ",
+    sprintf("%.4f", least_uniform$overall_sd), ").\n"
+  )
+)
+
+cat("\nOverall ranking by mean stability:\n")
+for (i in seq_len(nrow(ranked_mean))) {
+  cat(
+    paste0(
+      i, ". **", ranked_mean$covariate_group[i], "**: Mean = ",
+      sprintf("%.4f", ranked_mean$overall_mean[i]),
+      ", SD = ", sprintf("%.4f", ranked_mean$overall_sd[i]), "\n"
+    )
+  )
+}
+```

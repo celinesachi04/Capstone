@@ -10,12 +10,41 @@ library(readr)
 library(dplyr)
 library(stringr)
 library(ggplot2)
+library(knitr)
+library(tibble)
 ```
 
 ## Load Summary Data
 
 ```{r load-data}
-summary_dir <- "experiment_data/consistency/clean_responses/stability_summary"
+knit_input <- tryCatch(knitr::current_input(), error = function(e) "")
+knit_dir <- if (is.character(knit_input) && length(knit_input) == 1 && nzchar(knit_input)) {
+  dirname(knit_input)
+} else {
+  ""
+}
+
+candidate_summary_dirs <- c(
+  "experiment_data/consistency/clean_responses/stability_summary",
+  "clean_responses/stability_summary",
+  file.path(knit_dir, "clean_responses", "stability_summary"),
+  file.path(dirname(knit_dir), "clean_responses", "stability_summary")
+)
+candidate_summary_dirs <- unique(candidate_summary_dirs[nzchar(candidate_summary_dirs)])
+
+summary_probe <- "all_covariates_stability_summary.csv"
+summary_dir <- candidate_summary_dirs[
+  which(file.exists(file.path(candidate_summary_dirs, summary_probe)))[1]
+]
+
+if (is.na(summary_dir)) {
+  stop(
+    paste0(
+      "Could not locate stability_summary directory. Checked: ",
+      paste(candidate_summary_dirs, collapse = " | ")
+    )
+  )
+}
 
 summary_files <- c(
   all_covariates = "all_covariates_stability_summary.csv",
@@ -38,6 +67,32 @@ all_cov <- load_summary("all_covariates", summary_files[["all_covariates"]])
 demo_cov <- load_summary("demo_covariates", summary_files[["demo_covariates"]])
 family_cov <- load_summary("family_covariates", summary_files[["family_covariates"]])
 ses_cov <- load_summary("ses_covariates", summary_files[["ses_covariates"]])
+
+all_summary <- bind_rows(all_cov, demo_cov, family_cov, ses_cov)
+```
+
+## Group-Level Summary (Current Run)
+
+```{r group-summary}
+group_summary <- all_summary %>%
+  group_by(group) %>%
+  summarize(
+    n_prompts = n(),
+    overall_mean = mean(mean_stability_score, na.rm = TRUE),
+    overall_sd = sd(mean_stability_score, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(overall_mean)) %>%
+  mutate(
+    overall_mean = round(overall_mean, 4),
+    overall_sd = round(overall_sd, 4)
+  )
+
+kable(
+  group_summary,
+  col.names = c("Covariate Group", "Prompts", "Overall Mean", "Overall SD"),
+  caption = "Group-level stability summary from updated responses"
+)
 ```
 
 ## Plot Function
@@ -119,7 +174,8 @@ plot_ses
 ## Save 4 PNG Files
 
 ```{r save-png}
-out_dir <- "experiment_data/consistency"
+base_out_dir <- if (nzchar(knit_dir)) knit_dir else "experiment_data/consistency"
+out_dir <- file.path(base_out_dir, "data_exploration")
 if (!dir.exists(out_dir)) dir.create(out_dir, recursive = TRUE)
 
 ggsave(
