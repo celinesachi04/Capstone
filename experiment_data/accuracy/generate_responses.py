@@ -7,7 +7,7 @@ from google.genai import types
 os.environ["GOOGLE_CLOUD_PROJECT"] = "STAT-496"
 os.environ["GOOGLE_CLOUD_LOCATION"] = "global"
 
-client = genai.Client(api_key="AIzaSyB-EorLXIas0FV2KyJqmucu2tUj0xB0H_E")
+client = genai.Client(api_key="ADD-API-KEY")
 
 base = Path(__file__).parent
 
@@ -38,24 +38,24 @@ def generate_with_retry(prompt):
                 raise
 
 
-for i in range(1, 151):
-    for question in questions:
-            print(f"      Question: {question}")
-            # Retrieve prompt and response file paths using specified covariate
-            prompt_file_path = base / "prompts" / (question + "_" + str(i) + ".txt")
-            response_file_path = base / "responses" / (question + "_" + str(i) + ".txt")
-                    
-            # Create response directory if it doesn't exist
-            response_file_path.parent.mkdir(parents=True, exist_ok=True)
-                    
-            # Input prompt file
-            with open(prompt_file_path) as file:
-                prompt = file.read()
 
-            # Generate response with retry
-            response = generate_with_retry(prompt)
+for question in questions:
+        print(f"      Question: {question}")
+        # Retrieve prompt and response file paths using specified covariate
+        prompt_file_path = base / "prompts" / (question + ".txt")
+        response_file_path = base / "responses" / (question + ".txt")
+                
+        # Create response directory if it doesn't exist
+        response_file_path.parent.mkdir(parents=True, exist_ok=True)
+                
+        # Input prompt file
+        with open(prompt_file_path) as file:
+            prompt = file.read()
 
-            # Save response to txt file
-            with open(response_file_path, "w") as file:
-                file.write(response.text)
+        # Generate response with retry
+        response = generate_with_retry(prompt)
+
+        # Save response to txt file
+        with open(response_file_path, "w") as file:
+            file.write(response.text)
     

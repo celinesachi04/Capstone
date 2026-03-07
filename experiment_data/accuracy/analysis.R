@@ -1,8 +1,8 @@
 
 library(dplyr)
+library(ExactMultinom)
 
 response_data <- read.csv("C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/accuracy/response_data.csv")
-
 
 # Covariate level population proportions ----------------------------------
 # Files from https://www.sos.wa.gov/elections/data-research/election-data-and-maps/reports-data-and-statistics/voter-demographics
@@ -38,7 +38,7 @@ wa_gender_county_prop <- wa_gender_county_prop[-nrow(wa_gender_county_prop), ]
 
 
 
-# Population proportion for covariate combinations ------------------------
+# P(age, gender | county) for covariate combinations ------------------------
 
 for (row in 1:nrow(response_data)) {
   county <- unlist(response_data[row, "county"])
@@ -49,7 +49,8 @@ for (row in 1:nrow(response_data)) {
   p_age <- wa_age_county_prop[wa_age_county_prop[, "County"]==county, age] # P(age | county)
   p_gender <- wa_gender_county_prop[wa_gender_county_prop[, "County"] == county, gender] # P(gender | county)
   
-  prop <- p_county * p_age * p_gender # P(county, age, gender)
+  prop <- p_age * p_gender # P(age, gender | county)
+  response_data[row, "pop_count"] <- prop * N
   response_data[row, "pop_proportion"] <- prop
 }
 
@@ -70,8 +71,13 @@ questions <- c("what_party"="what_party", "vote_democrat"="vote_democrat",
                "SUPREME COURT Justice Position #02"="supreme_court",
                "Washington State Governor"="governor",
                "Washington State State Treasurer"="state_treasurer",
-               "Washington State State Treasurer"="attorney_general")
+               "Washington State Attorney General"="attorney_general")
 
+party_votes <- c("Democrat"=2713178, "Republican"=1432497, "Third_party"=1043921) # data from https://independentvoterproject.org/voter-stats/wa
+manual_counts <- data.frame("vote_democrat"=c(2713178, 1432497 + 1043921),
+                            "vote_republican"=c(1432497, 2713178 + 1043921),
+                            "vote_third_party"=c(1043921, 2713178 + 1432497))
+rownames(manual_counts) <- c("yes", "no")
 
 get_counts <- function(county, measure, vote) {
   measure_name <- names(which(questions==measure))
@@ -80,30 +86,38 @@ get_counts <- function(county, measure, vote) {
   }
 
 
+results_list <- vector(mode="list", length=length(questions))
+names(results_list) <- questions
 
-# Get expected counts for 1 question: president_vote
-question <- "president_vote"
-question_data <- response_data %>% count(county, age, gender, !!sym(question))
-
-for (row in 1:nrow(question_data)) {
-  county <- question_data[row, "county"]
-  measure_name <- names(which(questions==question))
-  vote <- question_data[row, question]
-  if (vote == "Unknown") {
-    percent <- "unknown"
-  } else {
-    count <- (county_data %>% filter(County==county,
-                                     Race==measure_name,
-                                     grepl(vote, Candidate)))["Votes"]
+for (question in questions) {
+  question_data <- response_data %>% count(county, age, gender, !!sym(question))
+  
+  for (row in 1:nrow(question_data)) {
+    county <- question_data[row, "county"]
+    measure_name <- names(which(questions==question))
+    vote <- question_data[row, question]
+    if (vote == "Unknown") {
+      num_votes <- NA
+    } else if (question == "what_party") {
+      num_votes <- unlist(party_votes[vote])
+    } else if (question %in% c("vote_democrat", "vote_republican", "vote_third_party")) {
+      num_votes <- manual_counts[vote, question]
+    } else {
+      num_votes <- (county_data %>% filter(County==county,
+                                       Race==measure_name,
+                                       grepl(vote, Candidate)))["Votes"]
+      num_votes <- as.numeric(num_votes) / 100
+    }
+     prob_covariates <- unlist(response_data %>% filter(county==question_data[row, "county"],
+                                                  age==question_data[row, "age"],
+                                                  gender==question_data[row, "gender"]) %>%
+                           select(pop_proportion))[1]
+    question_data[row, "expected_count"] <- prob_covariates * num_votes * 100 / N
   }
-  question_data[row, "raw_count"] <- as.numeric(count)
+  
+  test_data <- na.omit(question_data) %>%
+    mutate("expected_prob"=expected_count/sum(expected_count))
+  results <- multinom.test(x=test_data$n, p=test_data$expected_prob, method="Monte-Carlo")
+  results_list[question] <- results
 }
-
-raw_total <- sum(question_data$raw_count)
-question_data <- question_data %>% mutate("expected_count"=raw_count/raw_total * 100)
-
-test_data <- na.omit(question_data)
-test_stat <- sum((test_data$n - test_data$expected_count)^2 / test_data$expected_count)
-p_val <- pchisq(q=test_stat, df=(nrow(test_data) - 1))
-
 

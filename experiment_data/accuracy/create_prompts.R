@@ -81,41 +81,41 @@ questions <- c("what_party"=what_party, "vote_democrat"=vote_democrat, "vote_rep
                "insurance_initiative"=insurance_initiative, "supreme_court"=supreme_court,
                "governor"=governor, "state_treasurer"=state_treasurer, "attorney_general"=attorney_general)
 
-for (i in 1:15) {
-  lower_bound <- 1 + 1000*(i - 1)
-  upper_bound <- 1000 * i
-  print(paste(lower_bound, ":", upper_bound))
-  
-  concat_data <- sim_wa_voters[c(lower_bound:upper_bound), ]
-  rules <- paste0("Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, ",
-                  "Produce EXACTLY 1000 voters with voter_id's ", lower_bound, " to ", upper_bound,
-                  " return only the 1000 prediction lines with no intro or explanation, ",
-                  "for line k user voter_id from row k in the voter data above, ",
-                  "do NOT sort group or reorder by voter_id, keep the exact row sequence as provided ",
-                  "do not fabricate voter_id values, ",
-                  "format each line exactly: voter_id. prediction")
 
-  for (question in names(questions)) {
-    # Randomize voter and covariate order
-    shuffled_rows <- sample(c(1:nrow(concat_data)), size=nrow(concat_data))
-    shuffled_cols <- sample(c(1:ncol(concat_data)), size=ncol(concat_data))
-    shuffled_data <- concat_data[shuffled_rows, shuffled_cols]
+rules <- paste0("Can only return unknown sparingly, do not omit any voter, ",
+                "Produce EXACTLY 100 voters with voter_id's 1 to 100, ",
+                "output MUST be sorted by voter_id in order given, ",
+                "do not fabricate voter_id values only use those provide, ",
+                "Output format: voter_id. prediction")
+# rules <- paste0("Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, ",
+#                   "Produce EXACTLY 100 voters with voter_id's given above, ",
+#                   "return only the 100 prediction lines with no intro or explanation, ",
+#                   "for line k use voter_id from row k in the voter data above, ",
+#                   "do NOT sort group or reorder by voter_id, keep the exact row sequence as provided ",
+#                   "do not fabricate voter_id values, ",
+#                   "format each line exactly: voter_id. prediction")
 
-    # Save all voter data into one string
-    formatted_data <- apply(X=shuffled_data, MARGIN=1, FUN=function(X) paste(X, collapse=", "))
-    data_string <- paste0("Voter data (", paste(colnames(shuffled_data), collapse=", "), "): ")
+for (question in names(questions)) {
+  # Randomize voter and covariate order
+  shuffled_rows <- sample(c(1:nrow(sim_wa_voters)), size=nrow(sim_wa_voters))
+  shuffled_cols <- sample(c(1:ncol(sim_wa_voters)), size=ncol(sim_wa_voters))
+  shuffled_data <- sim_wa_voters[shuffled_rows, shuffled_cols]
 
-    # Add question to voter data to create prompt
-    question_with_rules <- paste0(questions[question], rules)
-    prompt <- paste0(data_string,
+  # Save all voter data into one string
+  formatted_data <- apply(X=shuffled_data, MARGIN=1, FUN=function(X) paste(X, collapse=", "))
+  data_string <- paste0("Voter data (", paste(colnames(shuffled_data), collapse=", "), "): ")
+
+  # Add question to voter data to create prompt
+  question_with_rules <- paste0(questions[question], rules)
+  prompt <- paste0(data_string,
                      paste(formatted_data, collapse="; "),
                      ". ", question_with_rules)
 
     # Save prompt
-    file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\accuracy\\prompts\\",
-                        question, "_", i, ".txt")
-    writeLines(prompt, file_path)
-  }
+  file_path <- paste0("C:\\Users\\casey\\Desktop\\Stat 496\\Capstone\\experiment_data\\accuracy\\prompts\\",
+                        question, ".txt")
+  writeLines(prompt, file_path)
 }
+
 
 

@@ -1,4 +1,6 @@
 
+library(dplyr)
+
 # Set working directory to accuracy folder
 setwd("C:/Users/casey/Desktop/Stat 496/Capstone/experiment_data/accuracy")
 
@@ -32,8 +34,8 @@ for (question in questions) {
 
 
 # Fix specific columns
-response_values <- stringr::str_split_fixed(response_data$taxes_initiative, ". ", 2)
-response_data$taxes_initiative <- response_values[, 2]
+response_values <- stringr::str_split_fixed(response_data$insurance_initiative, ". ", 2)
+response_data$insurance_initiative <- response_values[, 2]
 response_data <- response_data %>%
   mutate(across(where(is.character), stringr::str_trim, side="left"))
 
