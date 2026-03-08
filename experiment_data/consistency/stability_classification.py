@@ -26,7 +26,9 @@ def consistency_level(score: float) -> str:
 
 
 def stability_vector(values: list[str], label_to_int: dict[str, int]) -> str:
-    encoded = [label_to_int[val] for val in values]
+    # Some rows may contain empty cells if a voter_id is missing in a run.
+    # Keep pipeline running by encoding unknown/blank entries as -1.
+    encoded = [label_to_int.get(val, -1) for val in values]
     return "[" + ",".join(str(v) for v in encoded) + "]"
 
 
@@ -80,18 +82,27 @@ def process_csv(path: Path) -> tuple[str, str, str] | None:
     if not rows:
         return None
 
-    header = rows[0][:5]
-    data_rows = [r[:5] for r in rows[1:] if r]
+    full_header = rows[0]
+    has_voter_id = len(full_header) >= 6 and full_header[0].strip().lower() == "voter_id"
 
-    labels = sorted({v.strip() for row in data_rows for v in row if v.strip()})
+    if has_voter_id:
+        base_header = full_header[:6]  # voter_id + 5 response columns
+        data_rows = [r[:6] for r in rows[1:] if len(r) >= 6]
+        response_rows = [r[1:6] for r in data_rows]
+    else:
+        base_header = full_header[:5]  # legacy format without voter_id
+        data_rows = [r[:5] for r in rows[1:] if len(r) >= 5]
+        response_rows = data_rows
+
+    labels = sorted({v.strip() for row in response_rows for v in row if v.strip()})
     label_to_int = {label: idx for idx, label in enumerate(labels)}
 
-    new_header = header + ["stability", "stability_score", "consistency_level"]
+    new_header = base_header + ["stability", "stability_score", "consistency_level"]
     new_rows = [new_header]
 
-    for row in data_rows:
-        score, _classification = classify(row, len(labels))
-        vec = stability_vector(row, label_to_int)
+    for row, responses in zip(data_rows, response_rows):
+        score, _classification = classify(responses, len(labels))
+        vec = stability_vector(responses, label_to_int)
         new_rows.append(row + [vec, f"{score:.2f}", consistency_level(score)])
 
     with path.open("w", newline="", encoding="utf-8") as outfile:

@@ -8,7 +8,8 @@ from pathlib import Path
 from statistics import mean, stdev
 
 
-BASE_DIR = Path("experiment_data/consistency/clean_responses/stability_summary")
+BASE_DIR = Path("experiment_data/consistency/clean_responses")
+OUTPUT_DIR = BASE_DIR / "stability_summary"
 TARGET_DIRS = [
     "all_covariates",
     "demo_covariates",
@@ -22,7 +23,10 @@ def summarize_file(path: Path) -> tuple[str, float, float]:
     with path.open("r", newline="", encoding="utf-8") as infile:
         reader = csv.DictReader(infile)
         for row in reader:
-            scores.append(float(row["stability_score"]))
+            raw = row.get("stability_score", "").strip()
+            if not raw:
+                continue
+            scores.append(float(raw))
 
     if not scores:
         return path.name, 0.0, 0.0
@@ -41,7 +45,8 @@ def write_summary(directory_name: str) -> None:
         file_name, avg, sd = summarize_file(file_path)
         rows.append([file_name, f"{avg:.4f}", f"{sd:.4f}"])
 
-    output_path = BASE_DIR / f"{directory_name}_stability_summary.csv"
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_path = OUTPUT_DIR / f"{directory_name}_stability_summary.csv"
     with output_path.open("w", newline="", encoding="utf-8") as outfile:
         writer = csv.writer(outfile)
         writer.writerows(rows)
