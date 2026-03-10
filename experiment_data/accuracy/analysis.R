@@ -143,7 +143,7 @@ total_divergence <- ggplot(data=results_df, mapping=aes(x=question, y=divergence
   geom_bar(stat="identity") +
   geom_text(aes(label=round(divergence, 2)), vjust=-0.3, size=3.2) +
   labs(title="KL divergence by question") +
-  theme_bw() + 
+  theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust=1)) 
 
 
