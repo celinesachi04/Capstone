@@ -7,6 +7,7 @@ response_data <- read.csv("C:/Users/casey/Desktop/Stat 496/Capstone/experiment_d
 
 table(response_data %>% select(what_party, vote_democrat))
 table(response_data %>% select(what_party, vote_republican))
+table(response_data %>% select(vote_democrat, vote_republican))
 
 sum(ifelse(response_data$energy_initiative == "yes", 1, 0))
 sum(ifelse(response_data$energy_initiative == "no", 1, 0))
@@ -23,6 +24,9 @@ initiative_data <- data.frame("initiative"=c("energy_initiative", "taxes_initiat
 
 for (initiative in initiative_data$initiative) {
   summary <- table(response_data[, initiative])
+  if(initiative=="taxes_initiative") {
+    summary <- c(summary[1], list("unknown"=0), summary[2])
+  }
   initiative_data[initiative_data[, "initiative"]==initiative, -1] <- summary
 }
 
@@ -32,28 +36,28 @@ initiative_data
 # initiatives by age plots
 energy <- ggplot(response_data, mapping=aes(x=energy_initiative, fill=age)) + geom_bar() +
   labs(x="", y="vote count", title="Energy Initiative") +
-  annotate(geom = "text", x = "yes", y = 30, label = "22%") +
-  annotate(geom = "text", x = "no", y = 82, label = "76%") + 
+  annotate(geom = "text", x = "yes", y = 51, label = "45%") +
+  annotate(geom = "text", x = "no", y = 59, label = "53%") + 
   annotate(geom = "text", x = "unknown", y = 8, label = "2%") + 
-  ylim(0, 90) + theme_bw()
+  ylim(0, 110) + theme_bw()
 taxes <- ggplot(response_data, mapping=aes(x=taxes_initiative, fill=age)) + geom_bar() +
   labs(x="", y="vote count", title="Taxes Initiative") +
-  annotate(geom = "text", x = "yes", y = 30, label = "22%") +
-  annotate(geom = "text", x = "no", y = 82, label = "76%") + 
-  annotate(geom = "text", x = "unknown", y = 8, label = "2%") + 
-  ylim(0, 90) + theme_bw()
+  annotate(geom = "text", x = "yes", y = 56, label = "50%") +
+  annotate(geom = "text", x = "no", y = 56, label = "50%") + 
+  annotate(geom = "text", x = "unknown", y = 6, label = "0%") + 
+  ylim(0, 110) + theme_bw()
 carbon <- ggplot(response_data, mapping=aes(x=carbon_tax_initiative, fill=age)) + geom_bar() +
   labs(x="", y="vote count", title="Carbon Tax Initiative") +
-  annotate(geom = "text", x = "yes", y = 42, label = "34%") +
-  annotate(geom = "text", x = "no", y = 70, label = "64%") + 
-  annotate(geom = "text", x = "unknown", y = 8, label = "2%") + 
-  ylim(0, 90) + theme_bw()
+  annotate(geom = "text", x = "yes", y = 7, label = "1%") +
+  annotate(geom = "text", x = "no", y = 104, label = "98%") + 
+  annotate(geom = "text", x = "unknown", y = 7, label = "1%") + 
+  ylim(0, 110) + theme_bw()
 insurance <- ggplot(response_data, mapping=aes(x=insurance_initiative, fill=age)) + geom_bar() +
   labs(x="", y="vote count", title="Insurance Initiative") +
-  annotate(geom = "text", x = "yes", y = 44, label = "36%") +
-  annotate(geom = "text", x = "no", y = 68, label = "62%") + 
-  annotate(geom = "text", x = "unknown", y = 8, label = "2%") + 
-  ylim(0, 90) + theme_bw()
+  annotate(geom = "text", x = "yes", y = 73, label = "67%") +
+  annotate(geom = "text", x = "no", y = 37, label = "31%") + 
+  annotate(geom = "text", x = "unknown", y = 7, label = "1%") + 
+  ylim(0, 110) + theme_bw()
 
 energy + taxes + carbon + insurance + plot_annotation(title="Predicted initiative votes by age")
 

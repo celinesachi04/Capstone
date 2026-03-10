@@ -87,13 +87,6 @@ rules <- paste0("Can only return unknown sparingly, do not omit any voter, ",
                 "output MUST be sorted by voter_id in order given, ",
                 "do not fabricate voter_id values only use those provide, ",
                 "Output format: voter_id. prediction")
-# rules <- paste0("Rules (MUST follow all): Can only return unknown sparingly, do not omit any voter, ",
-#                   "Produce EXACTLY 100 voters with voter_id's given above, ",
-#                   "return only the 100 prediction lines with no intro or explanation, ",
-#                   "for line k use voter_id from row k in the voter data above, ",
-#                   "do NOT sort group or reorder by voter_id, keep the exact row sequence as provided ",
-#                   "do not fabricate voter_id values, ",
-#                   "format each line exactly: voter_id. prediction")
 
 for (question in names(questions)) {
   # Randomize voter and covariate order
