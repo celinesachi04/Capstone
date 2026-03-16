@@ -151,11 +151,11 @@ total_divergence <- ggplot(data=results_df, mapping=aes(x=question, y=divergence
 ## initialize empty data sets
 no_county_df <- data.frame("question"=c(unlist(as.list(questions), use.names=FALSE)),
                            row.names=c(unlist(as.list(questions), use.names=FALSE)))
-no_age_df <- county_df
-no_gender_df <- county_df
-only_county_df <- county_df
-only_age_df <- county_df
-only_gender_df <- county_df
+no_age_df <- no_county_df
+no_gender_df <- no_county_df
+only_county_df <- no_county_df
+only_age_df <- no_county_df
+only_gender_df <- no_county_df
 
 for (question in questions) {
   question_data <- get_expected_counts(question)
@@ -262,10 +262,9 @@ divergence_long <- divergence_long %>% mutate(group=recode(group, !!!group_label
 divergence_long$question <- factor(divergence_long$question, levels=results_df$question)
 ## Plot
 agg_divergence <- ggplot(data=divergence_long, mapping=aes(x=question, y=divergence, color=group)) +
-  geom_point() +
-  geom_line(mapping=aes(group=group), linewidth=0.8, alpha=0.5) +
+  geom_point(size=2) +
   labs(title="KL divergence by question for each aggregated group") +
-  theme_bw() + 
+  theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45, hjust=1))
 
 total_divergence + agg_divergence
@@ -283,9 +282,8 @@ pval_long <- pval_long %>% mutate(group=recode(group, !!!group_labels))
 ## Plot
 pval_long$question <- factor(pval_long$question, levels=results_df$question)
 ggplot(data=pval_long, mapping=aes(x=question, y=log(p_value), color=group)) +
-  geom_point() +
-  geom_line(mapping=aes(group=group, linetype="log(0.05)"), linewidth=1, alpha=0.5) +
-  geom_hline(yintercept=log(0.05), size=1) + 
+  geom_point(size=2.5) +
+  geom_hline(mapping=aes(yintercept=log(0.05), linetype="log(0.05)"), size=1) + 
   labs(title="Goodness-of-fit test P-Value by question for each aggregated group") +
   scale_linetype_manual(name="significance level", values=c("log(0.05)"=1)) +
   theme_minimal() + 
